@@ -680,7 +680,7 @@ var bounds_click_lyr = new L.TopoJSON(bounds_click_lyr, {
 
 
 
-var lots_lyr = new L.TopoJSON(lots_lyr, {
+var lots_lyr = omnivore.geojson("data/lots.geojson", {
   pane: 'pane_lots',
   onEachFeature: update_lots,
   style: style_lots
@@ -695,7 +695,6 @@ map.addLayer(obs_lyr);
 map.addLayer(vertices_lyr);
 map.addLayer(bounds_lyr);
 map.addLayer(bounds_click_lyr);
-lots_lyr = omnivore.geojson("data/lots.geojson");
 map.addLayer(lots_lyr);
 
 
