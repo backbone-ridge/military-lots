@@ -679,12 +679,11 @@ var bounds_click_lyr = new L.TopoJSON(bounds_click_lyr, {
 
 
 
-var lots_customlayer = L.geoJson(null, {
+var lots_lyr = new L.GeoJSON.AJAX("data/lots.geojson", {
   pane: 'pane_lots',
   onEachFeature: update_lots,
   style: style_lots
-})
-var lots_lyr = omnivore.geojson("data/lots.geojson", null, lots_customlayer);
+});
 
 
 
