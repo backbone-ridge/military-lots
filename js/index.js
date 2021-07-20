@@ -679,7 +679,7 @@ var bounds_click_lyr = new L.TopoJSON(bounds_click_lyr, {
 
 
 
-var lots_customlayer = L.geojson(null, {
+var lots_customlayer = L.geoJson(null, {
   pane: 'pane_lots',
   onEachFeature: update_lots,
   style: style_lots
