@@ -650,7 +650,7 @@ var obs_lyr = new L.TopoJSON(obs_lyr, {
 });
 
 
-var vertices_lyr = new L.TopoJSON(vertices_lyr, {
+var vertices_lyr = new L.GeoJSON.AJAX('vertices.geojson'), {
   pane: 'pane_vertices',
   onEachFeature: update_vertices,
   pointToLayer: function(feature, latlng) {
@@ -663,14 +663,14 @@ var vertices_lyr = new L.TopoJSON(vertices_lyr, {
 });
 
 
-var bounds_lyr = new L.TopoJSON(bounds_lyr, {
+var bounds_lyr = new L.GeoJSON.AJAX('data/bounds.geojson', {
   pane: 'pane_bounds',
   onEachFeature: update_bounds,
   style: style_bounds
 });
 
 
-var bounds_click_lyr = new L.TopoJSON(bounds_click_lyr, {
+var bounds_click_lyr = new L.GeoJSON.AJAX('data/bounds.geojson', {
   pane: 'pane_click_bounds',
   onEachFeature: update_bounds_click,
   style: style_click_bounds
@@ -679,7 +679,7 @@ var bounds_click_lyr = new L.TopoJSON(bounds_click_lyr, {
 
 
 
-var lots_lyr = new L.GeoJSON.AJAX("data/lots.geojson", {
+var lots_lyr = new L.GeoJSON.AJAX('data/lots.geojson', {
   pane: 'pane_lots',
   onEachFeature: update_lots,
   style: style_lots
