@@ -618,7 +618,7 @@ map.getPane('pane_obs').style['mix-blend-mode'] = 'normal';
 
 
 
-var obs_lyr = new L.GeoJSON.AJAX('obs.geojson', {
+var obs_lyr = new L.GeoJSON.AJAX('data/obs.geojson', {
   pane: 'pane_obs',
   onEachFeature: update_obs,
   pointToLayer: function(feature, latlng) {
@@ -630,7 +630,7 @@ var obs_lyr = new L.GeoJSON.AJAX('obs.geojson', {
   }
 });
 
-var vertices_lyr = new L.GeoJSON.AJAX('vertices.geojson', {
+var vertices_lyr = new L.GeoJSON.AJAX('data/vertices.geojson', {
   pane: 'pane_vertices',
   onEachFeature: update_vertices,
   pointToLayer: function(feature, latlng) {
