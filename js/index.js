@@ -630,7 +630,7 @@ var obs_lyr = new L.GeoJSON.AJAX('obs.geojson', {
   }
 });
 
-var vertices_lyr = new L.GeoJSON.AJAX('vertices.geojson'), {
+var vertices_lyr = new L.GeoJSON.AJAX('vertices.geojson', {
   pane: 'pane_vertices',
   onEachFeature: update_vertices,
   pointToLayer: function(feature, latlng) {
