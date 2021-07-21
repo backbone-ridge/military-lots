@@ -12,25 +12,6 @@ kibbee = {
   }
 }
 
-
-// Extend topojson support
-// Copyright (c) 2013 Ryan Clark
-L.TopoJSON = L.GeoJSON.extend({
-  addData: function(jsonData) {
-    if (jsonData.type === 'Topology') {
-      for (key in jsonData.objects) {
-        geojson = topojson.feature(jsonData, jsonData.objects[key]);
-        L.GeoJSON.prototype.addData.call(this, geojson);
-      }
-    } else {
-      L.GeoJSON.prototype.addData.call(this, jsonData);
-    }
-  }
-});
-
-
-
-
 var southWest = new L.LatLng(42.5381367, -76.9286703),
   northEast = new L.LatLng(42.6870366, -76.565564),
   bounds = new L.LatLngBounds(southWest, northEast);
@@ -637,7 +618,7 @@ map.getPane('pane_obs').style['mix-blend-mode'] = 'normal';
 
 
 
-var obs_lyr = new L.TopoJSON(obs_lyr, {
+var obs_lyr = new L.GeoJSON.AJAX('obs.geojson', {
   pane: 'pane_obs',
   onEachFeature: update_obs,
   pointToLayer: function(feature, latlng) {
@@ -648,7 +629,6 @@ var obs_lyr = new L.TopoJSON(obs_lyr, {
     return L.circleMarker(latlng, style_obs(feature));
   }
 });
-
 
 var vertices_lyr = new L.GeoJSON.AJAX('vertices.geojson'), {
   pane: 'pane_vertices',
@@ -662,22 +642,17 @@ var vertices_lyr = new L.GeoJSON.AJAX('vertices.geojson'), {
   }
 });
 
-
 var bounds_lyr = new L.GeoJSON.AJAX('data/bounds.geojson', {
   pane: 'pane_bounds',
   onEachFeature: update_bounds,
   style: style_bounds
 });
 
-
 var bounds_click_lyr = new L.GeoJSON.AJAX('data/bounds.geojson', {
   pane: 'pane_click_bounds',
   onEachFeature: update_bounds_click,
   style: style_click_bounds
 });
-
-
-
 
 var lots_lyr = new L.GeoJSON.AJAX('data/lots.geojson', {
   pane: 'pane_lots',
