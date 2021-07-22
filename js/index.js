@@ -247,6 +247,18 @@ function update_bounds_click(feature, layer) {
 }
 
 
+function renderData(v, msg='<i>No data</i>') {
+  // if v is null, empty, or 'NA'
+  // returns 'No data' (or an optional msg)
+  // otherwise returns v unchanged
+  if (v === null || v === '' || v === 'NA') {
+    return msg
+  }
+  else {
+    return v
+  }
+}
+
 
 function html_obs(e) {
   var layer = e.target;
@@ -258,27 +270,27 @@ function html_obs(e) {
     '<table id = "main">\
     <tr>\
             <td scope="row">Lot No</td>\
-            <th>' + (layer.feature.properties['lot_number'] !== 'NA' ? (layer.feature.properties['lot_number']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['lot_number']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Starting Corner</td>\
-            <th>' + (layer.feature.properties['starting_corner'] !== 'NA' ? (layer.feature.properties['starting_corner']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['starting_corner']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Direction</td>\
-            <th>' + (layer.feature.properties['direction'] !== 'NA' ? (layer.feature.properties['direction']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['direction']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Chains</td>\
-            <th>' + (layer.feature.properties['chains'] !== 'NA' ? (layer.feature.properties['chains']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['chains']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Links</td>\
-            <th>' + (layer.feature.properties['links'] !== 'NA' ? (layer.feature.properties['links']) : '0') + '</th>\
+            <th>' + renderData(layer.feature.properties['links'], 0) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Text</td>\
-            <th>' + (layer.feature.properties['observation_text'] !== 'NA' ? (layer.feature.properties['observation_text']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['observation_text']) + '</th>\
         </tr>\
     </table></div>'
 
@@ -307,8 +319,6 @@ function html_vertices(e) {
 }
 
 
-
-
 function html_lots(e) {
   var layer = e.target;
 
@@ -319,23 +329,23 @@ function html_lots(e) {
     '<table id = "main">\
     <tr>\
             <td scope="row">Township No</td>\
-            <th>' + (layer.feature.properties['township_number.x'] !== 'NA' ? (layer.feature.properties['township_number.x']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['township_number']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Township Name</td>\
-            <th>' + (layer.feature.properties['township_name'] !== 'NA' ? (layer.feature.properties['township_name']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['township_name']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Lot No</td>\
-            <th>' + (layer.feature.properties['lot_number'] !== 'NA' ? (layer.feature.properties['lot_number']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['lot_number']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Soldier Granted Patent</td>\
-            <th>' + (layer.feature.properties['soldier_granted'] !== 'NA' ? (layer.feature.properties['soldier_granted']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['soldier_granted']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Patent Delivered To</td>\
-            <th>' + (layer.feature.properties['patent_to'] !== 'NA' ? (layer.feature.properties['patent_to']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['patent_to']) + '</th>\
         </tr>\
     </table></div>'
 
@@ -358,23 +368,23 @@ function html_bounds(e) {
     '<table id = "main">\
     <tr>\
             <td scope="row">Lot No</td>\
-            <th>' + (layer.feature.properties['lot_number'] !== null ? (layer.feature.properties['lot_number']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['lot_number']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Bounds</td>\
-            <th>' + (layer.feature.properties['boundary'] !== null ? (layer.feature.properties['boundary']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['boundary']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Alt Lot No</td>\
-            <th>' + (layer.feature.properties['lot_number_alt'] !== null ? (layer.feature.properties['lot_number_alt']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['lot_number_alt']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Alt Bounds</td>\
-            <th>' + (layer.feature.properties['boundary_alt'] !== null ? (layer.feature.properties['boundary_alt']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['boundary_alt']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Bounds Text</td>\
-            <th>' + (layer.feature.properties['info_text'] !== null ? (layer.feature.properties['info_text']) : 'No Data') + '</th>\
+            <th>' + renderData(layer.feature.properties['info_text']) + '</th>\
         </tr>\
     </table></div>'
 
