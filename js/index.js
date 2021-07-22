@@ -247,6 +247,18 @@ function update_bounds_click(feature, layer) {
 }
 
 
+function renderData(v, msg='<i>No data</i>') {
+  // if v is null, empty, or 'NA'
+  // returns 'No data' (or an optional msg)
+  // otherwise returns v unchanged
+  if (v === null || v === '' || v === 'NA') {
+    return msg
+  }
+  else {
+    return v
+  }
+}
+
 
 function html_obs(e) {
   var layer = e.target;
@@ -274,7 +286,7 @@ function html_obs(e) {
         </tr>\
     <tr>\
             <td scope="row">Links</td>\
-            <th>' + renderData(layer.feature.properties['links']) + '</th>\
+            <th>' + renderData(layer.feature.properties['links'], 0) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Text</td>\
@@ -306,17 +318,6 @@ function html_vertices(e) {
   openSidebar();
 }
 
-function renderData(v) {
-  // returns 'No data' if v is null, empty, or 'NA'
-  // otherwise returns v unchanged
-  if (v === null || v === '' || v === 'NA') {
-    return '<i>no data</i>'
-  }
-  else {
-    return v
-  }
-}
-
 
 function html_lots(e) {
   var layer = e.target;
@@ -328,7 +329,7 @@ function html_lots(e) {
     '<table id = "main">\
     <tr>\
             <td scope="row">Township No</td>\
-            <th>' + renderData(layer.feature.properties['township_number.x']) + '</th>\
+            <th>' + renderData(layer.feature.properties['township_number']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Township Name</td>\
