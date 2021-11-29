@@ -12,8 +12,8 @@ kibbee = {
   }
 }
 
-var southWest = new L.LatLng(42.5381367, -76.9286703),
-  northEast = new L.LatLng(42.6870366, -76.565564),
+var southWest = new L.LatLng(42.45, -76.9),
+  northEast = new L.LatLng(42.65, -76.4),
   bounds = new L.LatLngBounds(southWest, northEast);
 
 var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
@@ -23,15 +23,17 @@ var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest
     attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
   });
 
+let map
+
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-  var map = L.map('map', {
+  map = L.map('map', {
     zoomControl: true,
     scrollWheelZoom: false,
     dragging: false,
     tap: false,
   }).fitBounds(bounds)
 } else {
-  var map = L.map('map', {
+  map = L.map('map', {
     dragging: true,
     tap: true,
   }).fitBounds(bounds)
@@ -583,12 +585,12 @@ function style_lots() {
 // change min and max zoom levels and disable scrollwheel when map and sidebar are stacked
 function zoomControls(x) {
   if (x.matches) {
-    map.setView([42.6007, -76.7335], 11);
+    //map.setView([42.6007, -76.7335], 11);
     map.options.minZoom = 11;
     map.options.maxZoom = 16;
     map.scrollWheelZoom.disable();
   } else {
-    map.setView([42.6107, -76.6735], 12);
+    //map.setView([42.6107, -76.6735], 12);
     map.options.minZoom = 12;
     map.options.maxZoom = 18;
     map.scrollWheelZoom.enable();
