@@ -6,7 +6,7 @@ kibbee = {
     obs_fill: '#0075ae',
     obs_outline: '#224b87',
     lots_fill: 'rgba(255,255,255,0.2)',
-    lots_outline: '#000000',
+    lots_outline: '#ff0000',
     bounds_outline: '#51c1b6',
     highlight: 'rgba(255, 242, 0, 0.4)',
   }
@@ -573,7 +573,7 @@ function style_lots() {
     dashArray: '',
     lineCap: 'butt',
     lineJoin: 'miter',
-    weight: 1.0,
+    weight: 2.0,
     fill: true,
     fillOpacity: 1,
     fillColor: kibbee.colors.lots_fill
