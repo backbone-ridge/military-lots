@@ -375,11 +375,7 @@ function html_bounds(e) {
             <th>' + renderData(layer.feature.properties['boundary']) + '</th>\
         </tr>\
     <tr>\
-            <td scope="row">Alt Bounds</td>\
-            <th>' + renderData(layer.feature.properties['boundary_alt']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Bounds Text</td>\
+            <td scope="row">Journal Text</td>\
             <th>' + renderData(layer.feature.properties['info_text']) + '</th>\
         </tr>\
     <tr>\
