@@ -5,8 +5,8 @@ kibbee = {
     vertices_outline: '#2ba3ab',
     obs_fill: '#0075ae',
     obs_outline: '#224b87',
-    lots_fill: 'rgba(198,242,177,0)',
-    lots_outline: '#ffffff',
+    lots_fill: 'rgba(255,255,255,0.2)',
+    lots_outline: '#000000',
     bounds_outline: '#51c1b6',
     highlight: 'rgba(255, 242, 0, 0.4)',
   }
@@ -328,12 +328,16 @@ function html_lots(e) {
     '<h3>Military Lot</h3></div>' +
     '<table id = "main">\
     <tr>\
-            <td scope="row">Township No</td>\
-            <th>' + renderData(layer.feature.properties['township_number']) + '</th>\
+            <td scope="row">Lot ID</td>\
+            <th>' + renderData(layer.feature.properties['lot_id']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Township Name</td>\
             <th>' + renderData(layer.feature.properties['township_name']) + '</th>\
+        </tr>\
+    <tr>\
+            <td scope="row">Township No</td>\
+            <th>' + renderData(layer.feature.properties['township_number']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Lot No</td>\
@@ -367,16 +371,8 @@ function html_bounds(e) {
     '<h3>Military Lot Bounds</h3></div>' +
     '<table id = "main">\
     <tr>\
-            <td scope="row">Lot No</td>\
-            <th>' + renderData(layer.feature.properties['lot_number']) + '</th>\
-        </tr>\
-    <tr>\
             <td scope="row">Bounds</td>\
             <th>' + renderData(layer.feature.properties['boundary']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Alt Lot No</td>\
-            <th>' + renderData(layer.feature.properties['lot_number_alt']) + '</th>\
         </tr>\
     <tr>\
             <td scope="row">Alt Bounds</td>\
@@ -385,6 +381,10 @@ function html_bounds(e) {
     <tr>\
             <td scope="row">Bounds Text</td>\
             <th>' + renderData(layer.feature.properties['info_text']) + '</th>\
+        </tr>\
+    <tr>\
+            <td scope="row">Journal Page</td>\
+            <th>' + renderData(layer.feature.properties['journal_page']) + '</th>\
         </tr>\
     </table></div>'
 
@@ -579,7 +579,7 @@ function style_lots() {
     lineJoin: 'miter',
     weight: 1.0,
     fill: true,
-    fillOpacity: 0.7,
+    fillOpacity: 1,
     fillColor: kibbee.colors.lots_fill
   }
 }
@@ -594,7 +594,7 @@ function zoomControls(x) {
   } else {
     map.setView([42.6107, -76.6735], 12);
     map.options.minZoom = 12;
-    map.options.maxZoom = 16;
+    map.options.maxZoom = 18;
     map.scrollWheelZoom.enable();
   }
 }
