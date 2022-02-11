@@ -107,8 +107,7 @@ table:nth-of-type(2) {
 
 th, td {
   text-align: left;
-  /* padding: 8px; */
-  padding: 20px 10px;
+  padding: 2px 8px;
   line-height: 1.35em;
   vertical-align: middle;
 }
@@ -137,6 +136,19 @@ table tr .head {
   font-size: 1em;
   font-weight: bold;
   color: white;
+}
+
+img.photo {
+  object-fit: contain;
+  max-width: 240px;
+}
+
+body > img.photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 999;
 }
 
 .lot_label {

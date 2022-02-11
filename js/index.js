@@ -261,40 +261,60 @@ function renderData(v, msg='<i>No data</i>') {
   }
 }
 
+function renderImage(v) {
+  let img = `<img class='photo' onclick='zoomImage(event)' src='https://raw.githubusercontent.com/backbone-ridge/photos/main/${v}'>`
+  return img
+}
+
+function zoomImage(e) {
+  let img = e.target
+  let zoomed = document.createElement('img')
+  zoomed.setAttribute('src', img.getAttribute('src'))
+  zoomed.setAttribute('class', 'zoomed')
+  zoomed.setAttribute('onclick', 'this.remove()')
+  document.querySelector('body').append(zoomed)
+}
+
 
 function html_obs(e) {
   var layer = e.target;
 
   // console.log(layer)
 
-  var popupContent = '<div id = "info-body"><div id = "info-cnty-name">' +
-    '<h3>Surveyor&apos;s Observation</h3></div>' +
-    '<table id = "main">\
-    <tr>\
-            <td scope="row">Lot No</td>\
-            <th>' + renderData(layer.feature.properties['lot_number']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Starting Corner</td>\
-            <th>' + renderData(layer.feature.properties['starting_corner']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Direction</td>\
-            <th>' + renderData(layer.feature.properties['direction']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Chains</td>\
-            <th>' + renderData(layer.feature.properties['chains']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Links</td>\
-            <th>' + renderData(layer.feature.properties['links'], 0) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Text</td>\
-            <th>' + renderData(layer.feature.properties['observation_text']) + '</th>\
-        </tr>\
-    </table></div>'
+  var popupContent = `<div id = "info-body"><div id = "info-cnty-name">
+    <h3>Surveyor&apos;s Observation</h3></div>
+    <table id = "main">
+    <tr>
+      <td scope="row">Lot No</td>
+      <th>${renderData(layer.feature.properties['lot_number'])}</th>
+    </tr>
+    <tr>
+      <td scope="row">Starting Corner</td>
+      <th>${renderData(layer.feature.properties['starting_corner'])}</th>
+    </tr>
+    <tr>
+      <td scope="row">Direction</td>
+      <th>${renderData(layer.feature.properties['direction'])}</th>
+    </tr>
+    <tr>
+      <td scope="row">Chains</td>
+      <th>${renderData(layer.feature.properties['chains'])}</th>
+    </tr>
+    <tr>
+      <td scope="row">Links</td>
+      <th>${renderData(layer.feature.properties['links'], 0)}</th>
+    </tr>
+    <tr>
+      <td scope="row">Text</td>
+      <th>${renderData(layer.feature.properties['observation_text'])}</th>
+    </tr>`
+    +
+    (layer.feature.properties.photo ? `<tr>
+      <td scope="row">Photo</td>
+      <th>${renderImage(layer.feature.properties['photo'])}</th>
+    </tr>` : '')
+    +
+    '</table></div>'
 
   $('#layer_info').html(title + popupContent);
 
