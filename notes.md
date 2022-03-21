@@ -1,6 +1,6 @@
 # Transcription guidelines
 
-Text transcription should be literal letter-for-letter transcription, with capitalization following the original:
+Text transcription should be literal letter-for-letter transcription, using the original spelling and capitalization:
 
 ```
 a Brook runing NWly
