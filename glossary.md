@@ -2,16 +2,18 @@
 
 Here below are listed various terms and abbreviations commonly found in the manuscript.
 
-| Term  | Description   |
-| ----- | ------------- |
-| Cov'd | covered       |
-| N'd   | numbered      |
-| NE    | northeast     |
+| Term  | Description |
+| ----- | ----------- |
+| Chs   | Chains (66 ft) |
+| Cov'd | covered |
+| Lks   | Links (100 links in 1 chain) |
+| N'd   | numbered |
+| NE    | northeast |
 | NEly  | northeasterly |
-| NW    | northwest     |
+| NW    | northwest |
 | NWly  | northwesterly |
-| SE    | southeast     |
+| SE    | southeast |
 | SEly  | southeasterly |
-| SW    | southwest     |
+| SW    | southwest |
 | SWly  | southwesterly |
-| Ts'P  | township      |
+| Ts'P  | township |
