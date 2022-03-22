@@ -74,4 +74,4 @@ Chs  Lks
 
 [View the spreadsheet template in Google Sheets](https://docs.google.com/spreadsheets/d/1EgKqoj5LNcPy6jUzQmSHUK6TZFkbtIVtuIfe0ViRnZ0/edit?usp=sharing)
 
-[Download the spreadsheet template as an Excel file](https://docs.google.com/spreadsheets/u/0/d/1EgKqoj5LNcPy6jUzQmSHUK6TZFkbtIVtuIfe0ViRnZ0/export?format=xlsx&id=1EgKqoj5LNcPy6jUzQmSHUK6TZFkbtIVtuIfe0ViRnZ0)
+[Download the spreadsheet template as an Excel file](https://backbone-ridge.github.io/Backbone-Ridge-template.xlsx)
