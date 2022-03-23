@@ -72,6 +72,9 @@ Chs  Lks
 | 1 | Ovid | 1 | E | NE | S | 22 | 0 | on the South Bank | ABC |  |
 | 1 | Ovid | 1 | E | NE | S | 32 | 0 | Crossed a Brook runing NWly | ABC |  |
 
+When entering observation text into the Google spreadsheet, the text should automatically wrap within the cell.  But if it does not, here's a demo of how to set the whole column to wrap:
+![wrap demo](image/gsheets-cell-wrap.gif)
+
 [View the spreadsheet template in Google Sheets](https://docs.google.com/spreadsheets/d/1EgKqoj5LNcPy6jUzQmSHUK6TZFkbtIVtuIfe0ViRnZ0/edit?usp=sharing)
 
 [Download the spreadsheet template as an Excel file](https://backbone-ridge.github.io/Backbone-Ridge-template.xlsx)
