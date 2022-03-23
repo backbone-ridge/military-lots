@@ -72,6 +72,8 @@ Chs  Lks
 | 1 | Ovid | 1 | E | NE | S | 22 | 0 | on the South Bank | ABC |  |
 | 1 | Ovid | 1 | E | NE | S | 32 | 0 | Crossed a Brook runing NWly | ABC |  |
 
+### Text wrapping in the spreadsheet
+
 When entering observation text into the Google spreadsheet, the text should automatically wrap within the cell.  But if it does not, click the top of the "Observation" column to select it, then set the text wrapping options to "wrap":
 ![wrap demo](image/gsheets-cell-wrap.gif)
 
