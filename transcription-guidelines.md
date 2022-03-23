@@ -45,7 +45,11 @@ To the SE Corner of this lot describe in this page last above [37SE]
 
 Here is an example, showing the original manuscript, the text transcription, and the corresponding observations in the data table.
 
+### Original Manuscript
+
 ![manuscript](image/example-manuscript.png)
+
+### Text Transcript
 
 ```
 East Bounds of lot No. 1
@@ -62,6 +66,8 @@ Chs  Lks
 32     -    Crossed a Brook runing NWly
 ```
 
+### Observation Data Table
+
 | Page | Township | Lot No | Bounds | Starting Corner | Direction | Chains | Links | Observation | Transcriber | Transcriber Notes |
 | - | - | - | - | - | - | - | - | - | - | - |
 | 1 | Ovid | 1 | E | NE | S | 0 | 0 | East Bounds of lot No. 1<br>Begining at the NE Corner above described [1NE] and run<br>from Thence Due Magnetic South along the West bounds of lot No. 2 | ABC |  |
@@ -72,7 +78,7 @@ Chs  Lks
 | 1 | Ovid | 1 | E | NE | S | 22 | 0 | on the South Bank | ABC |  |
 | 1 | Ovid | 1 | E | NE | S | 32 | 0 | Crossed a Brook runing NWly | ABC |  |
 
-### Text wrapping in the spreadsheet
+### Text wrapping
 
 When entering observation text into the Google spreadsheet, the text should automatically wrap within the cell.  But if it does not, click the top of the "Observation" column to select it, then set the text wrapping options to "wrap":
 ![wrap demo](image/gsheets-cell-wrap.gif)
