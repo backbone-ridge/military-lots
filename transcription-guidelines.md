@@ -1,6 +1,6 @@
 # Transcription guidelines
 
-Text transcription should be literal letter-for-letter transcription, using the original spelling and capitalization:
+Text transcription should be literal letter-for-letter transcription, using the original spelling and capitalization.  Note that, in the handwriting from this time period, small `s` looks like an `f`.
 
 ```
 a Brook runing NWly

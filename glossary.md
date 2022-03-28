@@ -1,48 +1,37 @@
 # Glossary
 
-Here below are listed various terms and abbreviations commonly found in the manuscript.
-
-| Term  | Description |
-| ----- | ----------- |
-| Chs   | Chains (66 ft) |
-| cov'd | covered |
-| D'o | ditto |
-| L | links |
-| lak | lake |
-| lin | linden |
-| Lks   | Links (100 links in 1 chain) |
-| mark'd | marked |
-| N'd   | numbered |
-| NE    | northeast |
-| NEly  | northeasterly |
-| NW    | northwest |
-| NWly  | northwesterly |
-| p | page |
-| pg | page |
-| s'd | said or side |
-| SE    | southeast |
-| SEly  | southeasterly |
-| SW    | southwest |
-| SWly  | southwesterly |
-| Ts'P  | township |
-| &c. | etc, et cetera |
-
-
-## Early writing style
-
-* small `s` looks like an `f`
-
-
-## Alternative spellings
+Here below are listed various spellings and abbreviations commonly found in the manuscript.
 
 - assending = ascending
 - begining = beginning
 - chisnut, chistnut = chestnut
+- Chs = Chains (66 feet)
+- cov'd = covered
 - desending, dessending = descending
+- D'o = ditto
 - easteren = eastern
 - hickry = hickory
+- L = links (100 links in a chain)
+- lak = lake
+- lin = linden
+- Lks = Links
+- mark'd = marked
 - midling = middling
+- N'd = numbered
+- NE = northeast
+- NEly = northeasterly
+- NW = northwest
+- NWly = northwesterly
+- p = page
+- pg = page
 - read = red
 - remandes = remaining
 - runing = running
+- s'd = said or side
+- SE = southeast
+- SEly = southeasterly
+- SW = southwest
+- SWly = southwesterly
+- Ts'P = township
 - westeren = western
+- &c. = etc, et cetera
