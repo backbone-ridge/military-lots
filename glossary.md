@@ -6,6 +6,7 @@ Here below are listed various terms and abbreviations commonly found in the manu
 | ----- | ----------- |
 | Chs   | Chains (66 ft) |
 | cov'd | covered |
+| D'o | ditto |
 | L | links |
 | lak | lake |
 | lin | linden |
@@ -32,13 +33,16 @@ Here below are listed various terms and abbreviations commonly found in the manu
 * small `s` looks like an `f`
 
 
-## Consistently alternative spellings
+## Alternative spellings
 
-- assending
-- begining
-- chisnut
-- desending
-- easteren
-- hickry
-- runing
-- westeren
+- assending = ascending
+- begining = beginning
+- chisnut, chistnut = chestnut
+- desending, dessending = descending
+- easteren = eastern
+- hickry = hickory
+- midling = middling
+- read = red
+- remandes = remaining
+- runing = running
+- westeren = western
