@@ -32,6 +32,7 @@ Here below are listed various spellings and abbreviations commonly found in the 
 - SEly = southeasterly
 - SW = southwest
 - SWly = southwesterly
+- Towns'p = township
 - Ts'P = township
 - westeren = western
 - &c. = etc, et cetera
