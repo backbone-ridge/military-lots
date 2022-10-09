@@ -1,6 +1,3 @@
-# Transcription
-
-
 ![page 1](image/ovid-page-01.jpg)
 
 # No. 16 Ovid
@@ -42,7 +39,7 @@ Begining at the NE Corner above described [1NE] and run from Thence Due Magnetic
 
 ![page 2](image/ovid-page-02.jpg)
 
-## Lot No. 1
+# Lot No. 1
 
 ## East bounds of lot No. 1 Continued
 
@@ -65,7 +62,7 @@ Begining at the last Mentioned Corner [1SE] and run from Thence Due Magnetic Wes
 
 Is Constituted by the Easterin Shore of Seneca lake from the SW Corner last above described [1SW] To the NW Corner of The Same described in p.1st [1NW]
 
-## Lot No. 2
+# Lot No. 2
 
 ## Field Book of the North Bounds of lot No. 2
 
@@ -74,7 +71,7 @@ Begining at the NE Corner of Said lot at a Basswood Stake standing in the North 
 
 ![page 3](image/ovid-page-03.jpg)
 
-## Lot No. 2
+# Lot No. 2
 
 ## North Bounds of lot No. 2 Continued
 
@@ -123,7 +120,7 @@ Begining at the SW Corner of Said lot described In Page 2 [1SE] Thence Due Magne
 
 See the East Bounds of lot No. 1 in page 1 & 2
 
-## Lot No. 3
+# Lot No. 3
 
 ## Field Book of the North Bounds of lot No.3
 
@@ -160,7 +157,7 @@ See the East bounds of lot No. 2 In p 3
 
 ![page 5](image/ovid-page-05.jpg)
 
-## Lot No. 4
+# Lot No. 4
 
 ## Field Book of the North bounds of lot No. 4
 
@@ -203,7 +200,7 @@ See the East bounds of lot No. 3 page 3 [page 4]
 
 ![page 6](image/ovid-page-06.jpg)
 
-## Lot No. 5
+# Lot No. 5
 
 ## Field Book of the North bounds of lot No. 5
 
@@ -249,7 +246,7 @@ Begining at the SW Corner before described [4SE] of this lot Thence Due Magnetic
 
 ![page 7](image/ovid-page-07.jpg)
 
-## Lot No. 5
+# Lot No. 5
 
 ## Field Book of the South Bounds of lot No. 5 Continued
 
@@ -262,7 +259,7 @@ Begining at the SW Corner before described [4SE] of this lot Thence Due Magnetic
 
 See the East bounds of lot No. 4 page 5
 
-## Lot No. 6
+# Lot No. 6
 
 ## Field Book of the North Bounds of lot No. 6 
 
@@ -297,13 +294,13 @@ See the map
 
 ![page 8](image/ovid-page-08.jpg)
 
-## Lot No. 6
+# Lot No. 6
 
 ## West Bounds of lot No. 6 
 
 See the East bounds of lot No. 5 page 6
 
-## Lot No. 7
+# Lot No. 7
 
 ## Field Book of the North bounds of lot No. 7
 
@@ -339,13 +336,13 @@ Begining at the SE Corner of S’d lot last above described [7SE] Thence Due Mag
 
 ![page 9](image/ovid-page-09.jpg)
 
-## Lot No. 7
+# Lot No. 7
 
 ## West Bounds of Lot No. 7  
 
 Is Constituted by the Easterin Shore of the Seneca Lak from the S West Corner of Said lot To the NW Corner of the Same Heretofore described [1SW]
 
-## Lot No. 8
+# Lot No. 8
 
 ## Field Book of the North bounds of lot No. 8
 
@@ -374,7 +371,7 @@ Begining at an Elm Stake Standing 16 links on a Cour of Course of South 37 West 
 
 ![page 10](image/ovid-page-10.jpg)
 
-## Lot No. 8
+# Lot No. 8
 ## South Bounds of lot No. 8 
 
 Begining at a Stake Standing in the East bounds of lot No.15 and 9 links on a Course of North 20 East from a white Oak Tree Marked on the SE side No. 17 and on the N.E Side No. 8 for the SW Corner of lot No. 8 and NW Corner of lot No. 17 from Thence Due Magnetic East along the North bounds of lot No. 17
@@ -396,7 +393,7 @@ Begining at the NW Corner of Said lot described in page 9 [page 8] [7NE] from Th
 | 66 | - | Crossed The road leading from Catherines Town To Canadasago |
 | 76 | 4 | To the SW Corner of this lot before described [8SW] The land this line Passes through is good Timber Hard Maple Linden Elm Hickry white ash Black and white Oak |
 
-## Lot No. 9
+# Lot No. 9
 
 ## Field Book of the North Bounds of lot No. 9
 
@@ -411,7 +408,7 @@ Begining at a Hard Maple Stake Standing in the South Bounds of lot No. 3 and 10 
 
 ![page 11](image/ovid-page-11.jpg)
 
-## Lot No. 9
+# Lot No. 9
 
 ## East Bounds of lot No. 9
 
@@ -443,7 +440,7 @@ Begining at the SE of Said lot above described in this page [9SE] Thence Due Mag
 
 See the East bounds of lot No. 8 In page 9
 
-## Lot No. 10
+# Lot No. 10
 
 ## Field Book of the North bounds of lot No. 10
 
@@ -458,7 +455,7 @@ Begining at the NW Corner of Said lot described In page 9 [page 10] Thence Due M
 
 ![page 12](image/ovid-page-12.jpg)
 
-## Lot No. 10
+# Lot No. 10
 ## East bounds of lot No. 10
 
 Begining at the SE Corner at a Hard Maple Stake standing 26 Links on a Course of South 64 West from an Iron wood Tree Marked on the NW Side No. 11 on the S.E. s’d No. 20 and on the SW s’d No. 19 from Thence Due Magnetic North along the West Bounds of lot No. 11
@@ -483,7 +480,7 @@ Begining at the S.E. Corner described In this page above [10SE] from Thence Due 
 
 See the East bounds of lot No. 9 In pag 11
 
-## Lot No. 11
+# Lot No. 11
 
 ## Field Book of the North bounds of lot No. 11
 
@@ -510,7 +507,7 @@ Begining at the NE Corner of Said lot above described [11NE] from Thence Due Mag
 
 ![page 13](image/ovid-page-13.jpg)
 
-## Lot No. 11
+# Lot No. 11
 
 ## East Bounds of lot No. 11 Continued
 
@@ -533,7 +530,7 @@ Begining at the SE Corner last above described [11SE] and run from Thence Due Ma
 
 See the East bounds of lot No. 10 In page 12
 
-## Lot  No. 12
+# Lot  No. 12
 
 ## Field Book of the North bounds of lot No. 12
 
@@ -567,7 +564,7 @@ Begining at the S.E. Corner of Said Lot at an Iron wood Stake Standing 18 links 
 
 ![page 14](image/ovid-page-14.jpg)
 
-## Lot No. 12
+# Lot No. 12
 
 ## South Bounds of lot No. 12
 
@@ -584,7 +581,7 @@ Begining at the SE Corner of Said lot described in page 13 [12SE] Thence Due Mag
 
 See the East bounds of lot No. 11 In page 12 & 13
 
-## Lot No. 13
+# Lot No. 13
 
 ## Field Book of the North bounds of lot No. 13
 
@@ -614,7 +611,7 @@ Begining at the SW Corner of Said lot last above described [13SW] from Thence al
 
 ![page 15](image/ovid-page-15.jpg)
 
-## Lot No. 13
+# Lot No. 13
 
 ## West Bounds of lot No. 13 Continued
 
@@ -626,7 +623,7 @@ Begining at the SW Corner of Said lot last above described [13SW] from Thence al
 
 Begining at the S.E. Corner of Said lot described in page 12 [page 14][13SE] Thence Due Magnetic North 7 Chs 50 links To a Small Juneberry Tree Standing on the South bank of a Brook which is High and about 50 links from the bank of [Cayuga Lake] Marked on the NW S’d No. 13 from Thence Continuing North To the lake and [?] along the Westerin Shore of the Cayuga lake To the NE Corner of this lot before described In page 7 [6SE]
 
-## Lot No. 14
+# Lot No. 14
 
 ## Field Book of the North bounds of lot No. 14
 
@@ -648,7 +645,7 @@ Begining at the SW Corner of Said lot described In page 13 [12SE] from Thence Du
 
 ![page 16](image/ovid-page-16.jpg)
 
-## Lot No. 14
+# Lot No. 14
 ## West Bounds of lot No. 14
 
 Begining at the SW Corner of Said lot described In page 13 [12SE] from Thence Due Magnetic North along the South part of the East bounds of lot No. 12
@@ -661,7 +658,7 @@ Begining at the SW Corner of Said lot described In page 13 [12SE] from Thence Du
 East Bounds of lot No. 14
 Begining at the S.E. Corner of Said lot described In page 15 [14SE] Thence Northerly along the Westerin Shore of the Cayuga lake To where a North line runs from a Juneberry Sapling described In page 15 [13SE] Stakes the Same
 
-## Lot No. 15
+# Lot No. 15
 ## Field Book of the North bounds of lot No. 15
 
 See the Field Book of the South bounds of lot No. 7 In page 8th
@@ -689,12 +686,12 @@ Begining at the SE Corner of Said lot described In this page above [15SE] Thence
 
 ![page 17](image/ovid-page-17.jpg)
 
-## Lot No. 15
+# Lot No. 15
 ## West Bounds of lot No.15
 
 Is Constituted by the Easteren Shore of the Seneca lake from the SW Corner of S’d lot Northerly to the N.W. Corner of the Same described In the page 8th [7SW] See the Map
 
-## Lot No. 16
+# Lot No. 16
 ## Field Book of the North bounds of lot No. 16
 
 See the Field Book of the south bounds of Lot No. 15 Page 16
@@ -726,7 +723,7 @@ Tis Constituted by The Easteren Shore of the Seneca lake from the SW Corner of S
 
 See the Map
 
-## Lot No, 17
+# Lot No, 17
 
 ## Field Book of the North bounds of lot No. 17
 
@@ -734,4 +731,843 @@ See the Field book of the South bounds of lot No. 8 in Page 10
 
 ## East Bounds of lot No. 17
 
-Begining at the SE Corner of The Same at a Butternut Stake Standing 14 links on a Course of South 50 West from a white Oak Tree Marked on the NW s’d No. 17 and on the SW side No. 27 on the NE s’d No. 18 and The SE s’d No.28 Thence along the West bounds of lot No. 18 Due 
+Begining at the SE Corner of The Same at a Butternut Stake Standing 14 links on a Course of South 50 West from a white Oak Tree Marked on the NW s’d No. 17 and on the SW side No. 27 on the NE s’d No. 18 and The SE s’d No.28 Thence along the West bounds of lot No. 18 Due
+
+
+
+![page 18](image/ovid-page-18.jpg)
+
+# Lot No. 17
+
+## East Bounds Continued
+
+Due Magnetic North
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+| 57 | - | A Brook runing NWly Timber Black and white Oak Hickry Some Hard Maple |
+| 77 | 92 | To the NE Corner of Said lot described in Page 10 [8SE] |
+
+## South Bounds of lot No. 17
+
+Begining at the SE Corner of the Same described In page 17 [17SE] from Thence Due Magnetic West along the North [South] bounds of lot No. 17
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+| - | - | Through good land for 36 chains Cov’d with Hard Maple linden a few Black and white Oak Some black walnut Then Entered Oak woods |
+| 69 | - | Crossed Catharines Town Road |
+| 81 | - | To the SW Corner of this lot To a dogwood Stake Standing In the East bounds of lot No. 16 and 20 links on a Course of North 64 East from a white Oak Tree Marked Marked on The SE Side No. 27 and on the NE 17 |
+
+## West Bounds of lot No. 17
+
+Begining at the NW Corner of Said lot described in page 8th [page 10] [8SW] from Thence along the the South Part of the East bounds of lot No. 15 and also along the North Part of the East bounds of lot No. 16 Due Magnetic South
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+| 10 | - | Crossed a run runing Northwesterly |
+| 46 | - | Crossed a run runing Northwesterly |
+| 77 | 26 | To the N SW Corner of this lot described in this page above [17SW] |
+
+# Lot No. 18
+
+## Field Book of the North bounds of lot No. 18
+
+See the Field Book of the North South bounds of lot No. 9 in p. 11
+
+## East bounds of lot No. 18
+
+Begining at the NE Corner described In Page 11 [9SE] from Thence along Due Magnetic South along the West bounds of lot No. 19
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+| - | - | Through good land Cov’d Very thick with all kind of Timber |
+| 77 | 62 | To the S.E. Corner of This lot To a Hickry Stake Standing 13 links North from a Black ash Tree Marked on the NW s’d No. 18 on the SW side No. 28 on the SE s’d No. 29 and on the NE Side No. 19 |
+
+
+![page 19](image/ovid-page-19.jpg)
+
+# Lot No. 18
+
+## South Bounds of lot No. 18
+
+Begining at the SW Corner of s’d lot described In page 17 & 18 [17SE] and run from Thence along the North bound of lot No. 28 Due Magnetic East
+
+|    |    |   |
+| -- | -- | -- |
+| Chs | Lks | |
+| 4 | - | Out of land covered with Hard Maple Linden Some walnut Some Black and white Oak Butternut and Entered Oak woods |
+| 41 | - | Out of The Oak woods and entered land Covered with Hard Maple lin &c |
+| 56 | - | A Brook runing NEly |
+| 70 | 94 | To the SE Corner of this lot described in Page 18 [18SE] |
+
+## West Bounds of lot No. 18
+
+See the East bounds of lot No. 17 in page 18
+
+# Lot No. 19
+
+## Field Book of the North bounds of lot No. 19.  
+
+See the Field Book of the South bounds of lot No. 10 in page 12
+
+## East Bounds of lot No. 19
+
+Begining at the SE Corner at a Hard Maple Stake Standing 19 links on a Course of South 35 West from a Hard Maple Tree Marked on the NW s’d No. 19 on the NE s’d No. 20 on the SE s’d No. 30 on the SW s’d No. 29 from Thence Due Magnetic North along the West bounds of lot No. 20
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+| - | - | Through Midling good land Cov’d with Hard Maple lin &c |
+| 39 | - | Crossed a Brook runing NEly |
+| 76 | 93 | To the NE Corner of this lot described In Page 11 [Page 12] [10SE] |
+
+## South bounds of lot No. 19
+
+Begining at the SW Corner described In Page 18 [18SE] from Thence Due Magnetic East along the North bounds of lot No. 29
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+| 50 | - | Crossed a Brook runing NEly |
+| 78 | 98 | To the SE Corner of this lot described In this Page last above [19SE] Note the land this line | Passes Through is Midling good timbered with all kind of Timber |
+
+## West Bounds of lot No. 19
+
+See the East Bound of lot No. 18 in p. 18
+
+# Lot No. 20
+
+## Field Book of the North bounds of lot No. 20
+
+See the Field Book of the South bounds of lot No. 11 in p 13
+
+
+![page 20](image/ovid-page-20.jpg)
+
+# Lot No. 20
+
+## East Bounds of lot No. 20
+
+Begining at the NE Corner described In in Page 12 & 13 [11 SE] from Thence Due Magnetic South along the West bounds of lot No. 21
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+| 1 | - | Crossed a Brook runing NEly |
+| 36 | - | Crossed a run runing NEly |
+| 52 | - | Crossed a Brook runing NEly |
+| 76 | 28 | To the SE Corner of this lot to an Iron wood Stake Standing 19 links on a Course of South 37 3/4 East From a Hard Maple Tree Marked on the NW Side No. 20 on the SW Sid No. 30 on the NE s’d No. 21 and on the SE s’d No. 31 The land this line Passes through is Good Cov’d with Hard Maple linden Some Black and white Oak |
+
+## South Bounds of lot No. 20
+
+Begining at the SW Corner of S’d lot described In page 19 [19SE] from Thence Due Magnetic East along the North bounds of lot No. 30
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+| - | - | Through Good land Timber Hard Maple lin Elm &c. |
+| 79 | 68 | To the SE Corner of this lot described in This Page last above [20SE] |
+
+## West Bounds of lot No. 20
+
+See the East bounds of lot No. 19 in Page 19
+
+# Lot No. 21
+
+## Field Book of the North bounds of lot No. 21
+
+See the Field Book of the South bounds of lot No. 12 p. 14
+
+## East Bounds of lot No. 21
+
+Begining at the S.E. Corner of S’d lot at an Iron wood Stake Standing 14 links on a Course of North 22 West from a Hard Maple Tree Marked on the NW side No. 21 on the NE side No. 22 on the SW S’d No. 31 and on the SE s’d No. 32 from Thence along the West bounds of lot No. 22 Due Magnetic North
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+| 5 | - | Crossed a run |
+| 23 | - | Entered white Oak woods|
+| 26 | - | Crossed a fine large Brook runing NEly |
+| 36 | - | Out of the Oak woods and entered land Cov’d with Hard Maple linden &c |
+| 55 | - | Crossed a run runing NEly |
+| 76 | 96 | To the NE Corner of this lot described in page 13 [12SE] |
+
+
+![page 21](image/ovid-page-21.jpg)
+
+# Lot No. 21
+
+## South bounds of lot No. 21
+
+Begining at the S.W. Corner of S’d lot described in page 20 [20SE] Thence Due Magnetic East along the North bounds of lot No. 31
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+| 53 | 24 | To the West bank of a gully |
+| 54 | - | Crossed Brook In the Gully |
+| 56 | - | On the East bank of the Gully |
+| 72 | 70 | Crossed a run runing NEly |
+|80 | 22 | To the SE Corner of this lot described In page 20 [21SE] The land This line Passes through is Good Timber Hard Maple Linden &c |
+
+## West Bounds of lot No. 21
+
+See the East bounds of lot No. 20 in p. 20
+
+# Lot No. 22
+
+## Field Book of the North bounds of lot No. 22  
+
+See the Field Book of the South Bounds West part of the South bounds of lot No. 14 in p. 15
+
+## East Bounds of lot No. 22
+
+Begining at the SE Corner of S’d lot at a Hard Maple Stake Standing in the West bounds of lot No. 24 and 30 links on a Course of North 72 West from a Hard Maple Tree Marked on the SW s’d No. 32 on the NW s’d  No. 22 from Thence along the North Part of the West bounds of lot No. 24 and along the West bounds of lot No. 23 Due Magnetic North
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+9 | - | On the South bank of a gully
+11 | - | On the North Bank of the Gully through which runs a Small Brook NEly
+29 | - | On the South Bank of another Gully
+32 | - | Crossed the Brook in the Gully which is a Large and fine brook runing NEly
+77 | 90 | To the NE Corner of this lot described in page 15 [Lot No. 14 – 80 chains 63 links Observation]
+
+## South Bounds of lot No. 22
+
+Begining at the S.W. Corner of s’d described In page 20 [21SE] from thence Due Magnetic East along the North bounds of lot No. 32
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+39 | - | Crossed a Brook 53 Chs. Crossed it agin 66 Chs Crossed it agin and left it runing | NEly 
+53 | - | Crossed it agin
+66 | - | Crossed it agin and left it runing NEly
+
+
+![page 22](image/ovid-page-22.jpg)
+
+# Lot No. 22
+
+## South Bounds Continued
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+81 | 46 | To the S.E.Corner of this lot described in Page 21 [22SE] The land this line Passes throug is good Timber Hard Maple lin and a few black and white oak 
+
+West bounds of lot No. 22
+See the East bounds of lot No. 21 In page 20
+
+# Lot No. 23
+
+## Field Book of the North bounds of lot No. 23 
+
+See the Field Book of the East Part of the South bounds of lot No. 14 In p. 15
+
+## South Bounds of lot No. 23
+
+Begining at the SE Corner at a Juneberry Stake Standing on the bank of the Cayuga lake and 7 links South from a Juneberry Sapling Marked on the NW s’d No. 23 on the SW s’d No. 24 from thence Due Magnetic West along the North bounds of lot No. 24
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+84 | - | On the East bank of a gully
+90 | - | Crossed a Brook in the Gully runing NEly
+95 | - | Crossed S’d Brook agin
+100 | - | On the West bank of the Gully
+127 | 62 | To the S.W. Corner of this lot to a white ash Stak Standing In the East bounds of lot No. 22 and 9 links on a Course of South 81 West from a Beech Tree Marked on the NE s’d No. 23 on the SE s’d No. 24 from thence  The land this line Passes Through is for about 40 chs from the lake is not very good Timber Black and white Oak Chisnut Hickry Some Hard Maple & the remainder of the Distance is good Timber as Last Said
+
+## West Bounds of Lot No. 23
+
+Begining at the SW Corner last above described [23SW] and run from thence along the North Part of the East bounds of lot No. 22 Due Magnetic North
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+50 | 30 | To the NW Corner of said lot described in page 15 [Lot No. 23 – 80 chains 63 links observation]. For the remarks the remarks of this line See the Distance on the North Part of the East bounds of lot No. 22 and 4 Chs 50 links further North
+
+
+![page 23](image/ovid-page-23.jpg)
+
+# Lot No. 23
+
+## East Bounds of lot No. 23
+
+Is Constituted by the Westeren Shore of the Cayuga lake from the S.E. Corner of said lot described in Page 22 [23SE] To the N.E. Corner of the Same described in page 15 [14SE] (see the map)
+
+# Lot No. 24
+## Field Book of the North bounds of lot No. 24  
+
+See the Field book of the South bounds of lot No. 23 In p. 22
+
+## South Bounds of lot No. 24
+
+Begining at the S.E. [SW] Corner of S’d lot at a Hard Maple Stake standing In the East bounds of lot No. 32 and 10 links on a Course of South 43 West from a Hard Maple Tree Marked on the NE Side No. 24 on the S.E. s’d No. 33 Thence Due Magnetic East along the North bounds of lot No. 33
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+54 | - | A Brook runing NEly
+115 | - | On the West bank of a Gully
+121 | - | Crossed a Brook In the The Gully runing NEly
+132 | 69 | Down the Gully To the bank of the Cayuga lake to an Elm stake Standing 7 links South from a Beech Tree Marked on the SW s’d No. 33 on the NW s’d No. 24 for the S.E. Corner of lot No. 24 and NE Corner of lot No. 33 The land this line Passes through is good Timber Hard Maple linden Some Beech and a few Hemlock
+
+## West Bounds of lot No. 24
+
+Begining at the SW Corner of S’d lot above described in this page [24SW] from Thence along the North part of the East bounds of lot No. 32 and along the South part of the East bounds of lot No. 22 Due Magnetic North.
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+46 | 66 | With an allowance of 50 links To the NW Corner of this lot described in Page 22 [23SW] for the remarks of this line See the distance on the North Part of the East bounds of lot No. 32 and on the South part of the East bounds of lot No. 22
+
+
+![page 24](image/ovid-page-24.jpg)
+
+# Lot No. 24
+
+## East Bounds of lot No. 24
+
+Is Constituted by the Westerin Shore of the Cayuga lake from the S.E. Corner of S’d lot described In page 23 [24SE] To the NE Corner of the Same described in Page 22 [23SE]
+
+# Lot No. 25
+
+## Field Book of the North bounds of lot No. 25 
+
+See the Field book of the South bounds of lot No. 16 in page 17
+
+## East Bounds of lot No. 25
+
+Begining at the N.E. Corner described In page 17 [16SE] Run from thence Due Magnetic South along the West bound of No. 27
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+48 | 29 | With an allowance of 46 link To the SE Corner of this lot To a Hickry Stake Standing In the South part of the West bounds of lot No. 27 and 19 links on a Course of West from a white Oak Tree  Sapling Mark’d on the NW s’d No. 25 on the SW s’d No. 26
+
+South bounds of Lot No.25
+Begining at the SW Corner at a Sassafras Stake Standing on the bank of the Seneca lake 10 links on a Course of North 51 East from a white Oak Tree Marked on the NE s’d  No. 25 on the SE s’d No. 26 from thence along the North bounds of Lot No. 26 Due Magnetic East
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+56 | - | In a Gully
+57 | - | On the East bank of the Gully
+58 | - | Against the West bank of a gully
+59 | - | On the East bank of the Gully
+95 | - | Against the West bank of a gully
+96 | - | Crossed a Brook in the gully runing NWly
+97 | - | On the East bank of the Gully
+118 | 62 | To the SE Corner of S’d lot above described in this Page [25SE] the land this line Passes through is Midling good Timber Mostly with Black and white Oak Som Hard Maple and Hickry very Much Broken with Gullyes
+
+
+![page 25](image/ovid-page-25.jpg)
+
+# Lot No. 25
+
+## West Bounds of lot 25
+
+Is Constituted by the Easteren Shore of the Seneca lake from the SW Corner of Said lot described In page 24 [25SW] To the NW Corner of the Same described in page 17 [16SW]
+
+# Lot No. 26
+
+## Field Book of the North bounds of lot No. 26
+
+See the Field Book of the South bounds of lot No. 25 In p. 24
+
+## East Bounds of lot No. 26
+
+Begining at the NE Corner described In p. 24 [25SE] and run from thence Due Magnetic South
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+45 | 23 | With an allowance of 54 links To a Hickry Stake Standing in the West bounds of lot No. 36 and 15 links West from a white Oak Tree mark’d on the NW s’d No. 26 on the SW s’d No. 35 for the SE Corner of lot No. 26 and N.E. Corner of lot No. 35 for the remarks of this line line See the Distance on the North Part of the West bounds of lot No. 36 and on the South part of the West bounds of lot No. 27 in p. 26 & 33 
+
+## South bounds lot No. 26
+
+Begining at the SW Corner of S’d lot at a Black Oak Stake Standing on the bank of the Seneca lake 6·/2 links South from a white Oak Tree Marked on the S.E. s’d No. 35 on the N.E. side No. 26 from Thence Due Magnetic East
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+66 | - | Crossed a Brook
+74 | - | Crossed it again
+122 | 31 | To the S.E. Corner of S’d lot described in this page above. The land this line Passes Through is Good Timber Hard Maple lin Hickry Black and white Oak Some white Pine Near the lake
+
+## West bounds of lot No. 26
+
+Is Constituted by the Easteren Shore of the Seneca lake from the SW corner of Said lot above described in this p. [26SW] to the NW corner of the Same described in p. 24 [25SW]
+
+# Lot No. 27
+
+## Field Book of the North bounds of lot No. 27   
+
+See the Field book of the South bounds of lot No. 17 In p. 18.
+
+
+![page 26](image/ovid-page-26.jpg)
+
+# Lot No. 27
+
+## East Bounds of lot No. 27
+
+Begining at the S.E. Corner of S’d lot at Iron wood Stake Standing 25 links on a Course of North 72 West from a Hard Maple Tree Marked on the NW s’d No. 27 on the SW s’d No. 36 on the N.E. Side No. 28 on the S.E. s’d No. 37 and run from thence along the West bounds of lot No. 28 North
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+3 | - | A Brook runing N.Wly.
+76 | 95 | To the NE Corner of this lot described In p. 18 [pages 17 & 18] [17SE] The land this line Passes through is Good Timber black and white Oak Hickry lin Some Hard Maple a few Black walnut
+
+## South bounds of lot No. 27
+
+Begining at the S.E. Corner described In this Page above [27SE] from Thence Due Magnetic West along the North bounds of lot No. 36
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+80 | 80 | Through Good land Timber Hard Maple linden Elm & for 28 lks and then Entered Black and white Oak woods To the SW Corner of this lot to a Black Oak Stak Standing in the East bounds of lot No. 26 and 6 links on a Course of North 39 East from an Iron wood Tree Marked on the NE s’d No. 27 and on S.E s’d No. 36
+
+## West Bounds of lot No. 27 
+
+Begining at at the NW Corner of S’d lot described In p.18 [17SW] from Thence along the the South bounds Part of the East bounds of lot No. 26 and along the East bounds of lot No. 25 also along the North Part of the East No. 26 Due Magnetic South
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+2 | - | A Brook runing NWly
+68 | - | On the North bank of a Brook
+69 | - | Crossed the Brook runing NWly
+70 | - | On the South bank
+76 | - | To the SW Corner of this lot described In this Page last above [27SW] The land this line Passes through is not Very good Timber black and white Oak Hickry Chisnut Hard Maple lin &c.
+
+
+![page 27](image/ovid-page-27.jpg)
+
+# Lot No. 28
+
+## Field Book of the North bounds of lot No. 28 
+
+See the Field book of the South bounds of lot No. 18 In p.19
+
+## East Bounds of lot No. 28
+
+Begining at the N.E. Corner described In p. 19 [page18] [18SE]] from thence Due Magnetic South along the West bounds of lot No. 29
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+5 | - | Entered a Swamp
+21 | - | Crossed a Brook and out of the Swamp Timber In the Swamp Black ash Birch and Soft Maple
+54 | - | Crossed a Small Brook
+76 | 66 | To the SE Corner of this lot to a white ash Stak Standing 4 links North from a white Oak Tree Mark’d on the NW s’d No. 28 on the SW s’d No. 37 on the S.E. Side No. 38 on the NE s’d No. 29 The land this line Passes through is Midling Good Timbered with all kinds of Timber
+
+## South Bounds of lot No. 28 
+
+Begining at the S.E.Corner described In this page last above [28SE] from thence Due Magnetic West
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+38 | - | Crossed a Brook runing NWly
+79 | 16 | To the SW Corner of this lot described In p. 26 [27SE] The land this line Passes Through is good Timber Hard Maple linden white ash Black and white Oak and a few Butternut
+
+## West Bounds of lot No. 28
+
+See the the East bounds of lot No. 27 In p. 26
+
+# Lot No. 29
+
+## Field Book of the North bounds of lot No. 29
+
+See the Field book of the South bounds of lot No.19 In p. 19
+
+## South [East] bounds of lot No. 29
+
+Begining at the S.E. Corner of Said lot at an Iron wood Stake Standing 5 links on a Course of North 48 West from a Hard Maple Tree Mark’d on the NW s’d No. 29 on the N.E.s’d No. 30 on the S.E. s’d No. 39 and on the SW s’d No. 38 from thence Due Magnetic North along the West bounds of lot No. 30
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+31 | - | Crossed a Brook runing NEly
+76 | 88 | To the NE Corner of this lot described In page 19 [19SE] The land this line Passes through | is Good Timber Hard Maple Black and white Oak & [&c.]
+
+
+![page 28](image/ovid-page-28.jpg)
+
+# Lot No. 29
+
+## Field book of the North [South] bounds of lot No. 29
+
+Begining at the SE Corner described In p. 27 [29SE] from thence Due Magnetic West along the North bounds of lot No. 38
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+78 | 87 | Through Very good land land Timber Hard Maple Linden white ash Black and white Oak a few Butternut To the S.W. Corner of this lot described In p 27 [28SE]
+
+## West Bounds of lot No. 29
+
+See the East bounds of lot No. 28 In p. 27
+
+# Lot No. 30
+
+## Field Book of the North Bounds of lot No. 30  
+
+See the Field Book of the South bounds of lot No. 20 In p. 20
+
+## East bounds of lot No. 30 
+
+Begining at the at NE Corner described In p. 20 [20SE] from thence Due Magnetic South along the West bounds of lot No. 31
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+38 | - | Crossed a Very fine and large Brook runing N.E.ly 
+44 | - | At the foot of a Hill
+47 | - | On the Hill
+77 | 57 | To the S.E. Corner of this lot To a Hard Maple Stake Standing 10 Links on a Course of North 17 East from a Hard Maple Tree Marked on the NW s’d No. 30 on the N.E. side No. 31 on the SW s’d No. 39 on the S.E. Side No. 40 The land this line Passes throug is Very good timber Black and white oak Hard Maple lin white ash &c.
+
+## South Bounds of lot No. 30
+
+Begining at the S.E. Corner described In this page above [30SE] from thence Due Magnetic West along the North bounds of lot No. 39
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+31 | 32 | Crossed a fine and large Brook
+79 | 79 | To the SW Corner of this lot described In page 27 [29SE] The land this line Passes through is Good Timber Hard Maple Linden Some Beech Black and white oak
+
+## West bounds of lot No. 30
+
+See the East bounds of lot No. 29 in page 27
+
+
+![page 29](image/ovid-page-29.jpg)
+
+# Lot No. 31
+
+## Field Book of the North bounds of lot No. 31
+
+See the Field book of the South bounds of lot No. 21 Page 21
+
+## East Bounds of lot No. 31
+
+Begining at the S.E. Corner at an Iron wood Stake Standing 22 links on a Course of North 36 East from a Hard Maple Tree Marked on the NW s’d No. 31 on the SW s’d No. 40 and on the SE s’d No. 41 and on the NE s’d No. 32  Thence Due Magnetic North along the West bounds of lot No. 32
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+9 | - | Crossed a Brook runing NEly
+32 | - | D’o [Crossed] a run runing NEly
+45 | - | D’o [Crossed a run] runing NEly
+58 | - | D’o [Crossed] a Brook runing NEly
+77 | 77 | To the NE Corner of this lot described In p. 20 [21SE] The land this line Passes Through is Good Timber Hard Maple lin white ash read oak &[&c.]
+
+## South bounds of lot No. 31
+
+Begining at the S.E. Corner of this lot described In this page [31SE] from Thence Due Magnetic West along the North bounds of lot No. 40
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+22 | 41 | Crossed a Brook runing NEly
+79 | 41 | D’o [Crossed a Brook runing NEly]
+80 | 5 | To the SW Corner of this lot described In page 28th [30SE]. The land this line Passes through is good Timber Hard Maple lin &c.
+
+## West bounds of lot No. 31
+
+See the East bounds of lot No. 30 In p. 29
+
+# Lot No. 32
+
+## Field Book of the North bounds of lot No. 32
+
+See the Field book of the South bounds of lot No. 22 In p. 21 & 22
+
+## East bounds of lot No. 32
+
+Begining at the S.E. Corner of S’d lot at a Beech Stake Standing in the West bounds of lot No. 34 and 4 links West from a read Oak tree Marked on the SW Side No. 41 on the NW Side No. 32 from thence along the North part of the West bounds of lot No. 34 and along the West bounds of lot No. 33 also along the South Part of the West bounds of lot No. 24. Due Magnetic North
+
+
+![page 30](image/ovid-page-30.jpg)
+
+# Lot No. 32
+
+## East Bounds Continued
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+77 | 50 | To the N.E. described In p. 21 [22SE] The land this line Passes Through is good Cov’d with all kind of Timber
+
+## South Bounds of lot No. 32
+
+Begining at the SE Corner of S’d lot described In p 29 [32SE] from Thence Due Magnetic West along the North bounds of lot No. 41
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+80 | 58 | Through Very good land Cov’d with Hard Maple linden white ash Read oak and Some white Oak To the S.W. Corner of this lot described In p. 29 [31SE] 
+
+## West bounds of lot No. 32
+
+See the East bounds of lot No. 31 In p. 29
+
+# Lot No. 33
+
+## Field Book of the North bounds of lot No. 33
+
+See the Field Book of the South bounds of lot No. 24 In p. 23
+
+## South bounds of lot No. 33
+
+Begining at the S.E. Corner at a Soft Maple Stake Standing on the bank of the Cayuga lake 15 links East from a Chisnut Tree Mark’d on the SW side No. 34 on the NW s’d No. 33 from thence Due Magnetic West along the North bounds of lot No. 34
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+142 | 72 | To the SW Corner of this lot To a dogwood Stake Standing in the South Part of the East bounds of lot No. 32 and 313 links on a Course of South 86 East from a Bass wood Tree Mark’d on the S.E. Side No. 34 on the N.E. s’d No. 33 The land this line Passes through is very good Timber Hard Maple Lin Hickry &c.
+
+## West bounds of lot No. 33 
+
+Begining at the SW Corner of S’d lot described In this page last above [33SW] and run from thence along the East bounds of lot No. 32 Due Magnetic North
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| [Chs] | [Lks] | |
+44 | - | To the NW Corner of this lot described In p 23 [24SW]
+
+
+![page 31](image/ovid-page-31.jpg)
+
+# Lot No. 33
+
+## East Bounds of lot No. 33
+
+Is Constituted by the Westeren Shore of the Cayuga lake from the SE Corner of S’d lot described In page 30 [33 SE] To the NE Corner of the Same described In p. 23 [24SE] (See the Map.)
+
+# Lot No. 34
+
+## Field book of the North bounds of lot No. 34  
+
+See the Field book of the South bounds of lot No. 3 [33] In p. 30
+
+## South Bounds of lot No. 34
+
+Begining at the S.E.Corner of Said lot at a Poplar Tree Standing on the Bank of the Cayuga lak and Mark’d on the NW Side No. 34 on the SW s’d No. 42 and run from thence Due Magnetic West along the North bounds of lot No. 42.
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+45 | - | To the East bank of a Gully
+50 | - | On the West bank of the Gully
+120 | - | Crossed a Brook
+123 | - | Crossed said Brook
+153 | 30 | To the S.W. Corner of this lot to a Hard Maple Stake Standing in the North part of the East bounds of lot No. 41 and 33 links West from a white wood Tree Mark’d on the SE Side No. 42 on the N.E. s’d No. 34 The land this line Passes through is good Timber Hard Maple linden Elm white ash Some Black and white Oak & [&c.]
+
+## West Bounds of lot No. 34
+
+Begining at the S.W. Corner last above described in this page [34SW] and run from thence along the North Part of the East bounds of lot No. 41 and along the South part of the East bounds of lot No. 32 Due Magnetic North
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+41 | 50 | To the NW Corner of this lot described in p. 30 [33SW]
+
+## East bounds of lot No. 34
+
+Is Constituted by the Westeren shore of the Cayuga lake from the S.E. Corner of S’d lot described In this p. [34SE] to the N.E. Corner of the Same described In p. 30 [33SE] (See the Map)
+
+
+![page 32](image/ovid-page-32.jpg)
+
+# Lot No. 35
+
+## Field book of the North bounds of lot No. 35
+
+See the Field book of the South bounds of lot No. 26 in Page 25
+
+## East bounds of lot No. 35
+
+Begining at the NE Corner described in Page 25 [26SE] from Thence Due Magnetic South along the South part of the West bounds of lot No. 36
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+41 | - | Crossed a Brook runing NWly
+44 | 15 | With an allowance of 20 link To the S.E. Corner of this lot to a Hickry Stake Standing In the South Part of the West bounds of lot No. 36 and 20 links on a course of South 50·/2 West from a Read Oak Tree Marked on the NW s’d No. 35 on the SW s’d No. 43.  The land this line Passes Through is Good Timber Hard Maple linden Black and white Oak &c
+
+## South bounds of lot No. 35
+
+Begining at the SE Corner described In This p. last above [35SE] Thence Due Magnetic West along the North bounds of lot No. 43
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+65 | 80 | To the NEly bank of Culps Brook which is Very High
+88 | 80 | On the SWly Bank of Culps Brook which runs NWly 
+94 | - | To the NE bank of a gully
+98 | - | On the Westerly bank of the Gully
+126 | 89 | To the Bank of the Seneca Lake To a white Oak Tree Standing on the Bank of the lake Marked on the NE s’d No. 35 on the SE s’d No. 43 The land this line Passes Through is Poor Timber black and white Oak Some Pitch and white Pine &c
+
+## West Bounds of lot 35
+
+Is Constituted by the Easteren Shore of the Cayuga Seneca lake from the SW Corner of S’d lot last above described [35SW]To the NW Corner of the Same described In p. 25 [26SW]
+
+# Lot No. 36
+
+## Field Book of the North bounds of lot No. 36 
+
+See The Field Book of the North South bounds of lot No. 27 p. 26
+
+
+![page 33](image/ovid-page-33.jpg)
+
+# Lot No. 36
+
+## Field Book of the East bounds of lot No 36
+
+Begining at the SE Corner of Said lot at a Hickry Stake Standing 4 links NE from a Hard Maple Tree Marked on the NW s’d No. 36 on the NE side No. 37 on the SW side No. 45 on the SE side No. 46 from Thence along the West bounds of lot No. 37 Due Magnetic North
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+70 | - | Crossed a Brook running NWly
+77 | 75 | To the NE Corner of this described in Page 26 [27SE] The land this line Passes through is good Timber Hard Maple linden Some Hickory and Some Black and white Oak
+
+## South bounds of lot No. 36
+
+Begining at the Southwest corner of S’d lot at a Thorn Bush Stak Standing In the North part of the West bounds of lot No. 43 and 39 links on a Course of South 28 West from a white Oak Tree Marked on the NE side No 36 on the SE side No. 45 from Thence Due Magnetic West along the North bounds of lot No. 45
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+69 | - | Crossed a Brook runing NWly
+80 | 67 | To the SE Corner of this lot described In this p. above [36SE] The land this line Passes Through is Midling good Timber black and white Oak Hickry Hard Maple
+
+## West bounds of lot No. 36
+
+Begining at the NW Corner described In p. 26 [27SW] from Thence Due Magnetic South
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+10 | - | Crossed a run Runing NWly
+11 | - | Crossed Catherines Town road
+61 | - | Crossed a Brook running NWly
+77 | 13 | To the SW Corner of this lot described In this p. above [36SW]. The land this line Passes Through is good Timber Hard Maple Black and white Oak and Some what Stony
+
+
+![page 34](image/ovid-page-34.jpg)
+
+# Lot No. 37
+
+## Field Book of the North bounds of Lot No. 37 
+
+See the Field book of the South bounds of lot No. 28 In page 27
+
+## East bounds of lot No 37
+
+Begining at the NE Corner described In page 27 [28SE] from Thence Due Magnetic South along the West bounds of lot No. 38
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+49 | - | Crossed a Brook runing NWly 
+77 | - | To the SE Corner of this lot Is an Ironwood Stake Standing 15 links on a Course of South 21 West from a Black Oak Tree Marked on the NW side No 37 on the NE s’d No. 38 and on the S.E. side No. 47 and on the SW side No. 46 The land this line Passes Through is Midling good Cov’d with all kind of Timber 
+
+## South Bounds of lot No. 37
+
+Begining at the SW Corner described In p. 33 [36SE] from Thence Due Magnetic East along the North bounds of lot No. 46
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+25 | 89 | A Brook runing NEly 
+31 | - | Out of Oak woods which distance runs throug oak wood and entered land Cov’d with Hard Maple linden a few Beech Some Black and white Oak
+79 | 38 | To the S.E. Corner of this lot described In this p. above [37SE]
+
+## West bounds of lot No. 37
+
+See the East bounds of lot No. 36 In page 33
+
+# Lot No. 38
+
+## Field book of the North bounds of lot No. 38
+
+See the Field Book of the South bounds of lot No 29 p. 28
+
+## East bounds of lot No. 38
+
+Begining at the SE Corner of S’d lot at a Hard Maple Stake Standing 17 links on a Course of South 15 East from a Hard maple Tree Sapling Mark’d on the NW s’d No. 38 on the N.E.s’d No. 39 on the S.W. side No. 47 on the SE side No. 48 from Thence Due Magnetic North
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+1 | - | Through land Cov’d with Black and white Oak Then entered Land Cov’d with Hard Maple linden white ash and a few Black and white Oak
+22 | - | Entered a Small Black ash Swamp
+
+
+![page 35](image/ovid-page-35.jpg)
+
+# Lot No. 38
+
+## Field Book of the East bounds of lot No. 38 Continued
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+28 | - | Out of the Swamp
+41 | - | Crossed a Brook runing NEly
+77 | 71 | To the NE Corner of this lot described in p. 27 [29SE]
+
+## South Bounds of lot No. 38
+
+Begining at the SW Corner of S’d lot described In p. 34 [37SE] from Thence Due Magnetic East along the North bounds of lot No. 47
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+33 | - | A Brook
+78 | 76 | To the S.E.Corner of this lot described in p. 34 [38SE] The land this line passes Through is good Timbered Hard Maple linden a few Beech Some Black and white Oak
+
+## West bounds of lot No. 38
+
+See the East bounds of lot 37 In p. 34
+
+# Lot No. 39
+
+## Field Book of the North bounds of lot No. 39
+
+See the Field book of the South bounds of lot No. 31 In p. 28.
+
+## East bounds of lot No. 39
+
+Begining at the NE Corner of S’d lot at described In p. 28 [30SE] from Thence Due Magnetic South along the West bounds of lot No. 40
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+57 | - | Entered a Black ash Swamp
+64 | - | Out of the Swamp
+77 | 50 | To the S.E.Corner of this lot To an Iron wood stake standing 30 links on a Course of North 14 East from a Beech Sapling Mark’d on the NW s’d No.39 on the NE  s’d No. 40 on the SW s’d No. 48 on the SE Side No. 49. The land this line Passes through is good cov’d with Black and white Oak Hard Maple linden and white ash
+
+## South bounds of lot No. 39
+
+Begining at the SW Corner described In p. 34 [38SE] from Thence Due Magnetic East along the North bounds of lot No. 48
+
+| At |    | Observations |
+| -- | -- | ------------ |
+| Chs | Lks | |
+44 | 67 | Crossed a Brook runing NEly
+58 | 67 | Crossed a Very fine large Brook runing NEly
+
+
+
