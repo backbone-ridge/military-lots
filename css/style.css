@@ -347,7 +347,13 @@ section.image {
 }
 
 section.image img {
-  width: 300px;
+  width: 90%;
+  padding: 1em 0;
+}
+
+section.image img:hover {
+  cursor: pointer;
+  opacity: 70%;
 }
 
 section.transcript {

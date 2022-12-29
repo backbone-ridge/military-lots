@@ -5,7 +5,7 @@
     <title>{{ page.town }} fieldbook, page {{ page.page }}</title>
     <link rel="stylesheet" href="/military-lots/css/style.css">
     <script>
-      function bigImage(img) {
+      function enlarge(img) {
         let modal = document.createElement('div')
         modal.classList.add('modal')
         modal.onclick = function() {
@@ -19,7 +19,7 @@
   <body>
     <header>{{ page.town }} fieldbook, page {{ page.page }}</header>
     <section class="image">
-      <img src="../image/fieldbook/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="bigImage(this)">
+      <img src="../image/fieldbook/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="enlarge(this)" title="click to enlarge">
     </section>
     <section class="transcript">
       {{ content }}
