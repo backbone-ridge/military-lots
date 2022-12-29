@@ -1,4 +1,4 @@
-![page 35](image/fieldbook/ovid-page-35.jpg)
+![page 35](../image/fieldbook/ovid-page-35.jpg)
 
 ## Lot No. 38
 

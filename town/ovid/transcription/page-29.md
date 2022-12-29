@@ -1,4 +1,4 @@
-![page 29](image/fieldbook/ovid-page-29.jpg)
+![page 29](../image/fieldbook/ovid-page-29.jpg)
 
 ## Lot No. 31
 

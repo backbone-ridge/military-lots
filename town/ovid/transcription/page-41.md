@@ -1,4 +1,4 @@
-![page 41](image/fieldbook/ovid-page-41.jpg)
+![page 41](../image/fieldbook/ovid-page-41.jpg)
 
 ## Lot No. 45
 

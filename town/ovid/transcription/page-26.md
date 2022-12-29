@@ -1,4 +1,4 @@
-![page 26](image/fieldbook/ovid-page-26.jpg)
+![page 26](../image/fieldbook/ovid-page-26.jpg)
 
 ## Lot No. 27
 

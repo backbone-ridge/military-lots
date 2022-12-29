@@ -1,4 +1,4 @@
-![page 17](image/fieldbook/ovid-page-17.jpg)
+![page 17](../image/fieldbook/ovid-page-17.jpg)
 
 ## Lot No. 15
 ### West Bounds of lot No.15

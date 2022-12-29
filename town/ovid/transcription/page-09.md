@@ -1,4 +1,4 @@
-![page 9](image/fieldbook/ovid-page-09.jpg)
+![page 9](../image/fieldbook/ovid-page-09.jpg)
 
 ## Lot No. 7
 

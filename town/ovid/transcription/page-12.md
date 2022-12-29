@@ -1,4 +1,4 @@
-![page 12](image/fieldbook/ovid-page-12.jpg)
+![page 12](../image/fieldbook/ovid-page-12.jpg)
 
 ## Lot No. 10
 ### East bounds of lot No. 10

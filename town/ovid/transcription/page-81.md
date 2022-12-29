@@ -1,5 +1,5 @@
 
-![page 81](image/fieldbook/ovid-page-81.jpg)
+![page 81](../image/fieldbook/ovid-page-81.jpg)
 
 # Lot No. 91
 

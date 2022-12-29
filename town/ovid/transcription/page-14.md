@@ -1,4 +1,4 @@
-![page 14](image/fieldbook/ovid-page-14.jpg)
+![page 14](../image/fieldbook/ovid-page-14.jpg)
 
 ## Lot No. 12
 

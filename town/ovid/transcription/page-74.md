@@ -1,4 +1,4 @@
-![page 74](image/fieldbook/ovid-page-74.jpg)
+![page 74](../image/fieldbook/ovid-page-74.jpg)
 
 # Lot No. 82
 

@@ -1,4 +1,4 @@
-![page 10](image/fieldbook/ovid-page-10.jpg)
+![page 10](../image/fieldbook/ovid-page-10.jpg)
 
 ## Lot No. 8
 ### South Bounds of lot No. 8

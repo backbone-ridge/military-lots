@@ -1,4 +1,4 @@
-![page 1](image/fieldbook/ovid-page-01.jpg)
+![page 1](../image/fieldbook/ovid-page-01.jpg)
 
 # No. 16 Ovid
 

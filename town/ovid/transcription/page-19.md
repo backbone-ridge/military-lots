@@ -1,4 +1,4 @@
-![page 19](image/fieldbook/ovid-page-19.jpg)
+![page 19](../image/fieldbook/ovid-page-19.jpg)
 
 ## Lot No. 18
 

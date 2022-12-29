@@ -1,4 +1,4 @@
-![page 55](image/fieldbook/ovid-page-55.jpg)
+![page 55](../image/fieldbook/ovid-page-55.jpg)
 
 # Lot No. 61
 
