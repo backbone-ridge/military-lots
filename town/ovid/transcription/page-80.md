@@ -1,4 +1,8 @@
-![page 80](../image/fieldbook/ovid-page-80.jpg)
+---
+town: Ovid
+page: 80
+layout: page
+---
 
 # Lot No. 90
 

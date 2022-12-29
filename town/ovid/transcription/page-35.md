@@ -1,4 +1,8 @@
-![page 35](../image/fieldbook/ovid-page-35.jpg)
+---
+town: Ovid
+page: 35
+layout: page
+---
 
 ## Lot No. 38
 

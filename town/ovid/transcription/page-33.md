@@ -1,4 +1,8 @@
-![page 33](../image/fieldbook/ovid-page-33.jpg)
+---
+town: Ovid
+page: 33
+layout: page
+---
 
 ## Lot No. 36
 

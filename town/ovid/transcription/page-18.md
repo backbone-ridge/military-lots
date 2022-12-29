@@ -1,4 +1,8 @@
-![page 18](../image/fieldbook/ovid-page-18.jpg)
+---
+town: Ovid
+page: 18
+layout: page
+---
 
 ## Lot No. 17
 

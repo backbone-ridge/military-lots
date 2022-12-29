@@ -1,4 +1,8 @@
-![page 34](../image/fieldbook/ovid-page-34.jpg)
+---
+town: Ovid
+page: 34
+layout: page
+---
 
 ## Lot No. 37
 

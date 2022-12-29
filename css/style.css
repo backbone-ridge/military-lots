@@ -327,3 +327,17 @@ img.zoomed {
 }
 
 @media (max-width: 375px) {}
+
+
+
+
+/* for fieldbook page layouts */
+
+section.image {
+  float: right;
+  width: 400px;
+}
+
+section.transcript {
+  background: #ffe;
+}

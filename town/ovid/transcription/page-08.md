@@ -1,4 +1,8 @@
-![page 8](../image/fieldbook/ovid-page-08.jpg)
+---
+town: Ovid
+page: 8
+layout: page
+---
 
 ## Lot No. 6
 

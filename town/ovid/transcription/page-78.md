@@ -1,4 +1,8 @@
-![page 78](../image/fieldbook/ovid-page-78.jpg)
+---
+town: Ovid
+page: 78
+layout: page
+---
 
 # Lot No. 88
 
