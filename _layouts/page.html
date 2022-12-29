@@ -5,15 +5,21 @@
     <title>{{ page.town }} fieldbook, page {{ page.page }}</title>
     <link rel="stylesheet" href="/military-lots/css/style.css">
     <script>
-      function clickImage(img) {
-        img.classList.toggle('fullsize')
+      function bigImage(img) {
+        let modal = document.createElement('div')
+        modal.classList.add('modal')
+        modal.onclick = function() {
+          this.remove()
+        }
+        modal.style[background-image] = 'url(' + img.src + ')'
+        document.getElementsByTagName('body')[0].append(modal)
       }
     </script>
   </head>
   <body>
     <header>{{ page.town }} fieldbook, page {{ page.page }}</header>
     <section class="image">
-      <img src="../image/fieldbook/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="clickImage(this)">
+      <img src="../image/fieldbook/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="bigImage(this)">
     </section>
     <section class="transcript">
       {{ content }}
