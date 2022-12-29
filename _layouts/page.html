@@ -4,11 +4,16 @@
     <meta charset="utf-8">
     <title>{{ page.town }} fieldbook, page {{ page.page }}</title>
     <link rel="stylesheet" href="/military-lots/css/style.css">
+    <script>
+      function clickImage(img) {
+        img.classList.toggle('fullsize')
+      }
+    </script>
   </head>
   <body>
-    <h1>{{ page.town }} fieldbook, page {{ page.page }}</h1>
+    <header>{{ page.town }} fieldbook, page {{ page.page }}</header>
     <section class="image">
-      <img src="../image/fieldbook/{{ page.town | downcase }}-{{ page.page | prepend: '0' | slice: -2, 2 }}">
+      <img src="../image/fieldbook/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="clickImage(this)">
     </section>
     <section class="transcript">
       {{ content }}

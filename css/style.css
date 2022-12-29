@@ -333,11 +333,42 @@ img.zoomed {
 
 /* for fieldbook page layouts */
 
+header {
+  background: #000;
+  color: #fff;
+  padding: 0.5em;
+}
+
 section.image {
-  float: right;
-  width: 400px;
+  position: absolute;
+  right: 0;
+  width: 25%;
+  text-align: center;
+}
+
+section.image img {
+  width: 300px;
 }
 
 section.transcript {
-  background: #ffe;
+  width: 73%;
+  padding: 0 1% 2em;
+}
+
+section.transcript table {
+  width: auto;
+}
+section.transcript tr {
+  background:#fff
+}
+section.transcript th, section.transcript td {
+  text-align: left;
+  width: auto;
+  border: 1px solid #000;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 0.5em;
 }
