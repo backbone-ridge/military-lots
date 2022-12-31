@@ -378,6 +378,7 @@ section.transcript {
 
 section.transcript table {
   width: auto;
+  margin: 1em;
 }
 section.transcript tr {
   background:#fff
