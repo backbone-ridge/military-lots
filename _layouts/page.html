@@ -60,7 +60,7 @@
     {% for item in site.pages %}
       {% if item.town == page.town %}
         {% assign numpages = numpages | plus:1 %}
-        <br>numpages={{ numpages }}, town={{ page.town }}, page={{ page.page }} 
+        <br>numpages={{ numpages }}, town={{ item.town }}, page={{ item.page }} 
       {% endif %}
     {% endfor %}
   </body>
