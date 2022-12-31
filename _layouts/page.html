@@ -11,7 +11,9 @@
         modal.onclick = function() {
           this.remove()
         }
-        modal.style['background-image'] = 'url(' + img.src + ')'
+        let bigimg = document.createElement('img')
+        bigimg.src = img.src
+        modal.append(bigimg)
         document.getElementsByTagName('body')[0].append(modal)
       }
     </script>
