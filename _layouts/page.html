@@ -5,6 +5,7 @@
     <title>{{ page.town }} fieldbook, page {{ page.page }}</title>
     <link rel="stylesheet" href="/military-lots/css/style.css">
     <script>
+      // enlarge the image into a modal that covers the screen
       function enlarge(img) {
         let modal = document.createElement('div')
         modal.classList.add('modal')
@@ -16,6 +17,14 @@
         modal.append(bigimg)
         document.getElementsByTagName('body')[0].append(modal)
       }
+      
+      // pressing 'ESCAPE' key will close modal
+      document.addEventListener('keydown', e => {
+        const k = e.key.toUpperCase()
+        if (k === 'ESCAPE') {
+          document.querySelector('.modal').remove()
+        }
+      })
     </script>
   </head>
   <body>
