@@ -55,13 +55,5 @@
     <footer>
       A project of the Backbone Ridge History Group
     </footer>
-    
-    {% assign numpages = 0 %}
-    {% for item in site.pages %}
-      {% if item.town == page.town %}
-        {% assign numpages = numpages | plus:1 %}
-        <br>numpages={{ numpages }}, town={{ item.town }}, page={{ item.page }} 
-      {% endif %}
-    {% endfor %}
   </body>
 </html>

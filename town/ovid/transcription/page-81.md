@@ -1,4 +1,3 @@
-
 ---
 town: Ovid
 page: 81
