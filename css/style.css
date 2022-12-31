@@ -337,6 +337,17 @@ header {
   background: #000;
   color: #fff;
   padding: 0.5em;
+  text-align: center;
+}
+
+header a.prev {
+  position: absolute;
+  left: 1em;
+}
+
+header a.next {
+  position: absolute;
+  right: 1em;
 }
 
 section.image {

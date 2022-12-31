@@ -30,7 +30,7 @@
   <body>
     <header>
       {% if page.page > 1 %}
-        <span class="nav">page-{{ page.page | minus:1 | prepend: '0' | slice: -2, 2 }}</span>
+        <a class="nav" href="page-{{ page.page | minus:1 | prepend: '0' | slice: -2, 2 }}">previous page</a>
       {% endif %}
       {{ page.town }} fieldbook, page {{ page.page }}
       {% assign numpages = 0 %}
@@ -40,7 +40,7 @@
         {% endif %}
       {% endfor %}
       {% if page.page < numpages %}
-        <span class="nav">page-{{ page.page | plus:1 | prepend: '0' | slice: -2, 2 }}</span>
+        <a class="nav" href="page-{{ page.page | plus:1 | prepend: '0' | slice: -2, 2 }}">next page</a>
       {% endif %}
     </header>
     <section class="image">
