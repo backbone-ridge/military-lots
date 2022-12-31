@@ -30,19 +30,22 @@
   <body>
     <header>
       {% if page.page > 1 %}
-        <a class="nav" href="page-{{ page.page | minus:1 | prepend: '0' | slice: -2, 2 }}">previous page</a>
+        <a class="prev" href="page-{{ page.page | minus:1 | prepend: '0' | slice: -2, 2 }}">previous page</a>
       {% endif %}
+    
       {{ page.town }} fieldbook, page {{ page.page }}
+    
       {% assign numpages = 0 %}
       {% for item in site.pages %}
         {% if item.town == page.town %}
-          {% assign numpages=numpages | plus:1 %}
+          {% assign numpages = numpages | plus:1 %}
         {% endif %}
       {% endfor %}
       {% if page.page < numpages %}
-        <a class="nav" href="page-{{ page.page | plus:1 | prepend: '0' | slice: -2, 2 }}">next page</a>
+        <a class="next" href="page-{{ page.page | plus:1 | prepend: '0' | slice: -2, 2 }}">next page</a>
       {% endif %}
     </header>
+
     <section class="image">
       <img src="../image/fieldbook/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="enlarge(this)" title="click to enlarge">
     </section>

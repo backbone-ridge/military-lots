@@ -340,13 +340,17 @@ header {
   text-align: center;
 }
 
-header a.prev {
+header a {
   position: absolute;
+  color: #888;
+}
+header a:hover {
+  color: #ff0;
+}
+header a.prev {
   left: 1em;
 }
-
 header a.next {
-  position: absolute;
   right: 1em;
 }
 
