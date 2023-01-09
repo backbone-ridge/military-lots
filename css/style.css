@@ -340,6 +340,16 @@ header {
   text-align: center;
 }
 
+wrap {
+  background: #eee;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 0.5em;
+}
+
 nav {
   position: fixed;
   width: 5%;
@@ -347,11 +357,11 @@ nav {
   text-align: center;
 }
 
-nav.left {
+nav.prev {
   left: 0;
 }
 
-nav.right {
+nav.next {
   right: 0;
 }
 
@@ -384,6 +394,7 @@ section.transcript {
   right: 5%;
   width: 63%;
   padding: 0 1% 2em;
+  overflow: auto;
 }
 
 section.transcript table {
@@ -397,12 +408,6 @@ section.transcript th, section.transcript td {
   text-align: left;
   width: auto;
   border: 1px solid #000;
-}
-
-footer {
-  background: #000;
-  color: #fff;
-  padding: 0.5em;
 }
 
 div.modal {

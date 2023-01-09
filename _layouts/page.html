@@ -37,22 +37,24 @@
       {% endfor %}
       {{ page.town }} fieldbook, page {{ page.page }} of {{ numpages }}
     </header>
-    <nav class="prev">
-      {% if page.page > 1 %}
-        <a href="page-{{ page.page | minus:1 | prepend: '0' | slice: -2, 2 }}">&#x2190;</a>
-      {% endif %}
-    </nav>
-    <section class="image">
-      <img src="../image/fieldbook/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="enlarge(this)" title="click to enlarge">
-    </section>
-    <section class="transcript">
-      {{ content }}
-    </section>
-    <nav class="next">
-      {% if page.page < numpages %}
-        <a class="next" href="page-{{ page.page | plus:1 | prepend: '0' | slice: -2, 2 }}">next page</a>
-      {% endif %}
-    </nav>
+    <div class="wrap">
+      <nav class="prev">
+        {% if page.page > 1 %}
+          <a href="page-{{ page.page | minus:1 | prepend: '0' | slice: -2, 2 }}">previous page</a>
+        {% endif %}
+      </nav>
+      <section class="image">
+        <img src="../image/fieldbook/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="enlarge(this)" title="click to enlarge">
+      </section>
+      <section class="transcript">
+        {{ content }}
+      </section>
+      <nav class="next">
+        {% if page.page < numpages %}
+          <a class="next" href="page-{{ page.page | plus:1 | prepend: '0' | slice: -2, 2 }}">next page</a>
+        {% endif %}
+      </nav>
+    </div>
     <footer>
       A project of the Backbone Ridge History Group
     </footer>
