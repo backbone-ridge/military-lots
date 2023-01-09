@@ -340,23 +340,31 @@ header {
   text-align: center;
 }
 
-header a {
-  position: absolute;
-  color: #888;
+nav {
+  position: fixed;
+  width: 5%;
+  top: 50%;
+  text-align: center;
 }
-header a:hover {
-  color: #ff0;
+
+nav.left {
+  left: 0;
 }
-header a.prev {
-  left: 1em;
+
+nav.right {
+  right: 0;
 }
-header a.next {
-  right: 1em;
+
+nav a {
+  color: #040;
+}
+nav a:hover {
+  color: #080;
 }
 
 section.image {
   position: fixed;
-  right: 0;
+  left: 5%;
   width: 25%;
   text-align: center;
 }
@@ -372,7 +380,9 @@ section.image img:hover {
 }
 
 section.transcript {
-  width: 73%;
+  position: fixed;
+  right: 5%;
+  width: 63%;
   padding: 0 1% 2em;
 }
 
