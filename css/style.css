@@ -362,7 +362,7 @@ footer {
 }
 
 nav {
-  width: 4em;
+  width: 1.3em; /* because font-size is 300% */
   top: 40%;
   text-align: center;
   position: fixed;
