@@ -335,7 +335,7 @@ img.zoomed {
 
 div.wrap {
   display: grid;
-  grid-template-columns: 5em 1fr 2fr 5em;
+  grid-template-columns: 4em 1fr 2fr 4em;
   grid-template-rows: 2em 1fr 2em;
 }
 
@@ -362,11 +362,11 @@ footer {
 }
 
 nav {
-  width: 5em;
+  width: 4em;
   top: 40%;
   text-align: center;
   position: fixed;
-  font-size: 150%;
+  font-size: 300%;
 }
 
 nav.prev {
@@ -379,6 +379,7 @@ nav.next {
 
 nav a {
   color: #68c;
+  text-decoration: none;
 }
 nav a:hover {
   color: #34f;

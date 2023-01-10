@@ -40,7 +40,7 @@
     <div class="wrap">
       <nav class="prev">
         {% if page.page > 1 %}
-          <a href="page-{{ page.page | minus:1 | prepend: '0' | slice: -2, 2 }}">&#x276e;<br>previous<br>page</a>
+          <a href="page-{{ page.page | minus:1 | prepend: '0' | slice: -2, 2 }}" title="previous page">&#x276e;</a>
         {% endif %}
       </nav>
       <section class="image">
@@ -51,7 +51,7 @@
       </section>
       <nav class="next">
         {% if page.page < numpages %}
-          <a class="next" href="page-{{ page.page | plus:1 | prepend: '0' | slice: -2, 2 }}">&#x276f;<br>next<br>page</a>
+          <a class="next" href="page-{{ page.page | plus:1 | prepend: '0' | slice: -2, 2 }}" title="next page">&#x276f;</a>
         {% endif %}
       </nav>
     </div>
