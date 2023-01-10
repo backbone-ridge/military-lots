@@ -363,18 +363,17 @@ footer {
 
 nav {
   width: 4em;
-  top: 33%;
+  top: 40%;
   text-align: center;
   position: fixed;
-  grid-row:2;
 }
 
 nav.prev {
-  grid-column: 1;
+  left:0
 }
 
 nav.next {
-  grid-column: 4;
+  right:0
 }
 
 nav a {
