@@ -14,6 +14,7 @@
         }
         let bigimg = document.createElement('img')
         bigimg.src = img.src
+        bigimg.attributes.title = 'click or press the "esc" key to close image'
         modal.append(bigimg)
         document.getElementsByTagName('body')[0].append(modal)
       }
