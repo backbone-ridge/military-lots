@@ -96,6 +96,12 @@ h3 {
   text-align: left;
 }
 
+pre {
+  background: #eee;
+  margin-left: 2em;
+  padding:6px;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
