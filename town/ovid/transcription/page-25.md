@@ -1,4 +1,8 @@
-![page 25](image/fieldbook/ovid-page-25.jpg)
+---
+town: Ovid
+page: 25
+layout: page
+---
 
 ## Lot No. 25
 

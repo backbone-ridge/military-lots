@@ -138,6 +138,11 @@ table tr .head {
   color: white;
 }
 
+img.thumb {
+  object-fit: contain;
+  max-width: 240px;
+}
+
 img.photo {
   object-fit: contain;
   max-width: 240px;
@@ -153,11 +158,11 @@ img.zoomed {
 
 .lot_label {
   background: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0;
   border: 0;
   border-radius: 0px;
-  box-shadow: 0 0px 0px;
   font-size: .85em;
-  color: rgb(0,0,0);
+  color: #ff4400;
   font-weight: 800;
 }
 
@@ -168,6 +173,11 @@ img.zoomed {
   font-size: 16px;
   cursor: pointer;
   color: white;
+}
+
+.journalLink {
+  padding: 1em;
+  font-weight: bold;
 }
 
 .custom .leaflet-popup-tip,
@@ -327,3 +337,110 @@ img.zoomed {
 }
 
 @media (max-width: 375px) {}
+
+
+
+
+/* for fieldbook page layouts */
+
+div.wrap {
+  display: grid;
+  grid-template-columns: 4em 1fr 2fr 4em;
+  grid-template-rows: 2em 1fr 2em;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  grid-column: 1/5;
+  grid-row: 1;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  grid-column: 1/5;
+  grid-row: 3;
+}
+
+nav {
+  width: 1.3em; /* because font-size is 300% */
+  top: 40%;
+  text-align: center;
+  position: fixed;
+  font-size: 300%;
+}
+
+nav.prev {
+  left:0
+}
+
+nav.next {
+  right:0
+}
+
+nav a {
+  color: #68c;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #34f;
+}
+
+section.image {
+  text-align: center;
+  grid-row: 2;
+  grid-column: 2;
+}
+
+section.image img {
+  width: 90%;
+  padding: 1em 0;
+}
+
+section.image img:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+section.transcript {
+  padding: 0 1% 2em;
+  grid-column: 3;
+  grid-row: 2;
+}
+
+section.transcript table {
+  width: auto;
+  margin: 1em;
+}
+section.transcript tr {
+  background:#fff
+}
+section.transcript th, section.transcript td {
+  text-align: left;
+  width: auto;
+  border: 1px solid #000;
+}
+
+div.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: #444;
+  text-align: center;
+}
+
+div.modal img {
+  max-width: 100%;
+}
