@@ -1,7 +1,7 @@
 ---
 town: Ovid
 page: 51
-layout: page
+layout: journal
 ---
 
 # Lot No. 56

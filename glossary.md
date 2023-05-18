@@ -1,6 +1,3 @@
----
-layout: default
----
 # Glossary
 
 Here below are listed various spellings and abbreviations commonly found in the manuscript.

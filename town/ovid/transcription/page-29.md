@@ -1,7 +1,7 @@
 ---
 town: Ovid
 page: 29
-layout: page
+layout: journal
 ---
 
 ## Lot No. 31

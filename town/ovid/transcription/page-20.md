@@ -1,7 +1,7 @@
 ---
 town: Ovid
 page: 20
-layout: page
+layout: journal
 ---
 
 ## Lot No. 20

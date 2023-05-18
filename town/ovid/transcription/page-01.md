@@ -1,7 +1,7 @@
 ---
 town: Ovid
 page: 1
-layout: page
+layout: journal
 ---
 
 # No. 16 Ovid

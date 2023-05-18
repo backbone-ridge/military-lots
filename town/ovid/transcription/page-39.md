@@ -1,7 +1,7 @@
 ---
 town: Ovid
 page: 39
-layout: page
+layout: journal
 ---
 
 ## Lot No. 43

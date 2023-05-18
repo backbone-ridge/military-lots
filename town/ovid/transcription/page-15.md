@@ -1,7 +1,7 @@
 ---
 town: Ovid
 page: 15
-layout: page
+layout: journal
 ---
 
 ## Lot No. 13

@@ -1,7 +1,7 @@
 ---
 town: Ovid
 page: 87
-layout: page
+layout: journal
 ---
 
 # Lot No. 99

@@ -1,7 +1,7 @@
 ---
 town: Ovid
 page: 32
-layout: page
+layout: journal
 ---
 
 ## Lot No. 35
