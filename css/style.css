@@ -349,6 +349,10 @@ div.wrap {
   grid-template-rows: 2em 1fr 2em;
 }
 
+div.default {
+  padding: 1em;
+}
+
 header {
   background: #000;
   color: #fff;
