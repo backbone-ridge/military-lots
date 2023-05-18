@@ -230,7 +230,8 @@ function renderData(v, msg='<i>No data</i>') {
 }
 
 function renderImage(v) {
-  let img = `<img class='photo' onclick='zoomImage(event)' src='https://raw.githubusercontent.com/backbone-ridge/photos/main/${v}'>`
+  let town = v.split('-')[0]
+  let img = `<img class='photo' onclick='zoomImage(event)' src='https://raw.githubusercontent.com/backbone-ridge/photos/main/${town}/${v}'>`
   return img
 }
 
