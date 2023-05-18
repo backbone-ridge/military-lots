@@ -1,4 +1,8 @@
-![page 44](image/fieldbook/ovid-page-44.jpg)
+---
+town: Ovid
+page: 44
+layout: page
+---
 
 ## Lot No. 48
 

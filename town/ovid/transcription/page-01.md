@@ -1,4 +1,8 @@
-![page 1](image/fieldbook/ovid-page-01.jpg)
+---
+town: Ovid
+page: 1
+layout: page
+---
 
 # No. 16 Ovid
 

@@ -1,4 +1,8 @@
-![page 16](image/fieldbook/ovid-page-16.jpg)
+---
+town: Ovid
+page: 16
+layout: page
+---
 
 ## Lot No. 14
 ### West Bounds of lot No. 14

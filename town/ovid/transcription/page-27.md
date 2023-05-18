@@ -1,4 +1,8 @@
-![page 27](image/fieldbook/ovid-page-27.jpg)
+---
+town: Ovid
+page: 27
+layout: page
+---
 
 ## Lot No. 28
 

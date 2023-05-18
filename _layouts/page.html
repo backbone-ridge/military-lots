@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.town }} fieldbook, page {{ page.page }}</title>
+    <link rel="stylesheet" href="/military-lots/css/style.css">
+    <script>
+      // enlarge the image into a modal that covers the screen
+      function enlarge(img) {
+        let modal = document.createElement('div')
+        modal.classList.add('modal')
+        modal.onclick = function() {
+          this.remove()
+        }
+        let bigimg = document.createElement('img')
+        bigimg.src = img.src
+        bigimg.setAttribute('title', 'click the image or press the "esc" key to close image')
+        modal.append(bigimg)
+        document.getElementsByTagName('body')[0].append(modal)
+      }
+      
+      // pressing 'ESCAPE' key will close modal
+      document.addEventListener('keydown', e => {
+        const k = e.key.toUpperCase()
+        if (k === 'ESCAPE') {
+          document.querySelector('.modal').remove()
+        }
+      })
+    </script>
+  </head>
+  <body>
+    <header>
+      {% assign numpages = 0 %}
+      {% for item in site.pages %}
+        {% if item.town == page.town %}
+          {% assign numpages = numpages | plus:1 %}
+        {% endif %}
+      {% endfor %}
+      {{ page.town }} fieldbook, page {{ page.page }} of {{ numpages }}
+    </header>
+    <div class="wrap">
+      <nav class="prev">
+        {% if page.page > 1 %}
+          <a href="page-{{ page.page | minus:1 | prepend: '0' | slice: -2, 2 }}" title="previous page">&#x276e;</a>
+        {% endif %}
+      </nav>
+      <section class="image">
+        <img src="../image/fieldbook/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="enlarge(this)" title="click to enlarge">
+      </section>
+      <section class="transcript">
+        {{ content }}
+      </section>
+      <nav class="next">
+        {% if page.page < numpages %}
+          <a class="next" href="page-{{ page.page | plus:1 | prepend: '0' | slice: -2, 2 }}" title="next page">&#x276f;</a>
+        {% endif %}
+      </nav>
+    </div>
+    <footer>
+      A project of the Backbone Ridge History Group
+    </footer>
+  </body>
+</html>
