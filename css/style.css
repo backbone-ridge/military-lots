@@ -138,6 +138,11 @@ table tr .head {
   color: white;
 }
 
+img.thumb {
+  object-fit: contain;
+  max-width: 240px;
+}
+
 img.photo {
   object-fit: contain;
   max-width: 240px;
@@ -153,11 +158,11 @@ img.zoomed {
 
 .lot_label {
   background: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0;
   border: 0;
   border-radius: 0px;
-  box-shadow: 0 0px 0px;
   font-size: .85em;
-  color: rgb(0,0,0);
+  color: #ff4400;
   font-weight: 800;
 }
 
@@ -168,6 +173,11 @@ img.zoomed {
   font-size: 16px;
   cursor: pointer;
   color: white;
+}
+
+.journalLink {
+  padding: 1em;
+  font-weight: bold;
 }
 
 .custom .leaflet-popup-tip,

@@ -1,13 +1,10 @@
-// Chloropleth colors, zoom levels, etc
-kibbee = {
+let kibbee = {
   colors: {
-    vertices_fill: '#72cbae',
-    vertices_outline: '#2ba3ab',
-    obs_fill: '#0075ae',
-    obs_outline: '#224b87',
-    lots_fill: 'rgba(255,255,255,0.2)',
-    lots_outline: '#ff0000',
-    bounds_outline: '#51c1b6',
+    obs_fill: '#0088ff',
+    obs_outline: '#000000',
+    lots_fill: '#ff440011',
+    lots_outline: '#ff4400',
+    // lot_label defined in style.css
     highlight: 'rgba(255, 242, 0, 0.4)',
   }
 }
@@ -203,17 +200,6 @@ function update_obs(feature, layer) {
   });
 }
 
-
-function update_vertices(feature, layer) {
-  layer.on({
-    mouseout: resetHighlight,
-    mouseover: highlightFeature,
-    click: html_vertices
-  });
-}
-
-
-
 function update_lots(feature, layer) {
   layer.on({
     mouseout: resetHighlight,
@@ -228,24 +214,6 @@ function update_lots(feature, layer) {
       className: 'lot_label'
     }
   );
-}
-
-
-function update_bounds(feature, layer) {
-  layer.on({
-    mouseout: resetHighlight,
-    //mouseover: highlightFeature_click,
-    click: html_bounds
-  });
-}
-
-
-function update_bounds_click(feature, layer) {
-  layer.on({
-    mouseout: resetHighlight,
-    mouseover: highlightFeature_click,
-    click: html_bounds
-  });
 }
 
 
@@ -281,32 +249,38 @@ function html_obs(e) {
 
   // console.log(layer)
 
+  var page2digit = ('' + layer.feature.properties['Page']).padStart(2,'0')
+
   var popupContent = `<div id = "info-body"><div id = "info-cnty-name">
     <h3>Surveyor&apos;s Observation</h3></div>
     <table id = "main">
     <tr>
+      <td scope="row">Township</td>
+      <th>${renderData(layer.feature.properties['Township'])}</th>
+    </tr>
+    <tr>
       <td scope="row">Lot No</td>
-      <th>${renderData(layer.feature.properties['lot_number'])}</th>
+      <th>${renderData(layer.feature.properties['Lot'])}</th>
     </tr>
     <tr>
       <td scope="row">Starting Corner</td>
-      <th>${renderData(layer.feature.properties['starting_corner'])}</th>
+      <th>${renderData(layer.feature.properties['Starting Corner'])}</th>
     </tr>
     <tr>
       <td scope="row">Direction</td>
-      <th>${renderData(layer.feature.properties['direction'])}</th>
+      <th>${renderData(layer.feature.properties['Direction'])}</th>
     </tr>
     <tr>
       <td scope="row">Chains</td>
-      <th>${renderData(layer.feature.properties['chains'])}</th>
+      <th>${renderData(layer.feature.properties['Chains'])}</th>
     </tr>
     <tr>
       <td scope="row">Links</td>
-      <th>${renderData(layer.feature.properties['links'], 0)}</th>
+      <th>${renderData(layer.feature.properties['Links'], 0)}</th>
     </tr>
     <tr>
       <td scope="row">Text</td>
-      <th>${renderData(layer.feature.properties['observation_text'])}</th>
+      <th>${renderData(layer.feature.properties['Observation'])}</th>
     </tr>`
     +
     (layer.feature.properties.photo ? `<tr>
@@ -314,7 +288,13 @@ function html_obs(e) {
       <th>${renderImage(layer.feature.properties['photo'])}</th>
     </tr>` : '')
     +
-    '</table></div>'
+    `</table>
+    <div class='journalLink'>
+      <a target='_blank' href="https://backbone-ridge.github.io/military-lots/town/ovid/transcription/page-${page2digit}">Ovid Journal page ${renderData(layer.feature.properties['Page'])}
+      <img class='thumb' src='https://backbone-ridge.github.io/military-lots/town/ovid/image/fieldbook/ovid-page-${page2digit}.jpg'</a>
+    </div>
+    </tr>
+    </div>`
 
   $('#layer_info').html(title + popupContent);
 
@@ -322,24 +302,6 @@ function html_obs(e) {
   openSidebar();
 
 }
-
-
-
-function html_vertices(e) {
-  var layer = e.target;
-
-  //console.log(layer)
-
-  var popupContent = '<div id = "info-body"><div id = "info-cnty-name military_lot_corner">' +
-    '<h3>Military Lot Corner</h3></div>' +
-    createTable(layer.feature.properties.corner_text) + '</div>'
-
-  $('#layer_info').html(title + popupContent);
-
-  toggleInfoTab();
-  openSidebar();
-}
-
 
 function html_lots(e) {
   var layer = e.target;
@@ -547,47 +509,6 @@ function style_obs() {
   }
 }
 
-function style_vertices() {
-  return {
-    pane: 'pane_vertices',
-    radius: 4,
-    opacity: 1,
-    color: kibbee.colors.vertices_outline,
-    dashArray: '',
-    lineCap: 'butt',
-    lineJoin: 'miter',
-    weight: 1,
-    fill: true,
-    fillOpacity: 1,
-    fillColor: kibbee.colors.vertices_fill
-  }
-}
-
-
-function style_bounds(props) {
-  return {
-    opacity: 1,
-    color: kibbee.colors.bounds_outline,
-    dashArray: '',
-    lineCap: 'square',
-    lineJoin: 'bevel',
-    weight: 2.0,
-    fillOpacity: 0,
-  };
-}
-
-
-
-function style_click_bounds(props) {
-  return {
-    opacity: 0,
-    weight: 15.0,
-    fillOpacity: 0,
-  };
-}
-
-
-
 function style_lots() {
   return {
     opacity: 1,
@@ -628,25 +549,13 @@ map.createPane('pane_lots');
 map.getPane('pane_lots').style.zIndex = 400;
 map.getPane('pane_lots').style['mix-blend-mode'] = 'normal';
 
-map.createPane('pane_click_bounds');
-map.getPane('pane_click_bounds').style.zIndex = 401;
-map.getPane('pane_click_bounds').style['mix-blend-mode'] = 'normal';
-
-map.createPane('pane_bounds');
-map.getPane('pane_bounds').style.zIndex = 401;
-map.getPane('pane_bounds').style['mix-blend-mode'] = 'normal';
-
-map.createPane('pane_vertices');
-map.getPane('pane_vertices').style.zIndex = 402;
-map.getPane('pane_vertices').style['mix-blend-mode'] = 'normal';
-
 map.createPane('pane_obs');
 map.getPane('pane_obs').style.zIndex = 403;
 map.getPane('pane_obs').style['mix-blend-mode'] = 'normal';
 
 
 
-var obs_lyr = new L.GeoJSON.AJAX('data/obs.geojson', {
+var obs_lyr = new L.GeoJSON.AJAX('data/observations.geojson', {
   pane: 'pane_obs',
   onEachFeature: update_obs,
   pointToLayer: function(feature, latlng) {
@@ -656,30 +565,6 @@ var obs_lyr = new L.GeoJSON.AJAX('data/obs.geojson', {
     };
     return L.circleMarker(latlng, style_obs(feature));
   }
-});
-
-var vertices_lyr = new L.GeoJSON.AJAX('data/vertices.geojson', {
-  pane: 'pane_vertices',
-  onEachFeature: update_vertices,
-  pointToLayer: function(feature, latlng) {
-    var context = {
-      feature: feature,
-      variables: {}
-    };
-    return L.circleMarker(latlng, style_vertices(feature));
-  }
-});
-
-var bounds_lyr = new L.GeoJSON.AJAX('data/bounds.geojson', {
-  pane: 'pane_bounds',
-  onEachFeature: update_bounds,
-  style: style_bounds
-});
-
-var bounds_click_lyr = new L.GeoJSON.AJAX('data/bounds.geojson', {
-  pane: 'pane_click_bounds',
-  onEachFeature: update_bounds_click,
-  style: style_click_bounds
 });
 
 var lots_lyr = new L.GeoJSON.AJAX('data/lots.geojson', {
@@ -694,9 +579,6 @@ var lots_lyr = new L.GeoJSON.AJAX('data/lots.geojson', {
 
 // Add layers
 map.addLayer(obs_lyr);
-map.addLayer(vertices_lyr);
-map.addLayer(bounds_lyr);
-map.addLayer(bounds_click_lyr);
 map.addLayer(lots_lyr);
 
 
@@ -706,8 +588,6 @@ var baseMaps = {
 };
 L.control.layers(baseMaps, {
   'Observations': obs_lyr,
-  'Corners': vertices_lyr,
-  'Bounds': bounds_lyr,
   'Lots': lots_lyr
 }, {
   collapsed: false
