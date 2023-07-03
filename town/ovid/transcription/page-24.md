@@ -23,9 +23,10 @@ Begining at the N.E. Corner described In page 17 [16SE] Run from thence Due Magn
 | At |    | Observations |
 | -- | -- | ------------ |
 | Chs | Lks | |
-| 48 | 29 | With an allowance of 46 link To the SE Corner of this lot To a Hickry Stake Standing In the South part of the West bounds of lot No. 27 and 19 links on a Course of West from a white Oak Tree  Sapling Mark’d on the NW s’d No. 25 on the SW s’d No. 26 |
+| 48 | 29 | With an allowance of 46 link To the SE Corner of this lot To a Hickry Stake Standing In the South part of the West bounds of lot No. 27 and 19 links on a Course of West from a white Oak ~~Tree~~ Sapling Mark’d on the NW s’d No. 25 on the SW s’d No. 26 |
 
-South bounds of Lot No.25
+### South bounds of Lot No.25
+
 Begining at the SW Corner at a Sassafras Stake Standing on the bank of the Seneca lake 10 links on a Course of North 51 East from a white Oak Tree Marked on the NE s’d  No. 25 on the SE s’d No. 26 from thence along the North bounds of Lot No. 26 Due Magnetic East
 
 | At |    | Observations |
