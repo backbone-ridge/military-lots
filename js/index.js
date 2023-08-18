@@ -253,8 +253,12 @@ function html_obs(e) {
   var page2digit = ('' + layer.feature.properties['Page']).padStart(2,'0')
 
   var popupContent = `<div id = "info-body"><div id = "info-cnty-name">
-    <h3>Surveyor&apos;s Observation</h3></div>
+    <h3>Surveyor&apos;s observation point</h3></div>
     <table id = "main">
+    <tr>
+      <td scope="row">id</td>
+      <th>${renderData(layer.feature.properties['id'])}</th>
+    </tr>
     <tr>
       <td scope="row">Township</td>
       <th>${renderData(layer.feature.properties['Township'])}</th>
