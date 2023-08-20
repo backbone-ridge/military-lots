@@ -1,3 +1,21 @@
+// fetch list of available photos
+
+let obs_photos = []
+
+$(document).ready(function () {
+  fetch('https://backbone-ridge.github.io/photos/list.html')
+    .then((response) => {
+      if (response.ok) response.text().then((text) => {
+        console.log(text)
+        let matches = [...text.matchAll(/<p>\/\w+\/(.*.jpg)<\/p>/ig)]
+        matches.forEach((m) => {
+          obs_photos.push(m[1])
+        })
+      })
+    })
+})
+
+
 let kibbee = {
   colors: {
     obs_fill: '#0088ff',
@@ -230,7 +248,7 @@ function renderData(v, msg='<i>No data</i>') {
 }
 
 function renderImage(v) {
-  let town = v.split('-')[0]
+  let town = v.split('-')[0].toLowerCase()
   let img = `<img class='photo' onclick='zoomImage(event)' src='https://raw.githubusercontent.com/backbone-ridge/photos/main/${town}/${v}'>`
   return img
 }
@@ -249,6 +267,15 @@ function html_obs(e) {
   var layer = e.target;
 
   // console.log(layer)
+
+  // check for photo
+  let id = layer.feature.properties['id']
+  let town = layer.feature.properties['Township']
+  obs_photos.forEach((p) => {
+    if (p.toLowerCase().startsWith(id.toLowerCase())) {
+      layer.feature.properties.photo = p
+    }
+  })
 
   var page2digit = ('' + layer.feature.properties['Page']).padStart(2,'0')
 
@@ -290,7 +317,7 @@ function html_obs(e) {
     +
     (layer.feature.properties.photo ? `<tr>
       <td scope="row">Photo</td>
-      <th>${renderImage(layer.feature.properties['photo'])}</th>
+      <th>${renderImage(layer.feature.properties.photo)}</th>
     </tr>` : '')
     +
     `</table>
