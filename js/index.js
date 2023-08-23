@@ -6,7 +6,6 @@ $(document).ready(function () {
   fetch('https://backbone-ridge.github.io/photos/list.html')
     .then((response) => {
       if (response.ok) response.text().then((text) => {
-        console.log(text)
         // match by town
         let matches = [...text.matchAll(/<p>\/\w+\/(.*.jpg)<\/p>/ig)]
         matches.forEach((m) => {
@@ -21,7 +20,6 @@ $(document).ready(function () {
           let lng = - parseFloat(coords[1])
           photocsv += `${file},${lng},${lat}\n`
         })
-        console.log(photocsv)
         photos_lyr = L.geoCsv(photocsv, {
           firstLineTitles: true,
           fieldSeparator: ',',
@@ -34,6 +32,7 @@ $(document).ready(function () {
           }
         })
         map.addLayer(photos_lyr)
+        controls.addOverlay(photos_lyr, 'Photos')
       })
     })
 })
@@ -74,13 +73,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 
 
-
-// var overlay_GoogleMaps_1 = L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
-//   opacity: 1.0
-// });
-// overlay_GoogleMaps_1.addTo(map);
-// map.addLayer(overlay_GoogleMaps_1);
-
 var Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
   attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
 });
@@ -96,21 +88,6 @@ var default_layer_info = '<div id = "info-body"><p>Make a selection to see info.
 $('#home').html(default_text);
 $('#layer_info').html(title + default_layer_info);
 
-
-
-/* function createTable(myArray) {
-    var result = "<table border=1>";
-    for(var i=0; i<myArray.length; i++) {
-        result += "<tr>";
-        for(var j=0; j<myArray[i].length; j++){
-            result += "<td scope='row'>"+myArray[i][j]+"</td>";
-        }
-        result += "</tr>";
-    }
-    result += "</table>";
-
-    return result;
-} */
 
 // Switch to layer info pane in sidebar if a layer is selected and the home pane is active
 function toggleInfoTab() {
@@ -152,77 +129,6 @@ function openSidebar() {
 }
 
 
-
-/*function createTable(myArray) {
-  console.log (myArray.length)
-
-  var result = "<table id = 'vertices'>";
-
-  if (myArray.length == 1){
-  } else {
-
-  for (var i = 0; i < myArray.length; i++) {
-
-    for (var j = 0; j < myArray[i].length; j++) {
-      result += "<tr>";
-      //result += "<td scope='row'>" + [j] + "</td>";
-      result += "<th scope='row' id='military_corner_text'>" + myArray[i][j] + "</th>";
-      result += "</tr>";
-    }
-  }
-  }
-  result += "</table>";
-
-  return result;
-}*/
-
-
-
-function createTable(myArray) {
-
-  //var result = "<table id = 'vertices'>";
-  var result = "<tr>"
-
-  var addRow = function(result, rowText) {
-    //result += "<tr>";
-    //result += "<td scope='row'>" + [j] + "</td>";
-    result += "<th scope='row' id='military_corner_text'>" +
-      rowText.replace(/(^.*?:)/, "<h4>$1</h4>") +
-      "</th>";
-    result += "</tr>";
-    return result;
-  }
-
-  for (var i = 0; i < myArray.length; i++) {
-
-    console.log (myArray[i].length)
-
-    if (!Array.isArray(myArray[i])) {
-      result += addRow(result, myArray[i])
-
-    } else {
-
-      var curr = ''
-
-      for (var j = 0; j < myArray[i].length; j++) {
-
-        curr += addRow(result, myArray[i][j])
-
-      }
-
-      result = curr
-    }
-  }
-  var finresult = "<table id = 'vertices'>" + result + "</table>";
-
-  return finresult;
-}
-
-
-
-
-
-
 var sidebar = L.control.sidebar('sidebar', {
   position: 'right',
   autopan: 'false'
@@ -257,7 +163,7 @@ function renderData(v, msg='<i>No data</i>') {
   // if v is null, empty, or 'NA'
   // returns 'No data' (or an optional msg)
   // otherwise returns v unchanged
-  if (v === null || v === '' || v === 'NA') {
+  if (v === null || v === undefined || v === '' || v === 'NA') {
     return msg
   }
   else {
@@ -354,9 +260,7 @@ function html_obs(e) {
 }
 
 function html_lots(e) {
-  var layer = e.target;
-
-  //console.log(layer)
+  var layer = e.target
 
   var popupContent = '<div id = "info-body"><div id = "info-cnty-name">' +
     '<h3>Military Lot</h3></div>' +
@@ -399,8 +303,6 @@ function html_lots(e) {
 function html_bounds(e) {
   var layer = e.target;
 
-  //console.log(layer)
-
   var popupContent = '<div id = "info-body"><div id = "info-cnty-name">' +
     '<h3>Military Lot Bounds</h3></div>' +
     '<table id = "main">\
@@ -426,21 +328,6 @@ function html_bounds(e) {
 
 
 
-
-// get color depending on polling place category
-/* function getColor(d) {
-  return d == "50+% decrease" ? pollmap.colors.cnty_fill_4 :
-    d == "25-50% decrease" ? pollmap.colors.cnty_fill_3 :
-    d == "10-25% decrease" ? pollmap.colors.cnty_fill_2 :
-    d == "0-10% decrease" ? pollmap.colors.cnty_fill_1 :
-    d == "No change or increase" ? pollmap.colors.cnty_fill_0 :
-    d == "-99999" ? pollmap.colors.cnty_fill_na :
-    pollmap.colors.cnty_fill_default;
-} */
-
-
-
-
 // legend stuff
 
 var legend = L.control({
@@ -461,8 +348,6 @@ legend.onAdd = function(map) {
       '<i style="background:' + getColor(grades[i]) + '"></i> ' +
       labelnm[i]);
   }
-
-  // div.innerHTML = '<h4>Change in open polling places<button type="button" id="legend-button" onclick="toggleLegend();"><i class="plus-icon" id="legend-icon"></i></button></h4><div id="legend-pane">' + labels.join('<br>') + '</div>';
 
   div.innerHTML = '<div id="legend-pane"><h3>Decrease in number of<br>open polling places</h3>' + labels.join('<br>') + '</div>';
   return div;
@@ -621,73 +506,29 @@ var lots_lyr = new L.GeoJSON.AJAX('data/lots.geojson', {
 
 
 // Add layers
-map.addLayer(obs_lyr);
-map.addLayer(lots_lyr);
+map.addLayer(obs_lyr)
+map.addLayer(lots_lyr)
 
 
 var baseMaps = {
   "Esri World Imagery": Esri_WorldImagery,
   "Esri World TopoMap": Esri_WorldTopoMap
 };
-L.control.layers(baseMaps, {
+let controls = L.control.layers(baseMaps, {
   'Observations': obs_lyr,
-  'Lots': lots_lyr
+  'Lots': lots_lyr,
 }, {
   collapsed: false
-}).addTo(map);
+})
+controls.addTo(map);
 
 
 
 // Resize map
 map.on('resize', function(e) {
+  // not sure if this is still needed...
   setTimeout(function() {
     map.invalidateSize(true)
   }, 400);
   map.fitBounds(bounds);
 })
-
-
-
-
-/* map.on('zoomend', function () {
-    currentZoom = map.getZoom();
-    if (currentZoom < 8) {
-        lots_lyr.setStyle({fillOpacity: 0.2});
-    }
-    else {
-        lots_lyr.setStyle({fillOpacity: 1});
-    }
-}); */
-
-
-
-// function toggleSideNav() {
-//   var infobox = document.getElementById("infobox");
-//   var infoboxClasses = infobox.classList;
-//   var infoboxResult = infoboxClasses.contains("col-xl-4");
-//   var mapDiv = document.getElementById("map");
-//   var mapClasses = mapDiv.classList;
-//   var toggleButton = document.getElementById("toggle-button");
-//
-//   if (infoboxResult) {
-//     infoboxClasses.remove("col-xl-4", "col-lg-4", "col-md-4");
-//     infoboxClasses.add("d-xl-none", "d-lg-none", "d-md-none", "col-sm-12");
-//     mapClasses.remove("col-xl-8", "col-lg-8", "col-md-8");
-//     mapClasses.add("col-xl-12", "col-lg-12", "col-md-12", "col-sm-12");
-//     toggleButton.innerHTML = "Show sidebar";
-//     setTimeout(function() {
-//       map.invalidateSize(true)
-//     }, 400);
-//     map.fitBounds(bounds);
-//   } else {
-//     infoboxClasses.remove("d-xl-none", "d-lg-none", "d-md-none", "col-sm-12");
-//     infoboxClasses.add("col-xl-4", "col-lg-4", "col-md-4");
-//     mapClasses.remove("col-xl-12", "col-lg-12", "col-md-12", "col-sm-12");
-//     mapClasses.add("col-xl-8", "col-lg-8", "col-md-8");
-//     toggleButton.innerHTML = "Hide sidebar";
-//     setTimeout(function() {
-//       map.invalidateSize(true)
-//     }, 400);
-//     map.fitBounds(bounds);
-//   }
-// }
