@@ -327,52 +327,6 @@ function html_bounds(e) {
 }
 
 
-
-// legend stuff
-
-var legend = L.control({
-  position: 'bottomleft'
-});
-
-
-legend.onAdd = function(map) {
-
-  var div = L.DomUtil.create('div', 'legend'),
-    grades = ["50+% decrease", "25-50% decrease", "10-25% decrease", "0-10% decrease", "No change or increase"],
-    labelnm = ["50+% decrease", "25 to <50% decrease", "10 to <25% decrease", "1 to <10% decrease", "No change or increase"],
-    labels = []
-
-  for (var i = 0; i < grades.length; i++) {
-
-    labels.push(
-      '<i style="background:' + getColor(grades[i]) + '"></i> ' +
-      labelnm[i]);
-  }
-
-  div.innerHTML = '<div id="legend-pane"><h3>Decrease in number of<br>open polling places</h3>' + labels.join('<br>') + '</div>';
-  return div;
-};
-
-
-
-function toggleLegend() {
-  var legendPane = document.getElementById("legend-pane");
-  var legendButton = document.getElementById("legend-button");
-
-  if (legendPane.style.display === "none") {
-    legendPane.style.display = "block";
-    legendButton.classList.add("active");
-  } else {
-    legendPane.style.display = "none";
-    legendButton.classList.remove("active");
-  }
-}
-
-//legend.addTo(map);
-
-
-
-
 // Highlight, info-related
 function highlightFeature(e) {
   var layer = e.target;

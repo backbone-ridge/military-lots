@@ -192,84 +192,6 @@ img.zoomed {
   /* max-width: 300px; */
 }
 
-/* thead td {
-  font-size: 1.5em;
-  font-weight: bolder;
-  letter-spacing: -0.022em;
-  line-height: 1em;
-  font-family: 'TTCommonsDemiBold', sans-serif;
-} */
-.charts-head {
-  /* padding: 8px; */
-}
-
-#charts-pane .charts-head {
-  /* padding-top: 0px; */
-}
-
-.charts-head p {
-  margin: 0px;
-  /* padding: 10px 5px;	 */
-  font-size: 1.3em;
-  line-height: 1.1em;
-  letter-spacing: -0.01em;
-}
-
-#legend-pane {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 5px 8px;
-}
-
-#legend-pane h3 {
-  margin: 0px;
-  padding-bottom: 10px;
-  font-size: 1.2em;
-  font-family: 'TTCommonsDemiBold', sans-serif;
-  letter-spacing: -0.022em;
-  line-height: 1em;
-}
-
-.legend {
-  text-align: left;
-  line-height: 18px;
-  /* color: #555; */
-  font-size: 0.9em;
-}
-
-.legend i {
-  width: 13px;
-  height: 13px;
-  float: left;
-  margin-right: 8px;
-  opacity: 1;
-}
-
-/* .info button {
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  text-align: center;
-  float: right;
-  position: relative;
-  border: none;
-}
-
-.info button:hover {
-  background-color: #E5E5E5;
-}
-
-.info button i {
-  font-style: normal;
-  font-weight: normal;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  width: 10px;
-  height: 10px;
-  display: block;
-} */
 .plus-icon {
   background-image: url('./../fonts/icon_plus_large.svg');
 }
@@ -280,33 +202,7 @@ img.zoomed {
 
 }
 
-#legend-button {
-  -webkit-transition-duration: .5s;
-  -moz-transition-duration: .5s;
-  -o-transition-duration: .5s;
-  transition-duration: .5s;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  -o-transition-property: -o-transform;
-  transition-property: transform;
-}
-
-#charts-button {
-  -webkit-transition-duration: .5s;
-  -moz-transition-duration: .5s;
-  -o-transition-duration: .5s;
-  transition-duration: .5s;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  -o-transition-property: -o-transform;
-  transition-property: transform;
-}
-
 @media (max-width: 1024px) {
-  #legend-pane {
-    display: block;
-  }
-
   .info-head h1 {
     font-size: 2em;
   }
