@@ -486,3 +486,12 @@ map.on('resize', function(e) {
   }, 400);
   map.fitBounds(bounds);
 })
+
+
+// capture map clicks and copy coordinates for photo filenames
+map.on('click', function(e) {
+  // limit coordinate precision to 5 digits
+  let x = e.latlng.lng.toString().replace(/(\.\d{5})(\d+)/, "$1")
+  let y = e.latlng.lat.toString().replace(/(\.\d{5})(\d+)/, "$1")
+  navigator.clipboard.writeText(y+x)
+})
