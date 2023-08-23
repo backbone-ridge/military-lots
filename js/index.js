@@ -1,27 +1,45 @@
 // fetch list of available photos
-
 let obs_photos = []
-
+let photocsv = 'file,lng,lat\n'
+let photos_lyr
 $(document).ready(function () {
   fetch('https://backbone-ridge.github.io/photos/list.html')
     .then((response) => {
       if (response.ok) response.text().then((text) => {
         console.log(text)
+        // match by town
         let matches = [...text.matchAll(/<p>\/\w+\/(.*.jpg)<\/p>/ig)]
         matches.forEach((m) => {
           obs_photos.push(m[1])
         })
+        // match by latlon
+        matches = [...text.matchAll(/<p>\/latlon\/((.*).jpg)<\/p>/ig)]
+        matches.forEach((m) => {
+          let file = m[1]
+          let coords = m[2].split('-')
+          let lat = parseFloat(coords[0])
+          let lng = - parseFloat(coords[1])
+          photocsv += `${file},${lng},${lat}\n`
+        })
+        console.log(photocsv)
+        photos_lyr = L.geoCsv(photocsv, {
+          firstLineTitles: true,
+          fieldSeparator: ',',
+          pointToLayer: function(feature, latlng) {
+            var context = {
+              feature: feature,
+              variables: {}
+            };
+            return L.circleMarker(latlng, style_photo(feature))
+          }
+        })
+        map.addLayer(photos_lyr)
       })
     })
 })
 
-
 let kibbee = {
   colors: {
-    obs_fill: '#0088ff',
-    obs_outline: '#000000',
-    lots_fill: '#ff440011',
-    lots_outline: '#ff4400',
     // lot_label defined in style.css
     highlight: 'rgba(255, 242, 0, 0.4)',
   }
@@ -266,7 +284,7 @@ function zoomImage(e) {
 function html_obs(e) {
   var layer = e.target;
 
-  // console.log(layer)
+  layer.bringToBack() // to allow any overlapping features to be clicked next
 
   // check for photo
   let id = layer.feature.properties['id']
@@ -475,36 +493,16 @@ function highlightFeature(e) {
   var layer = e.target;
 
   layer.setStyle({
-    weight: 2,
-    fillColor: kibbee.colors.highlight,
+    weight: 3,
+    fillColor: '#00000066',
     dashArray: '',
-    fillOpacity: 0.9,
-    color: kibbee.colors.highlight
+    color: '#00000066'
   });
 
   if (!L.Browser.ie && !L.Browser.opera) {
     layer.bringToFront();
   }
 }
-
-
-function highlightFeature_click(e) {
-  var layer = e.target;
-
-  layer.setStyle({
-    weight: 10,
-    fillColor: kibbee.colors.highlight,
-    dashArray: '',
-    opacity: 0.9,
-    color: kibbee.colors.highlight
-  });
-
-  if (!L.Browser.ie && !L.Browser.opera) {
-    layer.bringToFront();
-  }
-}
-
-
 
 
 function resetHighlight(e) {
@@ -530,28 +528,41 @@ function style_obs() {
     pane: 'pane_obs',
     radius: 4,
     opacity: 1,
-    color: kibbee.colors.obs_outline,
+    color: '#ccccff',
+    weight: 1,
+    fill: true,
+    fillOpacity: 1,
+    fillColor: '#0088ff'
+  }
+}
+
+function style_photo() {
+  return {
+    pane: 'pane_obs',
+    radius: 8,
+    opacity: 1,
+    color: '#000000',
     dashArray: '',
     lineCap: 'butt',
     lineJoin: 'miter',
     weight: 1,
     fill: true,
     fillOpacity: 1,
-    fillColor: kibbee.colors.obs_fill
+    fillColor: '#00cc00'
   }
 }
 
 function style_lots() {
   return {
     opacity: 1,
-    color: kibbee.colors.lots_outline,
+    color: '#ff4400',
     dashArray: '',
     lineCap: 'butt',
     lineJoin: 'miter',
     weight: 2.0,
     fill: true,
     fillOpacity: 1,
-    fillColor: kibbee.colors.lots_fill
+    fillColor: '#ff440011'
   }
 }
 
