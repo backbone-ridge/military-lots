@@ -32,17 +32,10 @@ $(document).ready(function () {
           }
         })
         map.addLayer(photos_lyr)
-        controls.addOverlay(photos_lyr, 'Photos')
+        addLegend()
       })
     })
 })
-
-let kibbee = {
-  colors: {
-    // lot_label defined in style.css
-    highlight: 'rgba(255, 242, 0, 0.4)',
-  }
-}
 
 var southWest = new L.LatLng(42.45, -76.9),
   northEast = new L.LatLng(42.65, -76.4),
@@ -378,7 +371,7 @@ function style_obs() {
 function style_photo() {
   return {
     pane: 'pane_obs',
-    radius: 8,
+    radius: 6,
     opacity: 1,
     color: '#000000',
     dashArray: '',
@@ -468,15 +461,38 @@ var baseMaps = {
   "Esri World Imagery": Esri_WorldImagery,
   "Esri World TopoMap": Esri_WorldTopoMap
 };
-let controls = L.control.layers(baseMaps, {
-  'Observations': obs_lyr,
-  'Lots': lots_lyr,
-}, {
+let controls = L.control.layers(baseMaps, null, {
   collapsed: false
 })
 controls.addTo(map);
 
-
+function addLegend() {
+  L.control.Legend({
+    position: "topright",
+    legends: [{
+        label: "Photos",
+        type: "circle",
+        radius: 6,
+        weight: 1,
+        color: '#000000',
+        fillColor: "#00cc00",
+        layers: photos_lyr
+    },{
+      label: "Observations",
+      type: "circle",
+      radius: 4,
+      color: '#ccccff',
+      fillColor: "#0088ff",
+      layers: obs_lyr
+    },{
+      label: "Lots",
+      type: "rectangle",
+      color: '#ff4400',
+      fillColor: "#ff440011",
+      layers: lots_lyr
+    }]
+  }).addTo(map);
+}
 
 // Resize map
 map.on('resize', function(e) {
