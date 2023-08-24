@@ -167,8 +167,8 @@ img.zoomed {
   box-shadow: 0 0 0;
   border: 0;
   border-radius: 0px;
-  font-size: .85em;
-  color: #ff4400;
+  font-size: 1em;
+  color: #ff6644;
   font-weight: 800;
 }
 
@@ -196,6 +196,11 @@ img.zoomed {
 
 .leaflet-legend-item i {
   margin-right: 0.5em;
+}
+
+.leaflet-legend-contents::after {
+  content: '(click layer to toggle on/off)';
+  font-style: italic;
 }
 
 .custom .leaflet-popup-tip,

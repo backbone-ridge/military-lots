@@ -153,7 +153,7 @@ function update_lots(feature, layer) {
 
 
 function renderData(v, msg='<i>No data</i>') {
-  // if v is null, empty, or 'NA'
+  // if v is null, undefined, empty, or 'NA'
   // returns 'No data' (or an optional msg)
   // otherwise returns v unchanged
   if (v === null || v === undefined || v === '' || v === 'NA') {
@@ -364,7 +364,7 @@ function style_obs() {
     weight: 1,
     fill: true,
     fillOpacity: 1,
-    fillColor: '#0088ff'
+    fillColor: '#0044cc'
   }
 }
 
@@ -375,8 +375,6 @@ function style_photo() {
     opacity: 1,
     color: '#000000',
     dashArray: '',
-    lineCap: 'butt',
-    lineJoin: 'miter',
     weight: 1,
     fill: true,
     fillOpacity: 1,
@@ -387,14 +385,14 @@ function style_photo() {
 function style_lots() {
   return {
     opacity: 1,
-    color: '#ff4400',
+    color: '#ff6644',
     dashArray: '',
     lineCap: 'butt',
     lineJoin: 'miter',
     weight: 2.0,
     fill: true,
     fillOpacity: 1,
-    fillColor: '#ff440011'
+    fillColor: '#ff664411'
   }
 }
 
@@ -404,10 +402,10 @@ function zoomControls(x) {
     //map.setView([42.6007, -76.7335], 11);
     map.options.minZoom = 11;
     map.options.maxZoom = 16;
-    map.scrollWheelZoom.disable();
+    //map.scrollWheelZoom.disable();
   } else {
     //map.setView([42.6107, -76.6735], 12);
-    map.options.minZoom = 12;
+    map.options.minZoom = 10;
     map.options.maxZoom = 18;
     map.scrollWheelZoom.enable();
   }
