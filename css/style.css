@@ -199,8 +199,16 @@ img.zoomed {
 }
 
 .leaflet-legend-contents::after {
-  content: '(click layer to toggle on/off)';
+  content: '(click to toggle on/off)';
   font-style: italic;
+}
+
+.leaflet-sidebar-close {
+  width: 20px;
+}
+
+.leaflet-sidebar-pane {
+  padding-top: 0;
 }
 
 .custom .leaflet-popup-tip,

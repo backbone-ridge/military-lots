@@ -2,7 +2,7 @@
 let obs_photos = []
 let photocsv = 'file,lng,lat\n'
 let photos_lyr
-$(document).ready(function () {
+document.addEventListener('DOMContentLoaded', function () {
   fetch('https://backbone-ridge.github.io/photos/list.html')
     .then((response) => {
       if (response.ok) response.text().then((text) => {
@@ -76,10 +76,10 @@ map.addLayer(Esri_WorldTopoMap);
 
 var title = '<div class="info-head"><h1>Backbone Ridge History Group</h1><h2>Interactive Map of Military Lots</h2>'
 var default_text = '<div id = "info">' + title + '<div id = "info-body"><p>The New Military Tract is a group of 28 towns in central New York State that were laid out and then surveyed into one-hundred 600-acre lots from 1789-91. The military lots were used to compensate New York soldiers for their service during the Revolutionary War. The lots were awarded by random ballots, one lot for each private and multiple lots for officers. There were various set-asides and reservations.</p><p>This interactive map will allow you to follow the original survey lot lines of Ovid and Hector, the towns encompassing the Backbone Ridge, located between Seneca and Cayuga Lakes. Eventually you will have access to views of the original manuscript, the transcription of each page and other information. The current edition of the map shows the original ballotee—the soldier who was awarded the lot – and identifies the person who actually settled the lot. It also provides the surveyors’ descriptions of the forest landscape along the survey lines.</p><p>The transcription of the surveyors’ notebooks and the map planning were done by a group of volunteers as part of the Backbone Ridge History Group (BRHG), with the generous support of the Nelson B. Delavan Foundation. The BRHG is committed to preserving the history of the Backbone Ridge.</p><hr class="info-body-break"><p>We dedicate this project to the man who envisioned this interactive map, Allan Buddle. Allan passed away before we were able to share this project with the public but he was with us as we began the adventure of transcribing the field books.</p><p>We hope you enjoy using the map and might even take it along as you walk the trails that follow some of the original lot lines. Imagine, as Allan did, the old homesteads, the lowing of cattle and the serene beauty of the Backbone Ridge.</p></div></div></div>'
-var default_layer_info = '<div id = "info-body"><p>Make a selection to see info.</p></div>'
+var default_layer_info = '<div id = "info-body"><p>Click a feature on the map</p></div>'
 
-$('#home').html(default_text);
-$('#layer_info').html(title + default_layer_info);
+document.getElementById('home').innerHTML = default_text;
+document.getElementById('layer_info').innerHTML = title + default_layer_info;
 
 
 // Switch to layer info pane in sidebar if a layer is selected and the home pane is active
@@ -245,7 +245,7 @@ function html_obs(e) {
     </tr>
     </div>`
 
-  $('#layer_info').html(title + popupContent);
+  document.getElementById('layer_info').innerHTML = title + popupContent;
 
   toggleInfoTab();
   openSidebar();
@@ -284,36 +284,7 @@ function html_lots(e) {
         </tr>\
     </table></div>'
 
-  $('#layer_info').html(title + popupContent);
-
-  toggleInfoTab();
-  openSidebar();
-}
-
-
-
-
-function html_bounds(e) {
-  var layer = e.target;
-
-  var popupContent = '<div id = "info-body"><div id = "info-cnty-name">' +
-    '<h3>Military Lot Bounds</h3></div>' +
-    '<table id = "main">\
-    <tr>\
-            <td scope="row">Bounds</td>\
-            <th>' + renderData(layer.feature.properties['boundary']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Journal Text</td>\
-            <th>' + renderData(layer.feature.properties['info_text']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Journal Page</td>\
-            <th>' + renderData(layer.feature.properties['journal_page']) + '</th>\
-        </tr>\
-    </table></div>'
-
-  $('#layer_info').html(title + popupContent);
+    document.getElementById('layer_info').innerHTML = title + popupContent;
 
   toggleInfoTab();
   openSidebar();
@@ -493,16 +464,16 @@ function addLegend() {
 }
 
 // Resize map
-map.on('resize', function(e) {
-  // not sure if this is still needed...
-  setTimeout(function() {
-    map.invalidateSize(true)
-  }, 400);
-  map.fitBounds(bounds);
-})
+// not sure if this is still needed...
+//map.on('resize', function(e) {
+//  setTimeout(function() {
+//    map.invalidateSize(true)
+//  }, 400);
+//  map.fitBounds(bounds);
+//})
 
 
-// capture map clicks and copy coordinates for photo filenames
+// clicking the map will copy latlon coordinates to be used for photo filenames
 map.on('click', function(e) {
   // limit coordinate precision to 5 digits
   let x = e.latlng.lng.toString().replace(/(\.\d{5})(\d+)/, "$1")
