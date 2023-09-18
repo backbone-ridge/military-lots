@@ -18,7 +18,7 @@ Begining at the SE Corner of Said lot at a Hickry Stake Standing 4 links NE from
 
 ### South bounds of lot No. 36
 
-Begining at the Southwest corner of S’d lot at a Thorn Bush Stak Standing In the North part of the West bounds of lot No. 43 and 39 links on a Course of South 28 West from a white Oak Tree Marked on the NE side No 36 on the SE side No. 45 from Thence Due Magnetic West along the North bounds of lot No. 45
+Begining at the Southwest corner of S’d lot at a Thorn Bush Stak Standing In the North part of the West bounds of lot No. 43 and 39 links on a Course of South 28 West from a white Oak Tree Marked on the NE side No 36 on the SE side No. 45 from Thence Due Magnetic West [East] along the North bounds of lot No. 45
 
 | At |    | Observations |
 | -- | -- | ------------ |
