@@ -157,7 +157,7 @@ img.photo {
 img.zoomed {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   height: 100%;
   z-index: 9999;
 }
@@ -179,6 +179,10 @@ img.zoomed {
   font-size: 16px;
   cursor: pointer;
   color: white;
+}
+
+.info-head h1 {
+  margin: 0;
 }
 
 .journalLink {
@@ -203,11 +207,11 @@ img.zoomed {
   font-style: italic;
 }
 
-.leaflet-sidebar-close {
-  width: 20px;
+.sidebar-header {
+  display: none;
 }
 
-.leaflet-sidebar-pane {
+x.leaflet-sidebar-pane {
   padding-top: 0;
 }
 

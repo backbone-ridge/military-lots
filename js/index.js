@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         photos_lyr = L.geoCsv(photocsv, {
           firstLineTitles: true,
           fieldSeparator: ',',
+          onEachFeature: update_photo,
           pointToLayer: function(feature, latlng) {
             var context = {
               feature: feature,
@@ -37,8 +38,8 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 })
 
-var southWest = new L.LatLng(42.45, -76.9),
-  northEast = new L.LatLng(42.65, -76.4),
+var southWest = new L.LatLng(42.53, -76.9),
+  northEast = new L.LatLng(42.69, -76.6),
   bounds = new L.LatLngBounds(southWest, northEast);
 
 var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
@@ -123,8 +124,8 @@ function openSidebar() {
 
 
 var sidebar = L.control.sidebar('sidebar', {
-  position: 'right',
-  autopan: 'false'
+  xposition: 'right',
+  xautopan: 'false'
 }).addTo(map);
 
 function update_obs(feature, layer) {
@@ -133,6 +134,12 @@ function update_obs(feature, layer) {
     mouseover: highlightFeature,
     click: html_obs
   });
+}
+
+function update_photo(feature, layer) {
+  layer.on({
+    click: html_photo
+  })
 }
 
 function update_lots(feature, layer) {
@@ -179,11 +186,29 @@ function zoomImage(e) {
   document.querySelector('body').append(zoomed)
 }
 
+function html_photo(e) {
+  let layer = e.target
+  //layer.bringToBack() // to allow any overlapping features to be clicked next
+  console.log(layer)
+  let file = layer.feature.properties.file
+  let popupContent = `
+    <div id="info-body">
+      <h3>Photo</h3>
+      <img class="photo" onclick="zoomImage(event)" src="https://backbone-ridge.github.io/photos/latlon/${file}">
+    </div>
+  `
+  document.getElementById('layer_info').innerHTML = popupContent;
+  toggleInfoTab();
+  openSidebar();
+}
+
 
 function html_obs(e) {
   var layer = e.target;
 
   layer.bringToBack() // to allow any overlapping features to be clicked next
+  console.log(layer)
+  layer._radius = 10
 
   // check for photo
   let id = layer.feature.properties['id']
@@ -297,9 +322,9 @@ function highlightFeature(e) {
 
   layer.setStyle({
     weight: 3,
-    fillColor: '#00000066',
+    fillColor: '#00000044',
     dashArray: '',
-    color: '#00000066'
+    color: '#00000044'
   });
 
   if (!L.Browser.ie && !L.Browser.opera) {
@@ -372,11 +397,11 @@ function zoomControls(x) {
   if (x.matches) {
     //map.setView([42.6007, -76.7335], 11);
     map.options.minZoom = 11;
-    map.options.maxZoom = 16;
+    map.options.maxZoom = 18;
     //map.scrollWheelZoom.disable();
   } else {
     //map.setView([42.6107, -76.6735], 12);
-    map.options.minZoom = 10;
+    map.options.minZoom = 11;
     map.options.maxZoom = 18;
     map.scrollWheelZoom.enable();
   }

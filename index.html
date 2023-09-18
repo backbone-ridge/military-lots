@@ -21,38 +21,37 @@
 
 <body>
 
-  <div id="sidebar" class="leaflet-sidebar">
+  <div id="sidebar" class="sidebar">
     <!-- Nav tabs -->
-    <div class="leaflet-sidebar-tabs">
+    <div class="sidebar-tabs">
       <ul role="tablist">
-        <li class="active" id="home-tab"><a href="#home_pane" role="tab"><i id="home-icon" class="fa fa-bars"></i></a></li>
-        <li id="info-tab"><a href="#layer_info_pane" role="tab"><i class="fa fa-info"></i></a></li>
+        <li class="active" id="home-tab"><a href="#home_pane" role="tab"><i id="home-icon" class="fa fa-info-circle"></i></a></li>
+        <li id="info-tab"><a href="#layer_info_pane" role="tab"><i class="fa fa-map"></i></a></li>
       </ul>
     </div>
 
     <!-- Tab panes -->
-    <div class="leaflet-sidebar-content">
-      <div class="leaflet-sidebar-pane active" id="home_pane">
-        <h1 class="leaflet-sidebar-header">
-          <span class="leaflet-sidebar-close"><i class="fa fa-caret-right"></i></span>
+    <div class="sidebar-content">
+      <div class="sidebar-pane active" id="home_pane">
+        <h1 class="sidebar-header">
+          <span class="sidebar-close"><i class="fa fa-caret-right"></i></span>
         </h1>
         <div id="home"></div>
       </div>
 
-      <div class="leaflet-sidebar-pane" id="layer_info_pane">
-        <h1 class="leaflet-sidebar-header">
-          <span class="leaflet-sidebar-close"><i class="fa fa-caret-right"></i></span>
+      <div class="sidebar-pane" id="layer_info_pane">
+        <h1 class="sidebar-header">
+          <span class="sidebar-close"><i class="fa fa-caret-right"></i></span>
         </h1>
         <div id="layer_info"></div>
       </div>
     </div>
   </div>
-  <div id="map" class="leaflet-sidebar-map"></div>
+  <div id="map" class="sidebar-map"></div>
 
 
   <script src="js/leaflet.js"></script>
-  <script src="js/leaflet-sidebar.js"></script>
-  <script src="js/L.Control.Button.js"></script>
+  <script src="js/leaflet-sidebar.min.js"></script>
   <script src="js/leaflet.ajax.min.js"></script>
   <script src="js/leaflet.geocsv.js"></script>
   <script src="js/leaflet.legend.js"></script>
