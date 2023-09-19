@@ -189,39 +189,64 @@ function zoomImage(e) {
 function html_photo(e) {
   let layer = e.target
   //layer.bringToBack() // to allow any overlapping features to be clicked next
-  console.log(layer)
   let file = layer.feature.properties.file
+  let url = `https://backbone-ridge.github.io/photos/latlon/${file}`
+
   let popupContent = `
     <div id="info-body">
       <h3>Photo</h3>
-      <img class="photo" onclick="zoomImage(event)" src="https://backbone-ridge.github.io/photos/latlon/${file}">
+      <figure>
+        <img class="photo" onclick="zoomImage(event)" src="${url}">
+      </figure>
     </div>
   `
+
   document.getElementById('layer_info').innerHTML = popupContent;
   toggleInfoTab();
   openSidebar();
+  let img = document.querySelector('#layer_info img.photo')
+  img.onload = image_metadata
+}
+
+function image_metadata(e) {
+  let img = document.querySelector('#layer_info img.photo')
+  EXIF.getData(e.target, () => {
+
+    // Try to get caption from EXIF data embedded in the image
+    console.log(EXIF.getAllTags(this))
+    let title = EXIF.getTag(this, "ImageDescription")
+    title ||= '(no caption available)'
+    let caption = document.createElement('figcaption')
+    caption.innerHTML = title
+    img.before(caption)
+
+    // Try to get coordinates from the image filename
+    let m = img.src.match(/\/(\d+\.\d+)(-\d+.\d+)(-.*)?.jpg/)
+    if (m.length > 2) {
+      let coords = document.createElement('p')
+      coords.classList.add('coords')
+      coords.innerHTML = `Coordinates: ${m[2]}, ${m[1]}`
+      img.before(coords)
+    }
+  })
 }
 
 
 function html_obs(e) {
   var layer = e.target;
+  //console.log(layer)
 
-  layer.bringToBack() // to allow any overlapping features to be clicked next
-  console.log(layer)
+  // allow any overlapping features to be clicked next
+  layer.bringToBack()
+
+  // make the clicked point larger, and reset all the other markers
+  //obs_lyr.resetStyle()
   layer._radius = 10
 
-  // check for photo
-  let id = layer.feature.properties['id']
   let town = layer.feature.properties['Township']
-  obs_photos.forEach((p) => {
-    if (p.toLowerCase().startsWith(id.toLowerCase())) {
-      layer.feature.properties.photo = p
-    }
-  })
-
   var page2digit = ('' + layer.feature.properties['Page']).padStart(2,'0')
 
-  var popupContent = `<div id = "info-body"><div id = "info-cnty-name">
+  var popupContent = `<div id="info-body"><div id="info-cnty-name">
     <h3>Surveyor&apos;s observation point</h3></div>
     <table id = "main">
     <tr>
@@ -255,17 +280,11 @@ function html_obs(e) {
     <tr>
       <td scope="row">Text</td>
       <th>${renderData(layer.feature.properties['Observation'])}</th>
-    </tr>`
-    +
-    (layer.feature.properties.photo ? `<tr>
-      <td scope="row">Photo</td>
-      <th>${renderImage(layer.feature.properties.photo)}</th>
-    </tr>` : '')
-    +
-    `</table>
+    </tr>
+    </table>
     <div class='journalLink'>
-      <a target='_blank' href="https://backbone-ridge.github.io/military-lots/town/ovid/transcription/page-${page2digit}">Ovid Journal page ${renderData(layer.feature.properties['Page'])}
-      <img class='thumb' src='https://backbone-ridge.github.io/military-lots/town/ovid/image/fieldbook/ovid-page-${page2digit}.jpg'</a>
+      <a target='_blank' href="https://backbone-ridge.github.io/military-lots/town/${town.toLowerCase()}/transcription/page-${page2digit}">${town} Journal page ${renderData(layer.feature.properties['Page'])}
+      <img class='thumb' src='https://backbone-ridge.github.io/military-lots/town/${town.toLowerCase()}/image/fieldbook/ovid-page-${page2digit}.jpg'</a>
     </div>
     </tr>
     </div>`

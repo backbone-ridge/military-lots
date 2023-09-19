@@ -144,6 +144,18 @@ table tr .head {
   color: white;
 }
 
+figure {
+  margin: 1em;
+}
+
+figcaption {
+  font-weight: bold;
+}
+
+.coords {
+  font-size: 75%;
+}
+
 img.thumb {
   object-fit: contain;
   max-width: 240px;
@@ -151,15 +163,26 @@ img.thumb {
 
 img.photo {
   object-fit: contain;
-  max-width: 240px;
+  max-width: 95%;
+  border: 2px solid #fff;
+}
+
+img.photo:hover {
+  border: 2px solid #000;
+  cursor: zoom-in;
 }
 
 img.zoomed {
+  border: 2px solid #000;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   z-index: 9999;
+}
+
+img.zoomed:hover {
+  cursor: zoom-out;
 }
 
 .lot_label {
@@ -209,6 +232,10 @@ img.zoomed {
 
 .sidebar-header {
   display: none;
+}
+
+.sidebar-content {
+  background: #fff;
 }
 
 x.leaflet-sidebar-pane {
