@@ -517,10 +517,11 @@ function addLegend() {
 //})
 
 
-// clicking the map will copy latlon coordinates to be used for photo filenames
+// clicking the map will copy coordinates to be pasted in photo spreadsheet
 map.on('click', function(e) {
   // limit coordinate precision to 5 digits
   let x = e.latlng.lng.toString().replace(/(\.\d{5})(\d+)/, "$1")
   let y = e.latlng.lat.toString().replace(/(\.\d{5})(\d+)/, "$1")
-  navigator.clipboard.writeText(y+x)
+  // join with a tab character, so that it will paste into two adjacent cells
+  navigator.clipboard.writeText(x + '\t' + y)
 })
