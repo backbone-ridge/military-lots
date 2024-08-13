@@ -1,35 +1,19 @@
 // fetch list of available photos
 let obs_photos = []
-let photocsv = 'file,lng,lat\n'
 let photos_lyr
 document.addEventListener('DOMContentLoaded', function () {
-  fetch('https://backbone-ridge.github.io/photos/list.html')
+  fetch('../photos/photos.csv')
     .then((response) => {
-      if (response.ok) response.text().then((text) => {
-        // match by town
-        let matches = [...text.matchAll(/<p>\/\w+\/(.*.jpg)<\/p>/ig)]
-        matches.forEach((m) => {
-          obs_photos.push(m[1])
-        })
-        // match by latlon
-        matches = [...text.matchAll(/<p>\/latlon\/((.*).jpg)<\/p>/ig)]
-        matches.forEach((m) => {
-          let file = m[1]
-          let coords = m[2].split('-')
-          let lat = parseFloat(coords[0])
-          let lng = - parseFloat(coords[1])
-          photocsv += `${file},${lng},${lat}\n`
-        })
-        photos_lyr = L.geoCsv(photocsv, {
+      if (response.ok) response.text().then((csvtext) => {
+        photos_lyr = L.geoCsv(csvtext, {
           firstLineTitles: true,
           fieldSeparator: ',',
+          latitudeTitle: 'latitude',
+          longitudeTitle: 'longitude',
           onEachFeature: update_photo,
           pointToLayer: function(feature, latlng) {
-            var context = {
-              feature: feature,
-              variables: {}
-            };
             return L.circleMarker(latlng, style_photo(feature))
+              .bindTooltip('Photo: ' + (feature.properties.title || '(no caption)'))
           }
         })
         map.addLayer(photos_lyr)
@@ -171,12 +155,6 @@ function renderData(v, msg='<i>No data</i>') {
   }
 }
 
-function renderImage(v) {
-  let town = v.split('-')[0].toLowerCase()
-  let img = `<img class='photo' onclick='zoomImage(event)' src='https://raw.githubusercontent.com/backbone-ridge/photos/main/${town}/${v}'>`
-  return img
-}
-
 function zoomImage(e) {
   let img = e.target
   let zoomed = document.createElement('img')
@@ -188,14 +166,18 @@ function zoomImage(e) {
 
 function html_photo(e) {
   let layer = e.target
-  //layer.bringToBack() // to allow any overlapping features to be clicked next
-  let file = layer.feature.properties.file
-  let url = `https://backbone-ridge.github.io/photos/latlon/${file}`
+  layer.bringToBack() // to allow any overlapping features to be clicked next
+  let coords = layer.feature.geometry.coordinates
+  let p = layer.feature.properties
+  let url = `../photos/${p.town}/${p.filename}`
 
   let popupContent = `
     <div id="info-body">
       <h3>Photo</h3>
       <figure>
+        <figcaption>${p.title || '(no caption)'}</figcaption>
+        <p>${p.town}/${p.filename}</p>
+        <p class="coords">Coordinates: ${coords[0]}, ${coords[1]}</p>
         <img class="photo" onclick="zoomImage(event)" src="${url}">
       </figure>
     </div>
@@ -204,33 +186,7 @@ function html_photo(e) {
   document.getElementById('layer_info').innerHTML = popupContent;
   toggleInfoTab();
   openSidebar();
-  let img = document.querySelector('#layer_info img.photo')
-  img.onload = image_metadata
 }
-
-function image_metadata(e) {
-  let img = document.querySelector('#layer_info img.photo')
-  EXIF.getData(e.target, () => {
-
-    // Try to get caption from EXIF data embedded in the image
-    console.log(EXIF.getAllTags(this))
-    let title = EXIF.getTag(this, "ImageDescription")
-    title ||= '(no caption available)'
-    let caption = document.createElement('figcaption')
-    caption.innerHTML = title
-    img.before(caption)
-
-    // Try to get coordinates from the image filename
-    let m = img.src.match(/\/(\d+\.\d+)(-\d+.\d+)(-.*)?.jpg/)
-    if (m.length > 2) {
-      let coords = document.createElement('p')
-      coords.classList.add('coords')
-      coords.innerHTML = `Coordinates: ${m[2]}, ${m[1]}`
-      img.before(coords)
-    }
-  })
-}
-
 
 function html_obs(e) {
   var layer = e.target;
