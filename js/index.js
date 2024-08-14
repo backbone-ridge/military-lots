@@ -1,5 +1,4 @@
 // fetch list of available photos
-let obs_photos = []
 let photos_lyr
 document.addEventListener('DOMContentLoaded', function () {
   fetch('../photos/photos.csv')
@@ -10,7 +9,11 @@ document.addEventListener('DOMContentLoaded', function () {
           fieldSeparator: ',',
           latitudeTitle: 'latitude',
           longitudeTitle: 'longitude',
-          onEachFeature: update_photo,
+          onEachFeature: function(feature, layer) {
+            layer.on({
+              click: html_photo
+            })
+          },
           pointToLayer: function(feature, latlng) {
             return L.circleMarker(latlng, style_photo(feature))
               .bindTooltip('Photo: ' + (feature.properties.title || '(no caption)'))
@@ -120,12 +123,6 @@ function update_obs(feature, layer) {
   });
 }
 
-function update_photo(feature, layer) {
-  layer.on({
-    click: html_photo
-  })
-}
-
 function update_lots(feature, layer) {
   layer.on({
     mouseout: resetHighlight,
@@ -176,9 +173,9 @@ function html_photo(e) {
       <h3>Photo</h3>
       <figure>
         <figcaption>${p.title || '(no caption)'}</figcaption>
-        <p>${p.town}/${p.filename}</p>
-        <p class="coords">Coordinates: ${coords[0]}, ${coords[1]}</p>
         <img class="photo" onclick="zoomImage(event)" src="${url}">
+        <div>File: ${p.town}/${p.filename}</div>
+        <div>Coordinates: ${coords[0]}, ${coords[1]}</div>
       </figure>
     </div>
   `
