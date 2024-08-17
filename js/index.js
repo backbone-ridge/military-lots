@@ -1,28 +1,8 @@
-// fetch list of available photos
 let photos_lyr
+let legendControl
+
 document.addEventListener('DOMContentLoaded', function () {
-  fetch('../photos/photos.csv')
-    .then((response) => {
-      if (response.ok) response.text().then((csvtext) => {
-        photos_lyr = L.geoCsv(csvtext, {
-          firstLineTitles: true,
-          fieldSeparator: ',',
-          latitudeTitle: 'latitude',
-          longitudeTitle: 'longitude',
-          onEachFeature: function(feature, layer) {
-            layer.on({
-              click: html_photo
-            })
-          },
-          pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng, style_photo(feature))
-              .bindTooltip('Photo: ' + (feature.properties.title || '(no caption)'))
-          }
-        })
-        map.addLayer(photos_lyr)
-        addLegend()
-      })
-    })
+  loadPhotoData()
 })
 
 var southWest = new L.LatLng(42.53, -76.9),
@@ -40,18 +20,27 @@ let map
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   map = L.map('map', {
-    zoomControl: true,
-    scrollWheelZoom: false,
     dragging: false,
+    scrollWheelZoom: false,
     tap: false,
-  }).fitBounds(bounds)
+    zoomControl: false,
+  })
+  // only zoom to full extent if there is no coords in the URL hash
+  if (! location.hash) {
+    map.fitBounds(bounds)
+  }
 } else {
   map = L.map('map', {
     dragging: true,
     tap: true,
+    zoomControl: false,
   }).fitBounds(bounds)
 }
 
+var zoomHome = L.Control.zoomHome({zoomHomeTitle:"Zoom to full map extent"})
+map.addControl(zoomHome)
+
+var hash = new L.Hash(map);
 
 
 var Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
@@ -115,6 +104,39 @@ var sidebar = L.control.sidebar('sidebar', {
   xautopan: 'false'
 }).addTo(map);
 
+
+function loadPhotoData() {
+  // URL for CSV version of the Google Spreadsheet "Backbone Ridge Photos"
+  // which can be edited at https://docs.google.com/spreadsheets/d/1ShUDiRpW_t_C6RUwkKxcUR4WKdkfWqF0mEbiWhCGDX0/edit?gid=0#gid=0
+  url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQSxhWmMdAHDp5x0TeXNHuuWT0EYbC7V8XViMTcciF8eJTgjQIwWnjEOsx9pzIw5MHoammseMAHyebU/pub?gid=0&single=true&output=csv'
+  fetch(url)
+    .then((response) => {
+      if (response.ok) response.text().then((csvtext) => {
+        // remove any existing photos from map
+        if (photos_lyr) {
+          map.removeLayer(photos_lyr)
+        }
+        photos_lyr = L.geoCsv(csvtext, {
+          firstLineTitles: true,
+          fieldSeparator: ',',
+          latitudeTitle: 'latitude',
+          longitudeTitle: 'longitude',
+          onEachFeature: function(feature, layer) {
+            layer.on({
+              click: html_photo
+            })
+          },
+          pointToLayer: function(feature, latlng) {
+            return L.circleMarker(latlng, style_photo(feature))
+              .bindTooltip('Photo: ' + (feature.properties.title || '(no caption)'))
+          }
+        })
+        map.addLayer(photos_lyr)
+        addLegend()
+      })
+    })
+}
+
 function update_obs(feature, layer) {
   layer.on({
     mouseout: resetHighlight,
@@ -176,10 +198,9 @@ function html_photo(e) {
         <img class="photo" onclick="zoomImage(event)" src="${url}">
         <div>File: ${p.town}/${p.filename}</div>
         <div>Coordinates: ${coords[0]}, ${coords[1]}</div>
+        <p>(click image to enlarge)<p>
       </figure>
-    </div>
-  `
-
+    </div>`
   document.getElementById('layer_info').innerHTML = popupContent;
   toggleInfoTab();
   openSidebar();
@@ -288,8 +309,8 @@ function html_lots(e) {
 }
 
 
-// Highlight, info-related
 function highlightFeature(e) {
+// Highlight, info-related
   var layer = e.target;
 
   layer.setStyle({
@@ -319,10 +340,6 @@ function onEachFeature(feature, layer) {
   });
 }
 
-
-
-
-// style layers
 function style_obs() {
   return {
     pane: 'pane_obs',
@@ -433,7 +450,11 @@ let controls = L.control.layers(baseMaps, null, {
 controls.addTo(map);
 
 function addLegend() {
-  L.control.Legend({
+  // remove any existing legend
+  if (legendControl) {
+    map.removeControl(legendControl)
+  }
+  legendControl = L.control.Legend({
     position: "topright",
     legends: [{
         label: "Photos",
@@ -457,7 +478,8 @@ function addLegend() {
       fillColor: "#ff440011",
       layers: lots_lyr
     }]
-  }).addTo(map);
+  })
+  map.addControl(legendControl)
 }
 
 // Resize map
@@ -470,7 +492,7 @@ function addLegend() {
 //})
 
 
-// clicking the map will copy coordinates to be pasted in photo spreadsheet
+// clicking the map will copy coordinates for pasting into photo spreadsheet
 map.on('click', function(e) {
   // limit coordinate precision to 5 digits
   let x = e.latlng.lng.toString().replace(/(\.\d{5})(\d+)/, "$1")

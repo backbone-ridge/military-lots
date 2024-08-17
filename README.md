@@ -69,3 +69,10 @@ QUESTIONS:
 
 What does "With an allowance of 50 links..." mean?
 
+Check Ovid 87 SW heading E points
+
+
+
+TODO:
+
+* normalize _ and - in HTML
