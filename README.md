@@ -64,7 +64,6 @@ There are also some duplicates -- need to check if those are transcription error
 Also some rows lack chains/links or x/y
 
 
-
 QUESTIONS:
 
 What does "With an allowance of 50 links..." mean?

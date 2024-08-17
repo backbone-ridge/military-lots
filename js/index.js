@@ -42,7 +42,6 @@ map.addControl(zoomHome)
 
 var hash = new L.Hash(map);
 
-
 var Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
   attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
 });
@@ -57,7 +56,6 @@ var default_layer_info = '<div id = "info-body"><p>Click a feature on the map</p
 
 document.getElementById('home').innerHTML = default_text;
 document.getElementById('layer_info').innerHTML = title + default_layer_info;
-
 
 // Switch to layer info pane in sidebar if a layer is selected and the home pane is active
 function toggleInfoTab() {
@@ -104,7 +102,6 @@ var sidebar = L.control.sidebar('sidebar', {
   xautopan: 'false'
 }).addTo(map);
 
-
 function loadPhotoData() {
   // URL for CSV version of the Google Spreadsheet "Backbone Ridge Photos"
   // which can be edited at https://docs.google.com/spreadsheets/d/1ShUDiRpW_t_C6RUwkKxcUR4WKdkfWqF0mEbiWhCGDX0/edit?gid=0#gid=0
@@ -143,6 +140,12 @@ function update_obs(feature, layer) {
     mouseover: highlightFeature,
     click: html_obs
   });
+}
+
+function update_photo(feature, layer) {
+  layer.on({
+    click: html_photo
+  })
 }
 
 function update_lots(feature, layer) {
@@ -189,7 +192,6 @@ function html_photo(e) {
   let coords = layer.feature.geometry.coordinates
   let p = layer.feature.properties
   let url = `../photos/${p.town}/${p.filename}`
-
   let popupContent = `
     <div id="info-body">
       <h3>Photo</h3>
@@ -307,7 +309,6 @@ function html_lots(e) {
   toggleInfoTab();
   openSidebar();
 }
-
 
 function highlightFeature(e) {
 // Highlight, info-related
@@ -482,17 +483,8 @@ function addLegend() {
   map.addControl(legendControl)
 }
 
-// Resize map
-// not sure if this is still needed...
-//map.on('resize', function(e) {
-//  setTimeout(function() {
-//    map.invalidateSize(true)
-//  }, 400);
-//  map.fitBounds(bounds);
-//})
-
-
 // clicking the map will copy coordinates for pasting into photo spreadsheet
+
 map.on('click', function(e) {
   // limit coordinate precision to 5 digits
   let x = e.latlng.lng.toString().replace(/(\.\d{5})(\d+)/, "$1")
