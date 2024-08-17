@@ -150,9 +150,11 @@ figure {
 
 figcaption {
   font-weight: bold;
+  margin: 1em 0;
 }
 
-.coords {
+figure div {
+  margin: 0;
   font-size: 75%;
 }
 

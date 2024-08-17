@@ -1,41 +1,8 @@
-// fetch list of available photos
-let obs_photos = []
-let photocsv = 'file,lng,lat\n'
 let photos_lyr
+let legendControl
+
 document.addEventListener('DOMContentLoaded', function () {
-  fetch('https://backbone-ridge.github.io/photos/list.html')
-    .then((response) => {
-      if (response.ok) response.text().then((text) => {
-        // match by town
-        let matches = [...text.matchAll(/<p>\/\w+\/(.*.jpg)<\/p>/ig)]
-        matches.forEach((m) => {
-          obs_photos.push(m[1])
-        })
-        // match by latlon
-        matches = [...text.matchAll(/<p>\/latlon\/((.*).jpg)<\/p>/ig)]
-        matches.forEach((m) => {
-          let file = m[1]
-          let coords = m[2].split('-')
-          let lat = parseFloat(coords[0])
-          let lng = - parseFloat(coords[1])
-          photocsv += `${file},${lng},${lat}\n`
-        })
-        photos_lyr = L.geoCsv(photocsv, {
-          firstLineTitles: true,
-          fieldSeparator: ',',
-          onEachFeature: update_photo,
-          pointToLayer: function(feature, latlng) {
-            var context = {
-              feature: feature,
-              variables: {}
-            };
-            return L.circleMarker(latlng, style_photo(feature))
-          }
-        })
-        map.addLayer(photos_lyr)
-        addLegend()
-      })
-    })
+  loadPhotoData()
 })
 
 var southWest = new L.LatLng(42.53, -76.9),
@@ -53,19 +20,27 @@ let map
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   map = L.map('map', {
-    zoomControl: true,
-    scrollWheelZoom: false,
     dragging: false,
+    scrollWheelZoom: false,
     tap: false,
-  }).fitBounds(bounds)
+    zoomControl: false,
+  })
+  // only zoom to full extent if there is no coords in the URL hash
+  if (! location.hash) {
+    map.fitBounds(bounds)
+  }
 } else {
   map = L.map('map', {
     dragging: true,
     tap: true,
+    zoomControl: false,
   }).fitBounds(bounds)
 }
 
+var zoomHome = L.Control.zoomHome({zoomHomeTitle:"Zoom to full map extent"})
+map.addControl(zoomHome)
 
+var hash = new L.Hash(map);
 
 var Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
   attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
@@ -81,7 +56,6 @@ var default_layer_info = '<div id = "info-body"><p>Click a feature on the map</p
 
 document.getElementById('home').innerHTML = default_text;
 document.getElementById('layer_info').innerHTML = title + default_layer_info;
-
 
 // Switch to layer info pane in sidebar if a layer is selected and the home pane is active
 function toggleInfoTab() {
@@ -128,6 +102,38 @@ var sidebar = L.control.sidebar('sidebar', {
   xautopan: 'false'
 }).addTo(map);
 
+function loadPhotoData() {
+  // URL for CSV version of the Google Spreadsheet "Backbone Ridge Photos"
+  // which can be edited at https://docs.google.com/spreadsheets/d/1ShUDiRpW_t_C6RUwkKxcUR4WKdkfWqF0mEbiWhCGDX0/edit?gid=0#gid=0
+  url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQSxhWmMdAHDp5x0TeXNHuuWT0EYbC7V8XViMTcciF8eJTgjQIwWnjEOsx9pzIw5MHoammseMAHyebU/pub?gid=0&single=true&output=csv'
+  fetch(url)
+    .then((response) => {
+      if (response.ok) response.text().then((csvtext) => {
+        // remove any existing photos from map
+        if (photos_lyr) {
+          map.removeLayer(photos_lyr)
+        }
+        photos_lyr = L.geoCsv(csvtext, {
+          firstLineTitles: true,
+          fieldSeparator: ',',
+          latitudeTitle: 'latitude',
+          longitudeTitle: 'longitude',
+          onEachFeature: function(feature, layer) {
+            layer.on({
+              click: html_photo
+            })
+          },
+          pointToLayer: function(feature, latlng) {
+            return L.circleMarker(latlng, style_photo(feature))
+              .bindTooltip('Photo: ' + (feature.properties.title || '(no caption)'))
+          }
+        })
+        map.addLayer(photos_lyr)
+        addLegend()
+      })
+    })
+}
+
 function update_obs(feature, layer) {
   layer.on({
     mouseout: resetHighlight,
@@ -171,12 +177,6 @@ function renderData(v, msg='<i>No data</i>') {
   }
 }
 
-function renderImage(v) {
-  let town = v.split('-')[0].toLowerCase()
-  let img = `<img class='photo' onclick='zoomImage(event)' src='https://raw.githubusercontent.com/backbone-ridge/photos/main/${town}/${v}'>`
-  return img
-}
-
 function zoomImage(e) {
   let img = e.target
   let zoomed = document.createElement('img')
@@ -188,49 +188,25 @@ function zoomImage(e) {
 
 function html_photo(e) {
   let layer = e.target
-  //layer.bringToBack() // to allow any overlapping features to be clicked next
-  let file = layer.feature.properties.file
-  let url = `https://backbone-ridge.github.io/photos/latlon/${file}`
-
+  layer.bringToBack() // to allow any overlapping features to be clicked next
+  let coords = layer.feature.geometry.coordinates
+  let p = layer.feature.properties
+  let url = `../photos/${p.town}/${p.filename}`
   let popupContent = `
     <div id="info-body">
       <h3>Photo</h3>
       <figure>
+        <figcaption>${p.title || '(no caption)'}</figcaption>
         <img class="photo" onclick="zoomImage(event)" src="${url}">
+        <div>File: ${p.town}/${p.filename}</div>
+        <div>Coordinates: ${coords[0]}, ${coords[1]}</div>
+        <p>(click image to enlarge)<p>
       </figure>
-    </div>
-  `
-
+    </div>`
   document.getElementById('layer_info').innerHTML = popupContent;
   toggleInfoTab();
   openSidebar();
-  let img = document.querySelector('#layer_info img.photo')
-  img.onload = image_metadata
 }
-
-function image_metadata(e) {
-  let img = document.querySelector('#layer_info img.photo')
-  EXIF.getData(e.target, () => {
-
-    // Try to get caption from EXIF data embedded in the image
-    console.log(EXIF.getAllTags(this))
-    let title = EXIF.getTag(this, "ImageDescription")
-    title ||= '(no caption available)'
-    let caption = document.createElement('figcaption')
-    caption.innerHTML = title
-    img.before(caption)
-
-    // Try to get coordinates from the image filename
-    let m = img.src.match(/\/(\d+\.\d+)(-\d+.\d+)(-.*)?.jpg/)
-    if (m.length > 2) {
-      let coords = document.createElement('p')
-      coords.classList.add('coords')
-      coords.innerHTML = `Coordinates: ${m[2]}, ${m[1]}`
-      img.before(coords)
-    }
-  })
-}
-
 
 function html_obs(e) {
   var layer = e.target;
@@ -334,9 +310,8 @@ function html_lots(e) {
   openSidebar();
 }
 
-
-// Highlight, info-related
 function highlightFeature(e) {
+// Highlight, info-related
   var layer = e.target;
 
   layer.setStyle({
@@ -366,10 +341,6 @@ function onEachFeature(feature, layer) {
   });
 }
 
-
-
-
-// style layers
 function style_obs() {
   return {
     pane: 'pane_obs',
@@ -480,7 +451,11 @@ let controls = L.control.layers(baseMaps, null, {
 controls.addTo(map);
 
 function addLegend() {
-  L.control.Legend({
+  // remove any existing legend
+  if (legendControl) {
+    map.removeControl(legendControl)
+  }
+  legendControl = L.control.Legend({
     position: "topright",
     legends: [{
         label: "Photos",
@@ -504,23 +479,16 @@ function addLegend() {
       fillColor: "#ff440011",
       layers: lots_lyr
     }]
-  }).addTo(map);
+  })
+  map.addControl(legendControl)
 }
 
-// Resize map
-// not sure if this is still needed...
-//map.on('resize', function(e) {
-//  setTimeout(function() {
-//    map.invalidateSize(true)
-//  }, 400);
-//  map.fitBounds(bounds);
-//})
+// clicking the map will copy coordinates for pasting into photo spreadsheet
 
-
-// clicking the map will copy latlon coordinates to be used for photo filenames
 map.on('click', function(e) {
   // limit coordinate precision to 5 digits
   let x = e.latlng.lng.toString().replace(/(\.\d{5})(\d+)/, "$1")
   let y = e.latlng.lat.toString().replace(/(\.\d{5})(\d+)/, "$1")
-  navigator.clipboard.writeText(y+x)
+  // join with a tab character, so that it will paste into two adjacent cells
+  navigator.clipboard.writeText(x + '\t' + y)
 })
