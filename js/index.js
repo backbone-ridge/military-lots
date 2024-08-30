@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
   loadPhotoData()
 })
 
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') {
+    document.querySelectorAll('.zoomed').forEach((x) => { x.remove() })
+  }
+})
+
 var southWest = new L.LatLng(42.53, -76.9),
   northEast = new L.LatLng(42.69, -76.6),
   bounds = new L.LatLngBounds(southWest, northEast);
@@ -98,8 +104,7 @@ function openSidebar() {
 
 
 var sidebar = L.control.sidebar('sidebar', {
-  xposition: 'right',
-  xautopan: 'false'
+  position: 'left'
 }).addTo(map);
 
 function loadPhotoData() {
@@ -191,16 +196,17 @@ function html_photo(e) {
   layer.bringToBack() // to allow any overlapping features to be clicked next
   let coords = layer.feature.geometry.coordinates
   let p = layer.feature.properties
-  let url = `../photos/${p.town}/${p.filename}`
+  //let url = `../photos/${p.town}/${p.filename}`
+  let url = `https://raw.githubusercontent.com/backbone-ridge/photos/main/${p.town}/${p.filename}`
   let popupContent = `
     <div id="info-body">
       <h3>Photo</h3>
       <figure>
         <figcaption>${p.title || '(no caption)'}</figcaption>
         <img class="photo" onclick="zoomImage(event)" src="${url}">
+        <p>(click image to enlarge)<p>
         <div>File: ${p.town}/${p.filename}</div>
         <div>Coordinates: ${coords[0]}, ${coords[1]}</div>
-        <p>(click image to enlarge)<p>
       </figure>
     </div>`
   document.getElementById('layer_info').innerHTML = popupContent;
