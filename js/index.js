@@ -192,6 +192,11 @@ function zoomImage(e) {
 }
 
 function html_photo(e) {
+  // remove any existing zoom photo
+  let zoomed = document.querySelector('.zoomed')
+  if (zoomed) {
+    zoomed.remove()
+  }
   let layer = e.target
   layer.bringToBack() // to allow any overlapping features to be clicked next
   let coords = layer.feature.geometry.coordinates
@@ -420,7 +425,7 @@ map.getPane('pane_obs').style['mix-blend-mode'] = 'normal';
 
 
 
-var obs_lyr = new L.GeoJSON.AJAX('data/observations.geojson', {
+var obs_lyr = new L.GeoJSON.AJAX('data/observations-ovid.geojson', {
   pane: 'pane_obs',
   onEachFeature: update_obs,
   pointToLayer: function(feature, latlng) {
