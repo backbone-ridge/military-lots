@@ -5,16 +5,19 @@ Converting observation table to points:
 
 Calculate unique key (or nearly unique) for each observation point:
 
-"Township" || '-' || "Lot" || "Starting Corner" || '-' || "Direction" || "Chains" || if ("Links" > 0, '.' || "Links", '')
+"Township" || '-' || "Lot" || "Starting Corner" || 
+if ("Chains">0, '-' || "Direction" || "Chains" || if ("Links" > 0, '.' || "Links", ''), '')
 
 
 
 Reproject corners to ESRI:102716 - NAD_1983_StatePlane_New_York_Central_FIPS_3102_Feet
 
-x = 
+Calculate x,y in the observations table as follows:
+
+x =
 
 with_variable('g', geometry(get_feature('Reprojected', 'corner_id', ("Township" || '-' || "Lot" || '-' || "Starting Corner"))),
-with_variable('d', "Chains" * 66 + "Links" * 66/100,
+with_variable('d', "Chains" * 66 + coalesce("Links",0) * 66/100,
 with_variable('a', 2.5 / 180 * pi(),
 x(@g)
 + if("Direction"='E', 1, 0) * @d * cos(@a)
@@ -28,7 +31,7 @@ x(@g)
 y = 
 
 with_variable('g', geometry(get_feature('Reprojected', 'corner_id', ("Township" || '-' || "Lot" || '-' || "Starting Corner"))),
-with_variable('d', "Chains" * 66 + "Links" * 66/100,
+with_variable('d', "Chains" * 66 + coalesce("Links",0) * 66/100,
 with_variable('a', 2.5 / 180 * pi(),
 y(@g)
 + if("Direction"='E', 1, 0) * @d * sin(@a)
@@ -37,21 +40,30 @@ y(@g)
 + if("Direction"='S', -1, 0) * @d * cos(@a)
 )))
 
-with_variable('d', "Chains" * 66 + "Links" * 66/100,
-y(
-  geometry(
-    get_feature('Reprojected', 'corner_id',
-      ("Township" || '-' || "Lot" || '-' || "Starting Corner")
-	)
-  )
-)
-+ if("Direction"='N', 1, 0) * @d
-+ if("Direction"='S', -1, 0) * @d
-)
 
-x,y columns are calculated as above.
+Create points layer from table, using CRS ESRI:102716
 
-Points were snapped to the lot bounds so that the observation points fall on the bounds.  However, sometimes it snapped to the wrong bound, especially near corners.  I've been working through a manual review, and adjusting the locations so that they are on the correct bound, and do not overshoot the end corner.  Generally, I've set the points around 20-30 feet shy of reaching the corner (approaching in the direction noted in the journals).
+Snap geometries to layer (points from table, snapped to reprojected lots ESRI:102716)
+
+Points were snapped to the lot bounds so that the observation points fall on the bounds.  However, sometimes it snapped to the wrong bound, especially near corners.  I've been working through a manual review, and adjusting the locations so that they are on the correct bound, and do not overshoot the end corner.  Generally, I've set the points around 25-50 feet shy of reaching the corner (approaching in the direction noted in the journals).
+
+Too help with the manual review:
+
+Label the points with:
+```
+id || if(@map_scale < 5000, '\n' || "Observation", '')
+```
+
+Color code by direction:
+```
+CASE
+  WHEN "Chains"=0 THEN '#ffffff'
+  WHEN "Direction"='E' THEN '#8888ff'
+  WHEN "Direction"='W' THEN '#00ff00'
+  WHEN "Direction"='N' THEN '#ff0000'
+  WHEN "Direction"='S' THEN '#ff8800'
+END
+```
 
 Sort by azimuth ascending, and I stopped at row 600.
 

@@ -425,7 +425,7 @@ map.getPane('pane_obs').style['mix-blend-mode'] = 'normal';
 
 
 
-var obs_lyr = new L.GeoJSON.AJAX('data/observations-ovid.geojson', {
+var obs_lyr = new L.GeoJSON.AJAX('data/observations-hector.geojson', {
   pane: 'pane_obs',
   onEachFeature: update_obs,
   pointToLayer: function(feature, latlng) {
