@@ -271,7 +271,7 @@ function html_obs(e) {
     </table>
     <div class='journalLink'>
       <a target='_blank' href="https://backbone-ridge.github.io/military-lots/town/${town.toLowerCase()}/transcription/page-${page2digit}">${town} Journal page ${renderData(layer.feature.properties['Page'])}
-      <img class='thumb' src='https://backbone-ridge.github.io/military-lots/town/${town.toLowerCase()}/image/fieldbook/ovid-page-${page2digit}.jpg'</a>
+      <img class='thumb' src='town/${town.toLowerCase()}/image/${town.toLowerCase()}-page-${page2digit}.jpg'</a>
     </div>
     </tr>
     </div>`
@@ -425,7 +425,7 @@ map.getPane('pane_obs').style['mix-blend-mode'] = 'normal';
 
 
 
-var obs_lyr = new L.GeoJSON.AJAX('data/observations-hector.geojson', {
+var obs_lyr = new L.GeoJSON.AJAX('data/observations.geojson', {
   pane: 'pane_obs',
   onEachFeature: update_obs,
   pointToLayer: function(feature, latlng) {

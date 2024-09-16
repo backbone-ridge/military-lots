@@ -11,7 +11,7 @@ layout: journal
 | At |    | Observations |
 | -- | -- | ------------ |
 | Chs | Lks | |
-| 77 | 46 | With an allowance of Two Chs to a Stak Standing in the West bounds of Lot No. 52 and 13 links on a Course of North 75 West from a Basswood Tree Marked on the SW side No. 51 – from Thence Due Magnetic North along the North part of the West bounds of lot No. 52 27 Chs To a white ash Stake Standing 3 links S.E.from an Iron wood Sapling Marked on the SE s’d No. 52 from Thence along the North bounds of lot No. 5 Due Magnetic East |
+| 77 | 46 | With an allowance of Two Chs to a Stak Standing in the West bounds of Lot No. 52 and 13 links on a Course of North 75 West from a Basswood Tree Marked on the SW side No. 51 – from Thence Due Magnetic North along the North part of the West bounds of lot No. 52 27 Chs To a white ash Stake Standing 3 links S.E.from an Iron wood Sapling Marked on the SE s’d No. 52 from Thence along the North bounds of lot No. 52 Due Magnetic East |
 | 5 | - | On the Course run North a Brook runing NEly |
 | 11 | - | Also on the Course run North a B [Brook] runing NEly |
 | 29 | - | On the Course run East on the West bank of a gully |

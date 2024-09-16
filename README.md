@@ -51,17 +51,17 @@ Too help with the manual review:
 
 Label the points with:
 ```
-id || if(@map_scale < 5000, '\n' || "Observation", '')
+id || if(@map_scale < 5000, '\n' || "Observation" || '\npage ' || "Page", '')
 ```
 
 Color code by direction:
 ```
 CASE
-  WHEN "Chains"=0 THEN '#ffffff'
-  WHEN "Direction"='E' THEN '#8888ff'
-  WHEN "Direction"='W' THEN '#00ff00'
-  WHEN "Direction"='N' THEN '#ff0000'
-  WHEN "Direction"='S' THEN '#ff8800'
+WHEN "Chains"=0 AND "Links"=0 THEN '#ffffff'
+WHEN "Direction"='E' THEN '#8888ff'
+WHEN "Direction"='W' THEN '#00ff00'
+WHEN "Direction"='N' THEN '#ff8888'
+WHEN "Direction"='S' THEN '#ff8800'
 END
 ```
 
@@ -87,3 +87,7 @@ Check Ovid 87 SW heading E points
 TODO:
 
 * normalize _ and - in HTML
+
+* review N-S bounds in Ovid
+
+* search for multiple passes of the same bounds in Hector
