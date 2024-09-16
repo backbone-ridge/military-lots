@@ -45,7 +45,7 @@
         {% endif %}
       </nav>
       <section class="image">
-        <img src="../image/fieldbook/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="enlarge(this)" title="click to enlarge">
+        <img src="../image/{{ page.town | downcase }}-page-{{ page.page | prepend: '0' | slice: -2, 2 }}.jpg" onclick="enlarge(this)" title="click to enlarge">
       </section>
       <section class="transcript">
         {{ content }}

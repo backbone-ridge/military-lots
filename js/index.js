@@ -192,6 +192,11 @@ function zoomImage(e) {
 }
 
 function html_photo(e) {
+  // remove any existing zoom photo
+  let zoomed = document.querySelector('.zoomed')
+  if (zoomed) {
+    zoomed.remove()
+  }
   let layer = e.target
   layer.bringToBack() // to allow any overlapping features to be clicked next
   let coords = layer.feature.geometry.coordinates
@@ -266,7 +271,7 @@ function html_obs(e) {
     </table>
     <div class='journalLink'>
       <a target='_blank' href="https://backbone-ridge.github.io/military-lots/town/${town.toLowerCase()}/transcription/page-${page2digit}">${town} Journal page ${renderData(layer.feature.properties['Page'])}
-      <img class='thumb' src='https://backbone-ridge.github.io/military-lots/town/${town.toLowerCase()}/image/fieldbook/ovid-page-${page2digit}.jpg'</a>
+      <img class='thumb' src='town/${town.toLowerCase()}/image/${town.toLowerCase()}-page-${page2digit}.jpg'</a>
     </div>
     </tr>
     </div>`
