@@ -7,8 +7,7 @@ layout: journal
 | Num of Lots | Course | Dist | Remarks (2) |
 | - | - | - | - |
 | E B of No. 1 | South | 15 | Descended a bank and Cross’d a dry run Bearing Nly Timber White & black Oak Maple Beech & some White pine |
-| | | 32 | Descended a Steep Bank and Cross’d at the Confluence
-of two Brooks One from the South East and the other from the East then Ascended good Land bearing Basswood with the Timber last Mentioned |
+| | | 32 | Descended a Steep Bank and Cross’d at the Confluence of two Brooks One from the South East and the other from the East then Ascended good Land bearing Basswood with the Timber last Mentioned |
 | | | 55 | Mark’d & Numbered a large Black Oak Tree for the Corner of Lots No. 1 & 2
 | No. 2 | | 5 | The Timber Basswood Hickory and Elm |
 | | | 32 | Descended a Bank and Cross’d a Brook Running Westerly |

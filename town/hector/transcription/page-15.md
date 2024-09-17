@@ -14,4 +14,5 @@ layout: journal
 | N. S.B of Lots No. 21 & 30 | | | Beginning at a White Oak tree standing on the Bank of the Lake mark’d & Num: for the NW and SW Corner of Lots No. 30 and No. 21 |
 | | | 32 | Cross’d a fine Stream running SWly [NWly] Ascending Land |
 | | | 36 | Cross’d it again with high bank of perpendicular Rocks |
-| | | 66.50 | Cross’d the Road Land is very Stoney & rough | | | 81.50 | Cross’d the Stream again |
+| | | 66.50 | Cross’d the Road Land is very Stoney & rough |
+| | | 81.50 | Cross’d the Stream again |

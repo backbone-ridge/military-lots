@@ -6,7 +6,7 @@ layout: journal
 
 | Num of Lots | Course | Dist | Remarks (4) |
 | - | - | - | - |
-| [No. 30 cont’d] | South | | Entered a fine Dry Swamp but shortly Inclines to wet Timbered mainly with white and black Ash Maple Elm Birch | & Basswood—and toward the latter part some Hemlock and White Pine Intermixed |
+| [No. 30 cont’d] | South | | Entered a fine Dry Swamp but shortly Inclines to wet Timbered mainly with white and black Ash Maple Elm Birch & Basswood—and toward the latter part some Hemlock and White Pine Intermixed |
 | | | 42 | Mark’d & Numbered a large Hemlock Tree for the Corner of Lots No. 30 & 31 Standing on the Edge of the Swamp just Mentioned |
 | No. 31 | | | Beginning at the Corner last Mentioned |
 | | | 19 | A Small rise of Upland in the Aforesaid Swamp |

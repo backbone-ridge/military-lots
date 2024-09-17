@@ -11,7 +11,7 @@ layout: journal
 | | | 125 | Cross’d a small run of Water Bearing SWly Excellent Land |
 | | | 133.50 | Intersected the East Bounds of the Lots Vide Northeast & Southeast Corner of Lots No. 41 & 40 page 5th |
 | N.S.B of Lot No. 31 & 40 | | | Beginning at a small White pine tree mark’d and numbered for the Northwest and Southwest Corner of Lots No. 31 & 40 Standing on the Bank of the lake |
-| | | 26.50 | Cross’d a small run bear: SWly Ascending | and good Land |
+| | | 26.50 | Cross’d a small run bear: SWly Ascending and good Land |
 | | | 45 | Cross’d a small run bear: NWly |
 | | | 50 | Cross’d the same again |
 | | | 51.50 | Cross’d the road good land & Well Timbered |
