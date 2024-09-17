@@ -84,7 +84,19 @@ Check Ovid 87 SW heading E points
 
 
 
+# Processing transcripts
+
+* copy table contents from .docx
+* paste with ALT-SHIFT-V (using "Excel to Markdown table" plugin for VSCode)
+* s/\s+/ /g
+* manually add extra line between each row
+* s/\|\n\|/ |
+* edit md to generate tables (use Markdown Preview)
+
+
 TODO:
+
+* Hector transcription md
 
 * normalize _ and - in HTML
 
