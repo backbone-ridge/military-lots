@@ -31,6 +31,10 @@ h1 {
   text-align:
 }
 
+del { 
+  color: #f00;
+}
+
 #layer_info i {
   color: #888;
   font-weight: normal;
