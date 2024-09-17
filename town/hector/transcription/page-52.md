@@ -8,7 +8,7 @@ layout: journal
 |-|-|-|-|
 | North Bounds of Lot No. 9 | West | | Beginning at the Corner last Mentioned |
 | | | 28 | A Small Brook running South Ely |
-| | | | 35 | A Small Spring brook: Ditto |
+| | | 35 | A Small Spring brook: Ditto |
 | | | 44 | A small spring brook bear. Ditto |
 | | | 77.57 | A Stake Standing 8 Links NW of a Beach tree Vide page 40 for a more particular Description - |
 | North Bounds of Lot No. 8 | | | Beginning at the Corner last mention’d |
