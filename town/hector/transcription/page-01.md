@@ -10,7 +10,7 @@ Page (1)
 
 | Num of Lots | Course | Dist | Remarks |
 | - | - | - | - |
-| | | | Beginning at a pitch pine Tree Standing on the East Bank of the Senekee Lake mark’d on the Northeast side -  **SW No. 16** For the Southwest Corner of Township No. 16 And on the Southeast Side **NW No. 21** For the Southeast [northwest] Corner of Township of No. 21
+| | | | Beginning at a pitch pine Tree Standing on the East Bank of the Senekee Lake mark’d on the Northeast side - **SW No. 16** For the Southwest Corner of Township No. 16 And on the Southeast Side **NW No. 21** For the Southeast [northwest] Corner of Township of No. 21 |
 | | East | | And runs thence due Magnetic east |
 | North Bounds of Lot No. 1 | | 52 | The 13 Mile tree Ascending Ground bearing White & Black Oak Hickory & Ash mainly. |
 | | | 124.50 | A fine Brook Bearing Southwesterly |

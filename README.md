@@ -89,14 +89,15 @@ Check Ovid 87 SW heading E points
 * copy table contents from .docx
 * paste with ALT-SHIFT-V (using "Excel to Markdown table" plugin for VSCode)
 * s/\s+/ /g
-* manually add extra line between each row
-* s/\|\n\|/ |
+* manually add extra line between each row, make sure each group is four cells
+* s/\|\n\|/|/g
 * edit md to generate tables (use Markdown Preview)
+  * add |-|-|-|-| after the header row
 
+* search for 5 cells in a row
 
 TODO:
 
-* Hector transcription md
 
 * normalize _ and - in HTML
 
