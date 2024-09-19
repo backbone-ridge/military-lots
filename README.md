@@ -65,22 +65,9 @@ WHEN "Direction"='S' THEN '#ff8800'
 END
 ```
 
-Sort by azimuth ascending, and I stopped at row 600.
-
-The snapped coords are in x2,y2.  After manual adjustments, store coords as x3,y3?
-
-There are a couple transcription/journal errors, for example Ovid-35-SE at 94 and 98 chains.  This is said to be for the S bounds, heading N, which makes no sense.
-
-There are also some duplicates -- need to check if those are transcription errors, or actually dupl in the journal.
-
-Also some rows lack chains/links or x/y
-
-
 QUESTIONS:
 
 What does "With an allowance of 50 links..." mean?
-
-Check Ovid 87 SW heading E points
 
 
 
@@ -96,11 +83,13 @@ Check Ovid 87 SW heading E points
 
 * search for 5 cells in a row
 
-TODO:
 
+# TODO
 
 * normalize _ and - in HTML
 
 * review N-S bounds in Ovid
 
 * search for multiple passes of the same bounds in Hector
+
+* look for duplicate observations

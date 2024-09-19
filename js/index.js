@@ -221,14 +221,13 @@ function html_photo(e) {
 
 function html_obs(e) {
   var layer = e.target;
-  //console.log(layer)
-
+  
   // allow any overlapping features to be clicked next
   layer.bringToBack()
 
   // make the clicked point larger, and reset all the other markers
   //obs_lyr.resetStyle()
-  layer._radius = 10
+  layer.setStyle(style_obs_click())
 
   let town = layer.feature.properties['Township']
   var page2digit = ('' + layer.feature.properties['Page']).padStart(2,'0')
@@ -325,15 +324,15 @@ function highlightFeature(e) {
 // Highlight, info-related
   var layer = e.target;
 
-  layer.setStyle({
-    weight: 3,
-    fillColor: '#00000044',
-    dashArray: '',
-    color: '#00000044'
-  });
-
-  if (!L.Browser.ie && !L.Browser.opera) {
-    layer.bringToFront();
+  if (layer.options.pane==='pane_obs') {
+    layer.setStyle(style_obs_hover());
+  
+    if (!L.Browser.ie && !L.Browser.opera) {
+      layer.bringToFront();
+    }  
+  }
+  else if (layer.options.pane==='pane_lots') {
+    layer.setStyle(style_lots_hover());  
   }
 }
 
@@ -355,7 +354,7 @@ function onEachFeature(feature, layer) {
 function style_obs() {
   return {
     pane: 'pane_obs',
-    radius: 4,
+    radius: 5,
     opacity: 1,
     color: '#ccccff',
     weight: 1,
@@ -365,13 +364,25 @@ function style_obs() {
   }
 }
 
+function style_obs_hover() {
+  return {
+    weight: 8,
+    color: '#0044cc'
+  }
+}
+
+function style_obs_click() {
+  return {
+    weight: 12
+  }
+}
+
 function style_photo() {
   return {
     pane: 'pane_obs',
     radius: 6,
     opacity: 1,
     color: '#000000',
-    dashArray: '',
     weight: 1,
     fill: true,
     fillOpacity: 1,
@@ -383,13 +394,18 @@ function style_lots() {
   return {
     opacity: 1,
     color: '#ff6644',
-    dashArray: '',
     lineCap: 'butt',
     lineJoin: 'miter',
-    weight: 2.0,
+    weight: 2,
     fill: true,
-    fillOpacity: 1,
-    fillColor: '#ff664411'
+    fillOpacity: 0.1,
+    fillColor: '#ff6644'
+  }
+}
+
+function style_lots_hover() {
+  return {
+    weight: 5
   }
 }
 
