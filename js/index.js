@@ -114,6 +114,8 @@ function loadPhotoData() {
   fetch(url)
     .then((response) => {
       if (response.ok) response.text().then((csvtext) => {
+        // L.geoCsv won't see the last record without a final newline
+        csvtext += '\n'
         // remove any existing photos from map
         if (photos_lyr) {
           map.removeLayer(photos_lyr)
