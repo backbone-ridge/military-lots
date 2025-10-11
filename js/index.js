@@ -11,7 +11,7 @@ document.addEventListener('keydown', function (e) {
   }
 })
 
-var southWest = new L.LatLng(42.53, -76.9),
+var southWest = new L.LatLng(42.39, -76.9),
   northEast = new L.LatLng(42.69, -76.6),
   bounds = new L.LatLngBounds(southWest, northEast);
 
@@ -163,7 +163,7 @@ function update_lots(feature, layer) {
   });
 
   layer.bindTooltip(
-    feature.properties.lot_number, {
+    (feature.properties.township_name[0] + feature.properties.lot_number), {
       permanent: true,
       direction: 'center',
       className: 'lot_label'
@@ -231,8 +231,8 @@ function html_obs(e) {
   //obs_lyr.resetStyle()
   layer.setStyle(style_obs_click())
 
-  let town = layer.feature.properties['Township']
-  var page2digit = ('' + layer.feature.properties['Page']).padStart(2,'0')
+  let town = layer.feature.properties['township']
+  var page2digit = ('' + layer.feature.properties['page']).padStart(2,'0')
 
   var popupContent = `<div id="info-body"><div id="info-cnty-name">
     <h3>Surveyor&apos;s observation point</h3></div>
@@ -243,35 +243,35 @@ function html_obs(e) {
     </tr>
     <tr>
       <td scope="row">Township</td>
-      <th>${renderData(layer.feature.properties['Township'])}</th>
+      <th>${renderData(layer.feature.properties['township'])}</th>
     </tr>
     <tr>
       <td scope="row">Lot No</td>
-      <th>${renderData(layer.feature.properties['Lot'])}</th>
+      <th>${renderData(layer.feature.properties['lot'])}</th>
     </tr>
     <tr>
       <td scope="row">Starting Corner</td>
-      <th>${renderData(layer.feature.properties['Starting Corner'])}</th>
+      <th>${renderData(layer.feature.properties['start_corner'])}</th>
     </tr>
     <tr>
       <td scope="row">Direction</td>
-      <th>${renderData(layer.feature.properties['Direction'])}</th>
+      <th>${renderData(layer.feature.properties['direction'])}</th>
     </tr>
     <tr>
       <td scope="row">Chains</td>
-      <th>${renderData(layer.feature.properties['Chains'])}</th>
+      <th>${renderData(layer.feature.properties['chains'])}</th>
     </tr>
     <tr>
       <td scope="row">Links</td>
-      <th>${renderData(layer.feature.properties['Links'], 0)}</th>
+      <th>${renderData(layer.feature.properties['links'], 0)}</th>
     </tr>
     <tr>
       <td scope="row">Text</td>
-      <th>${renderData(layer.feature.properties['Observation'])}</th>
+      <th>${renderData(layer.feature.properties['observation'])}</th>
     </tr>
     </table>
     <div class='journalLink'>
-      <a target='_blank' href="https://backbone-ridge.github.io/military-lots/town/${town.toLowerCase()}/transcription/page-${page2digit}">${town} Journal page ${renderData(layer.feature.properties['Page'])}
+      <a target='_blank' href="https://backbone-ridge.github.io/military-lots/town/${town.toLowerCase()}/transcription/page-${page2digit}">${town} Journal page ${renderData(layer.feature.properties['page'])}
       <img class='thumb' src='town/${town.toLowerCase()}/image/${town.toLowerCase()}-page-${page2digit}.jpg'</a>
     </div>
     </tr>
@@ -287,36 +287,36 @@ function html_obs(e) {
 function html_lots(e) {
   var layer = e.target
 
-  var popupContent = '<div id = "info-body"><div id = "info-cnty-name">' +
-    '<h3>Military Lot</h3></div>' +
-    '<table id = "main">\
-    <tr>\
-            <td scope="row">Lot ID</td>\
-            <th>' + renderData(layer.feature.properties['lot_id']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Township Name</td>\
-            <th>' + renderData(layer.feature.properties['township_name']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Township No</td>\
-            <th>' + renderData(layer.feature.properties['township_number']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Lot No</td>\
-            <th>' + renderData(layer.feature.properties['lot_number']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Soldier Granted Patent</td>\
-            <th>' + renderData(layer.feature.properties['soldier_granted']) + '</th>\
-        </tr>\
-    <tr>\
-            <td scope="row">Patent Delivered To</td>\
-            <th>' + renderData(layer.feature.properties['patent_to']) + '</th>\
-        </tr>\
-    </table></div>'
+  var popupContent = `
+    <div id = "info-body">
+      <div id = "info-cnty-name">
+        <h3>Military Lot</h3>
+      </div>
+      <table id = "main">
+      <tr>
+          <td scope="row">Township #</td>
+          <th>${renderData(layer.feature.properties['township_number'])}</th>
+      </tr>
+      <tr>
+          <td scope="row">Township Name</td>
+          <th>${renderData(layer.feature.properties['township_name'])}</th>
+      </tr>
+      <tr>
+          <td scope="row">Lot #</td>
+          <th>${renderData(layer.feature.properties['lot_number'])}</th>
+      </tr>
+      <tr>
+          <td scope="row">Soldier Granted Patent</td>
+          <th>${renderData(layer.feature.properties['soldier_granted'])}</th>
+      </tr>
+      <tr>
+          <td scope="row">Patent Delivered To</td>
+          <th>${renderData(layer.feature.properties['patent_to'])}</th>
+      </tr>
+      </table>
+    </div>`
 
-    document.getElementById('layer_info').innerHTML = title + popupContent;
+  document.getElementById('layer_info').innerHTML = title + popupContent;
 
   toggleInfoTab();
   openSidebar();

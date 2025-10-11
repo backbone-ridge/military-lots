@@ -196,9 +196,10 @@ img.zoomed:hover {
   box-shadow: 0 0 0;
   border: 0;
   border-radius: 0px;
-  font-size: 1em;
+  font-size: 9pt;
   color: #ff6644;
-  font-weight: 800;
+  xfont-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn {
