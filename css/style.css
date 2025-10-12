@@ -191,14 +191,31 @@ img.zoomed:hover {
   cursor: zoom-out;
 }
 
-.lot_label {
+.lot_label_Hector {
   background: rgba(255, 255, 255, 0);
   box-shadow: 0 0 0;
   border: 0;
   border-radius: 0px;
   font-size: 9pt;
-  color: #ff6644;
-  xfont-weight: 800;
+  color: #ff8800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lot_label_Ovid {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0;
+  border: 0;
+  border-radius: 0px;
+  font-size: 9pt;
+  color: #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lot_label_Ulysses {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0;
+  border: 0;
+  border-radius: 0px;
+  font-size: 9pt;
+  color: #8800ff;
   font-family: Arial, Helvetica, sans-serif;
 }
 

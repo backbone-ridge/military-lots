@@ -167,7 +167,7 @@ function update_lots(feature, layer) {
     feature.properties.lot_number.toString(), {
       permanent: true,
       direction: 'center',
-      className: 'lot_label'
+      className: `lot_label_${feature.properties.township_name}`
     }
   );
 }
