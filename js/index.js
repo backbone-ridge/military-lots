@@ -163,7 +163,8 @@ function update_lots(feature, layer) {
   });
 
   layer.bindTooltip(
-    (feature.properties.township_name[0] + feature.properties.lot_number), {
+    // toString() in case it is a number
+    feature.properties.lot_number.toString(), {
       permanent: true,
       direction: 'center',
       className: 'lot_label'
@@ -392,16 +393,24 @@ function style_photo() {
   }
 }
 
-function style_lots() {
+function towncolor(town) {
+  if (town=='Hector') return '#ff8800'
+  if (town=='Ovid') return '#ff0000'
+  if (town=='Ulysses') return '#8800ff'
+  return '#000000'
+}
+
+function style_lots(f) {
+  let color = towncolor(f.properties.township_name)
   return {
     opacity: 1,
-    color: '#ff6644',
+    color: color,
     lineCap: 'butt',
     lineJoin: 'miter',
     weight: 2,
     fill: true,
     fillOpacity: 0.1,
-    fillColor: '#ff6644'
+    fillColor: color
   }
 }
 
@@ -504,8 +513,8 @@ function addLegend() {
     },{
       label: "Lots",
       type: "rectangle",
-      color: '#ff4400',
-      fillColor: "#ff440011",
+      color: '#ff0000',
+      fillColor: "#ff000011",
       layers: lots_lyr
     }]
   })
