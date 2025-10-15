@@ -26,7 +26,7 @@ Throug prety good Land timbred with beech maple & Linden
 Linden]
 77  -  A brook running Ely
 78  -  To the N.E corner of this Lot & S.E corner of lot No. 7 &c here to fore described in page 9
-[7SE]    
+[7SE]
 
 ### South bounds of Lot No. 13.
 Beginning at the S.W. corner of this Lot & S.E corner of Lot No. 12 &c _ described in page 14 [12SE] and run from thence along the North bounds of lot No. 20

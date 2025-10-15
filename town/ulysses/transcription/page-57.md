@@ -45,7 +45,7 @@ figurs 73 on the N.Wly side & 74 on the N.Ely side_
 Beginning at the S.W. corner described in page 50 [72SE] & run from thence - Due magnetic East along the South bounds of the Township & military Tract
 
 At    Observations
-[Chs]  [Lks]  
+[Chs]  [Lks]
 Through a exceeding rough Chesnut ridge the timber formerly kild with fire
 36  -  Partly out of the chesnut ridge and began to desend a hill still very rough
 46  -  Soon throug of a brook in the hill or mountain & the desent not so great the

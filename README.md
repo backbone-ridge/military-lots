@@ -97,21 +97,16 @@ What does "With an allowance of 50 links..." mean?
 * s/\|\n\|/|/g
 * edit md to generate tables (use Markdown Preview)
   * add |-|-|-|-| after the header row
-
 * search for 5 cells in a row
 
 
 # TODO
 
 * normalize _ and - in HTML
-
 * review N-S bounds in Ovid
-
 * search for multiple passes of the same bounds in Hector
-
 * look for duplicate observations
-
-
+* search transcripts for extraneous - _ punctuation (convert to . or delete in some cases)
 
 
 

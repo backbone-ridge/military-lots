@@ -33,7 +33,7 @@ Beginning at the S.W. corner described in page 49 [62SE] And run from thence
 Due magnetic East along the North bounds of Lot No. 71 -
 
 At         Observations
-[Chs]  [Lks]  
+[Chs]  [Lks]
 30  -  A brook } runing S.Ely Good Land timbered with oak hickory Linden wht pine -
 Chesnut &c.
 45  -  A D’o. [brook] } runing S.Ely Good Land timbered with oak hickory Linden wht

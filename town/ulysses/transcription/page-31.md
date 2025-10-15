@@ -37,7 +37,8 @@ with brush wood
 ### West bounds of Lot No. 35.
 See the East bounds of Lot No. 34 - on page 30.
 
-## Lot No. 36  Field Book of the North bounds of Lot No. 36
+## Lot No. 36
+###Field Book of theNorth bounds of Lot No. 36
 See the field book of the south bounds of Lot No. 28. in page 26
 
 ### East bounds of Lots No. 36.

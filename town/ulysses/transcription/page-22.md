@@ -18,7 +18,7 @@ Due Magnetic West along the North bounds of Lot No. 30.
 | At |    | Observations |
 | -- | -- | ------------ |
 6  -  A brook} runing Nly Prety Good land. Covered with beech maple Linden
-9  -  A brook}   
+9  -  A brook}
 50  -  A brook}  runing N.Ely
 79  -  A brook} 
 80  -  To the S.W. corner of this Lot & S.E corner of Lot No. 21 & described in pg. 21[21SE]
@@ -28,7 +28,7 @@ See the field Book of the East bounds of Lot 21 in page 21.
 
 ### East bounds of Lot No. 23.
 Beginning at a maple stak Standing in the West bounds of Lot No. 25 - 7 links South of a beech tree marked with the figurs 23 on the NWly side and 31 on the N.Ely side. And run from thence
-Due magnetic North along the west bound of part of Lots No. 25 & 24.  
+Due magnetic North along the west bound of part of Lots No. 25 & 24.
 
 | At |    | Observations |
 | -- | -- | ------------ |

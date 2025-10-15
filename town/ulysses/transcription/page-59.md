@@ -24,7 +24,7 @@ bounds of the Milaterry Lands 4 Chs 30 Lks East of the 4 Mile Tree and 20 links 
 run from thence along the West bounds of lot No. 77- Due magnetic North.
 
 At      Observations
-[Chs]  [Lks]  
+[Chs]  [Lks]
 Through prety good timbred with Wht oak Wht pine Linden &c -
 38  -  Entred Hemlock woods 
 43  -  Began to Desend -
@@ -39,7 +39,7 @@ comes from the S.W.wards & the other from N.Ewards_
 Beginning at the S.W. corner described in page 58. [75SE] and run from thence Due magnetic East along the South bounds of the military tract
 
 At      Observations
-[Chs]  [Lks]  
+[Chs]  [Lks]
 Through very rough woods covered very thick with Yong beech & fine larg Wht 
 pin trees poor hard soil
 32  60  A brook running Sly_ the land beter then heretofore timber oak Wht pine Linden

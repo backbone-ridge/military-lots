@@ -9,7 +9,8 @@ layout: journal
 | Chs | Lks | |
 
 41  Ithaca?
-## Lot No. 49  Field book of the North bounds of Lot No. 49 -
+## Lot No. 49
+###Field book of theNorth bounds of Lot No. 49 -
 Beginning at the NE corner at an oake Stake 7 links S.W. from a Wht oak tree marked with the figurs 49 on the S.Wly side & 87 on the N.Ely side for the N.E corner of Lot No. 49. for an External corner of Lot No. 87. and run from thence Due magnetic West Through Good Land timber chiefly oak & hickory -
 
 | At |    | Observations |

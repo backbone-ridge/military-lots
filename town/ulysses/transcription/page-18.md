@@ -36,7 +36,7 @@ Through good Land desending gradually timber oak hickory maple &c
 
 ### West bounds of Lot No. 17
 Beginning at the S.W. corner above described and run from thence -
-Due Magnetic North.  
+Due Magnetic North.
 
 | At |    | Observations |
 | -- | -- | ------------ |

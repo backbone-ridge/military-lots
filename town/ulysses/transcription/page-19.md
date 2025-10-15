@@ -19,7 +19,7 @@ Beginning at the S.E corner at a beech Stake Standing 30 links S.E from A
 beech tree Marked with the figurs 18 on the NWly side 19 on the NE side 26 on the S.Wly side 27 on the S.E side. And run from thence Due magnetic North
 
 At      Observations
-[Chs]  [Lks]  
+[Chs]  [Lks]
 41  50  A brook runing Wly
 56  50  Entred good land timbred with maple Linden beech som Wht pine & hemlock
 71  50   Cross the Chicneaugowa Creek runing N.Ely

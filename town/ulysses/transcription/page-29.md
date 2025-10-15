@@ -46,7 +46,7 @@ runing NWly. Good Land timber beech maple Linden &c.
 24  -  A fine brook runing N.Ely
 38  50  To the NW. corner of this Lot & S.W. corner of Lot No. 32 described in p.28 [32SW]
 
-### East bounds of Lot No. 33.  
+### East bounds of Lot No. 33.
 Is constituted by the Western Shore of the cayuga Lake for the S.E corner described in page 29 (above Northerly to the N.E. corner described in page 28 [32SE] Of the said Lot
 
 (See the Map)

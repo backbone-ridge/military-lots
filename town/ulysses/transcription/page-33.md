@@ -24,14 +24,14 @@ layout: journal
 Beginning at the S.E corner described in page 32 [38SE] & run from thence Due magnetic West along the North bounds of Lot No. 46._
 
 At      Observations
-[Chs]  [Lks]      
+[Chs]  [Lks]
 8  -  A black Ash Swamp
 15  -  Out of the black ash swamp again
 27  -  A brook } runing NE good Land timbred as above [maple beech Linden Elm
  [W]alnut Wht ash black red & white oaks and chesnut.]
 35  -  A D’o [brook] } [maple beech Linden Elm  [W]alnut Wht ash black red & white
  oaks and chesnut.]
-80  -  weeedrrSE      
+80  -  weeedrrSE
 
 ### West bounds of Lot No. 38.
 See the field book of the East bounds of Lot No. 37. in page 32.

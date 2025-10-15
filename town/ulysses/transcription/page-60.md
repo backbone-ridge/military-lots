@@ -11,7 +11,7 @@ layout: journal
  60
 
 ## Lot No. 77
-### Field Book of the North bounds of Lot No. 77.  
+### Field Book of the North bounds of Lot No. 77.
 See the field book of the South bounds of Lot No. 71 in page 56.
 
 ### East bounds of Lot No. 77.
@@ -33,7 +33,7 @@ Beginning at the S.W. corner described in page 59. and run from thence
 Due magnetic East along the South bounds of the Military Tract_
 
 At      Observations
-[Chs]  [Lks]  
+[Chs]  [Lks]
 Throug prety Good Land timbered with maple beech Linden oak &c_
 47  20  A Small brook coming from the NW.wards_ and runs S.Ely_
 51  20  The brook again

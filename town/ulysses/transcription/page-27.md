@@ -18,10 +18,10 @@ Due magnetic East along the North bounds of Lot No. 37.
 | At |    | Observations |
 | -- | -- | ------------ |
 Through very good Land timber’d with maple beech Linden white ash &c.
-80  -  To the S.E corner of this Lot & S.W. corner of Lot No. 30 discribed [29SE] in p 36 [p 26]  
+80  -  To the S.E corner of this Lot & S.W. corner of Lot No. 30 discribed [29SE] in p 36 [p 26]
 
 ### West bounds of Lot No. 29.
-See the field book of the East bounds of Lot No. 28 in page 26.  
+See the field book of the East bounds of Lot No. 28 in page 26.
 
 ## Lot No. 30
 ### Field Book of the North bounds of Lot No. 30 -

@@ -48,11 +48,11 @@ red & white Oaks Chesnut Linden &c -
 14  -  A run of watter.} Prety good land timbred with maple beech black
 red & white Oaks Chesnut Linden &c -
 50  -  On the Top of the hill}  Prety good land timbred with maple beech black
-red & white Oaks Chesnut Linden &c -  
+red & white Oaks Chesnut Linden &c -
 58  -  A brook runing S.Ely} Prety good land timbred with maple beech black
 red & white Oaks Chesnut Linden &c -
 76  -  To the S.W corner of this Lot & S.E corner of lot No. 51 &c described in p 42 
 [50SE]
 
 ### West bounds of Lot No. 52 -
-See the field book of the East bounds of Lot No. 51 in page 42.  
+See the field book of the East bounds of Lot No. 51 in page 42.

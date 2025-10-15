@@ -58,7 +58,7 @@ Beginning at the S.W. corner described in page 58. above & from thence Due magne
 East. along the South bounds of the Township on the Military lands 
 
 At      Observations
-[Chs]  [Lks].  
+[Chs]  [Lks].
 67  -  A fine brook runing Sly.  The land prety Good timber beech maple pine &c -
 76  30   The 13 mile tree
 79  70  To the S.E corner last above described - [75SE] 

@@ -35,7 +35,7 @@ North of a Wht oak tree marked with the figurs 72 on the NWly side & 73 on the
 ## Lot No. 73.
  
 At      Observations
-[Chs]  [Lks]  
+[Chs]  [Lks]
 Through poor Land as above mentioned & Timbered. [poor broken Land timber’d with pine & oak]
 25   -  The roade leading from the head of the cayuga Lak to Catherine Town here 
 Entred somthing beter Land timber’d with Chesnut oak Wht pine &c -
