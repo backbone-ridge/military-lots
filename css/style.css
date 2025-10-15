@@ -1,38 +1,29 @@
-@font-face {
-  font-family: TTCommonsExtraBold;
-  src: url("ExtraBold.otf") format('opentype');
-}
-
-@font-face {
-  font-family: TTCommonsRegular;
-  src: url("Regular.otf") format('opentype');
-}
-
-@font-face {
-  font-family: TTCommonsDemiBold;
-  src: url("DemiBold.otf") format('opentype');
-}
-
 html, body, #map {
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #181616;
   background: white;
 }
 
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  text-align:
+a:visited {
+  color: #40f;
 }
 
 del { 
   color: #f00;
+}
+
+li {
+  margin-top: 0.7em;
+}
+
+p {
+  margin: 1em 0 0;
 }
 
 #layer_info i {
@@ -74,7 +65,7 @@ h4 {
   /*border-bottom: thin #222 dotted;*/
   border-top: thin #222 dotted;
   padding: 10px 0px 5px 0px;
-  margin: 15px 0px;
+  margin: 1.5em 0 0;
 }
 
 .info-body-break {
@@ -254,13 +245,43 @@ img.zoomed:hover {
   font-style: italic;
 }
 
-.sidebar-header {
-  display: none;
+x.sidebar {
+  top: -1px ! important;
+  bottom: -1px ! important;
+  left: -1px ! important;
+}
+
+.sidebar-tabs {
+  background: #ddd;
 }
 
 .sidebar-content {
   background: #fff;
 }
+
+.sidebar-content h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+.sidebar-content h2 {
+  font-size: 1.2em;
+  margin: 0;
+}
+.sidebar-content a.about {
+  float: right;
+}
+.sidebar-content a.closeSidebar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .sidebar-content a.closeSidebar {
+    display: block;
+    margin: 0 1em;
+    text-align: center;
+  }
+}
+
 
 x.leaflet-sidebar-pane {
   padding-top: 0;
@@ -284,10 +305,6 @@ x.leaflet-sidebar-pane {
 @media (max-width: 1024px) {
   .info-head h1 {
     font-size: 2em;
-  }
-
-  #info-cnty-name h3 {
-    font-size: 1.5em;
   }
 
   th, td {

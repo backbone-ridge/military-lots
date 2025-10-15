@@ -54,15 +54,6 @@ var Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest
 Esri_WorldTopoMap.addTo(map);
 map.addLayer(Esri_WorldTopoMap);
 
-
-
-var title = '<div class="info-head"><h1>Backbone Ridge History Group</h1><h2>Interactive Map of Military Lots</h2>'
-var default_text = '<div id = "info">' + title + '<div id = "info-body"><p>The New Military Tract is a group of 28 towns in central New York State that were laid out and then surveyed into one-hundred 600-acre lots from 1789-91. The military lots were used to compensate New York soldiers for their service during the Revolutionary War. The lots were awarded by random ballots, one lot for each private and multiple lots for officers. There were various set-asides and reservations.</p><p>This interactive map will allow you to follow the original survey lot lines of Ovid and Hector, the towns encompassing the Backbone Ridge, located between Seneca and Cayuga Lakes. Eventually you will have access to views of the original manuscript, the transcription of each page and other information. The current edition of the map shows the original ballotee—the soldier who was awarded the lot – and identifies the person who actually settled the lot. It also provides the surveyors’ descriptions of the forest landscape along the survey lines.</p><p>The transcription of the surveyors’ notebooks and the map planning were done by a group of volunteers as part of the Backbone Ridge History Group (BRHG), with the generous support of the Nelson B. Delavan Foundation. The BRHG is committed to preserving the history of the Backbone Ridge.</p><hr class="info-body-break"><p>We dedicate this project to the man who envisioned this interactive map, Allan Buddle. Allan passed away before we were able to share this project with the public but he was with us as we began the adventure of transcribing the field books.</p><p>We hope you enjoy using the map and might even take it along as you walk the trails that follow some of the original lot lines. Imagine, as Allan did, the old homesteads, the lowing of cattle and the serene beauty of the Backbone Ridge.</p></div></div></div>'
-var default_layer_info = '<div id = "info-body"><p>Click a feature on the map</p></div>'
-
-document.getElementById('home').innerHTML = default_text;
-document.getElementById('layer_info').innerHTML = title + default_layer_info;
-
 // Switch to layer info pane in sidebar if a layer is selected and the home pane is active
 function toggleInfoTab() {
   var homeTab = document.getElementById('home-tab');
@@ -102,6 +93,10 @@ function openSidebar() {
   }
 }
 
+function sidebarHome() {
+  console.log('hi')
+  sidebar.open('home_pane')
+}
 
 var sidebar = L.control.sidebar('sidebar', {
   position: 'left'
@@ -235,13 +230,12 @@ function html_obs(e) {
   let town = layer.feature.properties['township']
   var page2digit = ('' + layer.feature.properties['page']).padStart(2,'0')
 
-  var popupContent = `<div id="info-body"><div id="info-cnty-name">
-    <h3>Surveyor&apos;s observation point</h3></div>
+  let pageurl = `https://backbone-ridge.github.io/military-lots/town/${town.toLowerCase()}/transcription/page-${page2digit}`
+
+  var popupContent = `
+  <div id="info-body">
+    <h3>Surveyor's observation point</h3>
     <table id = "main">
-    <tr>
-      <td scope="row">id</td>
-      <th>${renderData(layer.feature.properties['id'])}</th>
-    </tr>
     <tr>
       <td scope="row">Township</td>
       <th>${renderData(layer.feature.properties['township'])}</th>
@@ -272,13 +266,12 @@ function html_obs(e) {
     </tr>
     </table>
     <div class='journalLink'>
-      <a target='_blank' href="https://backbone-ridge.github.io/military-lots/town/${town.toLowerCase()}/transcription/page-${page2digit}">${town} Journal page ${renderData(layer.feature.properties['page'])}
+      <a target='_blank' href="${pageurl}">${town} Journal page ${renderData(layer.feature.properties['page'])}
       <img class='thumb' src='town/${town.toLowerCase()}/image/${town.toLowerCase()}-page-${page2digit}.jpg'</a>
     </div>
-    </tr>
-    </div>`
+  </div>`
 
-  document.getElementById('layer_info').innerHTML = title + popupContent;
+  document.getElementById('layer_info').innerHTML = popupContent;
 
   toggleInfoTab();
   openSidebar();
@@ -289,11 +282,9 @@ function html_lots(e) {
   var layer = e.target
 
   var popupContent = `
-    <div id = "info-body">
-      <div id = "info-cnty-name">
-        <h3>Military Lot</h3>
-      </div>
-      <table id = "main">
+    <div id="info-body">
+      <h3>Military Lot</h3>
+      <table id="main">
       <tr>
           <td scope="row">Township #</td>
           <th>${renderData(layer.feature.properties['township_number'])}</th>
@@ -317,7 +308,7 @@ function html_lots(e) {
       </table>
     </div>`
 
-  document.getElementById('layer_info').innerHTML = title + popupContent;
+  document.getElementById('layer_info').innerHTML = popupContent;
 
   toggleInfoTab();
   openSidebar();

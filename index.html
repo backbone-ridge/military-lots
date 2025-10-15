@@ -6,9 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="css/leaflet.css">
   <link rel="stylesheet" href="css/leaflet-sidebar.css">
   <link rel="stylesheet" href="css/leaflet.legend.css">
@@ -34,18 +31,39 @@
     <!-- Tab panes -->
     <div class="sidebar-content">
       <div class="sidebar-pane active" id="home_pane">
-        <h1 class="sidebar-header">
-          <span class="sidebar-close"><i class="fa fa-caret-right"></i></span>
-        </h1>
-        <div id="home"></div>
+        <h1>Backbone Ridge History Group</h1>
+        <h2>Interactive Map of Military Lots</h2>
+        <div id="home">
+          <p>The New Military Tract is a group of 28 towns in central New York State that were laid out and then surveyed from 1789 to 1791.  Each town consisted of one hundred 600-acre lots.  The military lots were used to compensate New York soldiers for their service during the Revolutionary War.  The grid created by colonial surveyors overlays a landscape of natural forms carved by glaciers.  Before the survey it was occupied by indigenous people who fished, hunted, gathered, and farmed between the lakes for thousands of years.  New York obtained access to these Indigenous lands through the contested 1789 Treaty of Albany, negotiated with a group of Gayogo̱hó꞉nǫɁ (Cayuga Nation) representatives.</p>
+          <p>The land was distributed to the soldiers by random ballots, one lot for each private, and multiple lots for officers.  In each town two lots were retained to finance schools and churches.  This interactive map will allow you to follow the original survey lot lines of Ovid, Hector, and Ulysses, the towns encompassing the Backbone Ridge.  You will have access to a copy of the original manuscript, a transcription of each page, the name of the original ballotee (the soldier who was awarded the lot) and the person who received the patent.  Many soldiers sold their properties and never occupied them.  The surveyors' descriptions provide information about the landscape along the survey lines and there are old and new photographs of some of the sites.</p>
+          <p>Here are some places where you can learn more about the history of this land:</p>
+          <h3>Military Tract History</h3>
+          <ul>
+            <li>Walter Gable (2020). <a target="_blank" href="https://www.youtube.com/watch?v=p6ZJJXqORI4">History of the Military Tract.</a> (video)</li>
+            <li>Peter Marks, Sana Gardescu, Franz K. Seischab (1992). <a target="_blank" href="https://nysl.ptfs.com/aw-server/rest/product/purl/NYSL/s/c11f1dc4-739e-4519-be80-bc9c5e71c330#page=3">Late Eighteenth Century Vegetation of
+            Central and Western New York on the Basis of Original Land Survey Records</a>. NYS Museum Bulletin
+            484.
+            <li>Richard H. Schein (1993). <a target="_blank" href="https://www.jstor.org/stable/23181755">Framing the Frontier: The New Military Tract Survey in Central New York</a>.  New York History, Vol. 74, No. 1.</li>
+          </ul>
+          <h3>Indigenous History</h3>
+          <ul>
+            <li>Kurt Jordan (2022). <a target="_blank" href="https://www.thehistorycenter.net/thehistoryshop/p/the-gayogohn-people-in-the-cayuga-lake-region-a-brief-history">The Gayogo̱hó꞉nǫɁ People in the Cayuga Lake Region: A Brief History</a>.  Tompkins Historical
+            Commission.</li>
+            <li>New York State Museum (2024). <a target="_blank" href="https://nysm.nysed.gov/sites/default/files/dispossesion_of_indigenous_lands_map_updated08-2024_a.pdf">Dispossession of Indigenous Lands</a> (map).</li>
+            <li>Ganondagan Historic Site. <a target="_blank" href="https://www.ganondagan.org/">www.ganondagan.org</a></li>
+          </ul>
+          <p>The transcription of the surveyors' notebooks and the map planning were done by a group of volunteers as part of the Backbone Ridge History Group (BRHG),  with the generous support of the Nelson B. Delavan Foundation. The BRHG is committed to preserving the history of the Backbone Ridge.</p>
+          <br>
+        </div>
       </div>
 
       <div class="sidebar-pane" id="layer_info_pane">
-        <h1 class="sidebar-header">
-          <span class="sidebar-close"><i class="fa fa-caret-right"></i></span>
-        </h1>
-        <div id="layer_info"></div>
+        <h1>Backbone Ridge History Group</h1>
+        <h2>Interactive Map of Military Lots</h2>
+        <a class="about" href="#home" onclick="sidebarHome()">about</a>
+        <div id="layer_info"><div id = "info-body"><p>Click a feature on the map</p></div></div>
       </div>
+      <a class="closeSidebar" href="#close" onclick="sidebar.close()">View map</a>
     </div>
   </div>
   <div id="map" class="sidebar-map"></div>
