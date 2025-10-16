@@ -11,7 +11,9 @@ layout: journal
 43
 
 ## Lot No. 51
+
 ### South bounds of Lot No. 51- -
+
 Beginning at the S.E corner [51SE] last described in page 42 and run from thence - Due magnetic West along the North bounds of Lot No 59. -
 
 | At |    | Observations |
@@ -24,13 +26,17 @@ Beginning at the S.E corner [51SE] last described in page 42 and run from thence
 [50SE]
 
 ### West bounds of Lot No. 51 -
+
 See the East bounds of Lot No. 50 in page 42 -
 
 ## Lot No. 52
+
 ### Field Book of the North bounds of Lot No. 52.
+
 See the field book of the South bounds of Lot No. 44. in page 38.
 
 ### East bounds of Lot No. 52.
+
 Beginning at the S.E corner [52SE] at a maple stake 19 links N.Wly from a Linden tree marked with the figurs 52 on the N.Wly side 53 on the N.Ely side 60 on the S.Wly side & 61 on the S.Ely side And run from thence - Due magnetic North. along the West bounds of Lot No. 53. -
 
 | At |    | Observations |
@@ -40,6 +46,7 @@ Through good Land timbred with beech maple Linden Wild cherry &c -
 80  90  The N.E corner of this Lot & S.E corner of Lot No. 44. described in page 37.
 
 ### South bounds of Lot No. 52
+
 Beginning at the S.E corner [52SE] above described and run from thence Due magnetic West. along the North bounds of Lot No. 60.
 | At |    | Observations |
 | -- | -- | ------------ |
@@ -55,4 +62,5 @@ red & white Oaks Chesnut Linden &c -
 [50SE]
 
 ### West bounds of Lot No. 52 -
+
 See the field book of the East bounds of Lot No. 51 in page 42.

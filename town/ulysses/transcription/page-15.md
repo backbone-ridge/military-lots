@@ -16,8 +16,7 @@ See the field book of the South bounds of Lot No. 7 in page 9 & 10
 
 ### East bounds of Lot No. 13.
 
-Beginning at a white ash Stake. Standing in the S.E corner 21 links N.Ely from a Linden tree marked with the figurs 13 on the NWly side 14 on the N.Ely side 20 on the SWly side & 21 on the S.Ely side and run from thence
-
+Beginning at a white ash Stake. Standing in the S.E corner 21 links N.Ely from a Linden tree marked with the figurs 13 on the NWly side 14 on the N.Ely side 20 on the SWly side & 21 on the S.Ely side and run from thence \
 Due magnetic North along the West bounds of Lot No. 14.
 
 | At |    | Observations |
@@ -30,7 +29,7 @@ Due magnetic North along the West bounds of Lot No. 14.
 
 ### South bounds of Lot No. 13.
 
-Beginning at the S.W. corner of this Lot & S.E corner of Lot No. 12 &c _ described in page 14 [12SE] and run from thence along the North bounds of lot No. 20
+Beginning at the S.W. corner of this Lot & S.E corner of Lot No. 12 &c _ described in page 14 [12SE] and run from thence along the North bounds of lot No. 20 \
 Due magnetic East.
 
 | At |    | Observations |

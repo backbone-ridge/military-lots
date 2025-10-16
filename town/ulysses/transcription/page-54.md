@@ -11,6 +11,7 @@ layout: journal
 54
 
 ## Lot No. 68.
+
 ### East bounds of Lot No. 68. Continued
 
 | At |    | Observations |
@@ -25,6 +26,7 @@ maple Linden wht pine Burch Elm &c
 page 48 -[60SE]
 
 ### South bounds of Lot No. 68.
+
 Beginning at the S.E corner described in page 53. [68SE] & run from thence Due magnetic West along the North bounds of Lot No. 74.
 
 | At |    | Observations |
@@ -35,13 +37,17 @@ Beginning at the S.E corner described in page 53. [68SE] & run from thence Due m
 p. 53.[67SE]
 
 ### West bounds of Lot No. 68.
+
 See the field Book of the East bounds of Lot No. 67 in page 53.
 
 ## Lot No. 69
+
 ### Field Book of the North bounds of Lot No. 69.
+
 See the field book of the South bounds of Lot No. 67 [61] in page 53. [49]
 
 ### East bounds of Lot No. 69.
+
 Beginning at the N.E corner described in page 49. [61SE] And run from thence Due magnetic South along the West bounds of Lot No. 70 -
 
 | At |    | Observations |
@@ -55,6 +61,7 @@ Beginning at the N.E corner described in page 49. [61SE] And run from thence Due
 on the NWly side 70 on the NEly side 75 on the S.Wly side and 76 on the S.Ely side.
 
 ### South bounds of Lot No. 69.
+
 Beginning at the S.E corner last above described [69SE] and run from thence Due magnetic West along the North bounds of Lot No. 75 -
 
 | At |    | Observations |
@@ -66,4 +73,5 @@ Beginning at the S.E corner last above described [69SE] and run from thence Due 
 53.[68SE]
 
 ### West bounds of Lot No. 69 -
+
 See the East bounds of Lot No. 68  in pages 53. & 54.

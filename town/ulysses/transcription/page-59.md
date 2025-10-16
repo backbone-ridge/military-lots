@@ -11,14 +11,19 @@ layout: journal
 59
 
 ## Lot No. 75
+
 ### West bounds of Lot No. 75
+
 See the field book of the East bounds of Lot No. 74 in page 58.
 
 ## Lot No. 76
+
 ### Field Book of the North bounds of Lot No. 76. 
+
 See the field book of the South bounds of Lot No. 70 in page 55.
 
 ### East bounds of Lot No. 70 [76]
+
 Beginning at the S.E corner at a wht ash Stake standing in the South 
 bounds of the Milaterry Lands 4 Chs 30 Lks East of the 4 Mile Tree and 20 links South of a wht pine tree marked with the figurs 76 on the NWly side & 77 on the N.Ely side and 
 run from thence along the West bounds of lot No. 77- Due magnetic North.
@@ -36,6 +41,7 @@ comes from the S.W.wards & the other from N.Ewards_
 [70SE]
 
 ### South bounds of Lot No. 76.
+
 Beginning at the S.W. corner described in page 58. [75SE] and run from thence Due magnetic East along the South bounds of the military tract
 
 At      Observations
@@ -52,4 +58,5 @@ maple &c.
 above described [76SE]
 
 ### West bounds of Lot No. 76.
+
 See the field book of the East bounds of Lot No. 75 in page 58.

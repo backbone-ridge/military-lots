@@ -11,7 +11,7 @@ layout: journal
 ### South bounds of Lot No. 2
 
 Beginning at the S.E corner last above described [2SE] and run from thence 
-along the north bounds of part of Lots No. 6 & 7
+along the north bounds of part of Lots No. 6 & 7 \
 Due Magnetic West
 
 | At |    | Observations |

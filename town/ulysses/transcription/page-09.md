@@ -27,11 +27,14 @@ See the East bounds of Lot No. 5 in page 7
 
 Beginning at a Stak standing in the South bounds of lot No. 3 sixteen links N.Wly from a hard maple tree marked with the figures 8 on the S.Ely & 7 on the S.Wly side for the N.W corner of Lot No. 8 & N.E corner of lot No. 7 and run from Thence magnetic West along part of the south bounds of lot No. 3 & 2
 
-79  50  To the N.E corner of Lot No. 6 & N.W. corner of this lot before described for the Notes of remarks of the first 16 Chs of the line see that distance of the West part of the south bounds of Lot No. 3 and for the remarks of the _ Remaining 63 Chs 50 links _ See that distance of the East part of the south Bounds of Lot No. 2
+| [At] |    | [Observations] |
+| -- | -- | ------------ |
+| 79 | 50 | To the N.E corner of Lot No. 6 & N.W. corner of this lot before described for the Notes of remarks of the first 16 Chs of the line see that distance of the West part of the south bounds of Lot No. 3 and for the remarks of the _ Remaining 63 Chs 50 links _ See that distance of the East part of the south Bounds of Lot No. 2
 
 ### East bounds of Lot No. 7
 
-Beginning at the S.E. corner at a Ironwood Stake standing 6 links East Of a maple tree marked with the figurs 7 on the N.Wly 8 on the N.Ely on the SE side for the S.E. 13 on the SEly 14 on the SE side for the S.E. corner of Lot No. 7 _ S.W. corner of Lot No. 8 NE corner of Lot No. 13 and the N.W. corner of lot No. 14 _ And run from thence along the West bounds of Lot No. 8 Due magnetic North.
+Beginning at the S.E. corner at a Ironwood Stake standing 6 links East Of a maple tree marked with the figurs 7 on the N.Wly 8 on the N.Ely on the SE side for the S.E. 13 on the SEly 14 on the SE side for the S.E. corner of Lot No. 7 _ S.W. corner of Lot No. 8 NE corner of Lot No. 13 and the N.W. corner of lot No. 14 _ And run from thence along the \
+West bounds of Lot No. 8 Due magnetic North.
 
 | At |    | Observations |
 | -- | -- | ------------ |
@@ -40,7 +43,8 @@ Beginning at the S.E. corner at a Ironwood Stake standing 6 links East Of a mapl
 
 ### South bounds of Lot No.7
 
-Begining at the S.W. corner before described and run from thence Due magnetic East along the North bounds of Lot No. 13
+Begining at the S.W. corner before described and run from thence \
+Due magnetic East along the North bounds of Lot No. 13
 
 | At |    | Observations |
 | -- | -- | ------------ |

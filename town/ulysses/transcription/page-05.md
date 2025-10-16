@@ -10,7 +10,8 @@ layout: journal
 
 ### East bounds of Lot No.3
 
-Beginning at the N.E corner of Lot No. 8 in the West bounds of Lot No. 4 at  a Chisnut Stake standing 5 links N.Ely from a beech tree blazed on the N.Ely side  And marked with the figurs 3 on the NWly side & 8 on the SWly side and run from Thence Due magnetic North along the West bounds of Lot No. 4.
+Beginning at the N.E corner of Lot No. 8 in the West bounds of Lot No. 4 at  a Chisnut Stake standing 5 links N.Ely from a beech tree blazed on the N.Ely side  And marked with the figurs 3 on the NWly side & 8 on the SWly side and run from \
+Thence Due magnetic North along the West bounds of Lot No. 4.
 
 | At |    | Observations |
 | -- | -- | ------------ |
@@ -25,7 +26,8 @@ Beginning at the N.E corner of Lot No. 8 in the West bounds of Lot No. 4 at  a C
 
 ### South bounds of Lot No. 3
 
-Beginning at the N.E corner of Lot No. 8 above described [8NE] & run from thence Due West magnetically along the North bounds of Lot No. 8 a fore said & part of Lot No. 7
+Beginning at the N.E corner of Lot No. 8 above described [8NE] & run from thence \
+Due West magnetically along the North bounds of Lot No. 8 a fore said & part of Lot No. 7
 
 | [At] | | [Observations] |
 | - | - | - |

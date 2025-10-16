@@ -10,7 +10,8 @@ layout: journal
 
 ### West bounds of Lot No. 5.
 
-Beginning at the N.W. corner above described an run from thence Due magnetic South along the West bounds of the Township
+Beginning at the N.W. corner above described an run from thence \
+Due magnetic South along the West bounds of the Township
 
 | At |    | Observations |
 | -- | -- | ------------ |
@@ -21,11 +22,13 @@ Beginning at the N.W. corner above described an run from thence Due magnetic Sou
 
 ### Field Book of the North bounds of Lot No.6
 
-Beginning at the N.E. corner at a Linden stak standing in the South of Lot No.2 Seven links S.Ely from from a Linden tree marked with the Figurs 6 on the S.Wly side and 7 on the S.Ely side for the N.E of lot No.6 & NW. corner of Lot No.7 and run from thence Due magnetic West - & 83 Chains 50 links to the N.W. corner of this Lot and N.E. corner of Lot No. 5 before Described [5NE] For the remarks of the first 47 Chains 75 links of this line _ See the distance of the West part of the South bounds of the Lot No. 2 and the remaining 35 Chains 75 links see the Distance of the East part of the South bounds of Lot No.1 -
+Beginning at the N.E. corner at a Linden stak standing in the South of Lot No.2 Seven links S.Ely from from a Linden tree marked with the Figurs 6 on the S.Wly side and 7 on the S.Ely side for the N.E of lot No.6 & NW. corner of Lot No.7 and run from thence \
+Due magnetic West - & 83 Chains 50 links to the N.W. corner of this Lot and N.E. corner of Lot No. 5 before Described [5NE] For the remarks of the first 47 Chains 75 links of this line _ See the distance of the West part of the South bounds of the Lot No. 2 and the remaining 35 Chains 75 links see the Distance of the East part of the South bounds of Lot No.1 -
 
 ### East bounds of Lot No.6
 
-Beginning at the N.E. corner above Described [6SE] and run from thence Due South Magnetically along the West bounds of Lot No.7
+Beginning at the N.E. corner above Described [6SE] and run from thence \
+Due South Magnetically along the West bounds of Lot No.7
 
 | At |    | Observations |
 | -- | -- | ------------ |
@@ -36,7 +39,8 @@ Beginning at the N.E. corner above Described [6SE] and run from thence Due South
 
 ### South bounds of Lot No.6
 
-Beginning at the SW. corner before described  and run from thence Due magnetic East along the North bounds of Lot No. 12
+Beginning at the SW. corner before described  and run from thence \
+Due magnetic East along the North bounds of Lot No. 12
 
 | At |    | Observations |
 | -- | -- | ------------ |

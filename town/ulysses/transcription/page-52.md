@@ -11,7 +11,9 @@ layout: journal
 52
 
 ## Lot No. 65 -
+
 ### South bounds of Lot 65
+
 Beginning at the S.E corner described in page 51 [65SE] and run from Thence Due magnetic West.
 
 | At |    | Observations |
@@ -35,17 +37,19 @@ No. 63 - seventy Links N.Wly from a chesnut sapling marked with the figurs 65 on
 
 | At |    | Observations |
 | -- | -- | ------------ |
-0  0  Begining at the S.W. corner Last above described [65SW] And run from thence 
+0  0  Begining at the S.W. corner Last above described [65SW] And run from thence \
 Due magnetic North
 33  67  Along the East bounds of Lot No. 63. To the N.W. corner of this Lot & S.W. corner
 of Lot No. 64. described in page 51 [64SW]
 
-
 ## Lot No. 66
+
 ### Field Book of the North bounds of Lot No. 66
+
 See the field Book of the South bounds of Lot No. 48 [58] in page 47.
 
 ### East bounds of Lot No. 66
+
 Beginning at the S.E corner at a Linden stake 10 Links S.Ely from a Chesnut sapling marked with the figurs 66 on the N.Wly side 67 on the N.Ely side 72 on the S.Wly side And 73 on the S.Ely side & run from thence Due magnetic North along the West bounds of Lot No. 67 -
 
 At        Observations
@@ -55,7 +59,8 @@ At        Observations
 [58SE]
 
 ### South bounds of Lot No. 66
-Begining at the S.E corner above described [66SE] and run from thence - 
+
+Begining at the S.E corner above described [66SE] and run from thence - \
 Due magnetic West along the North bounds of Lot No. 72 - 
 
 | At |    | Observations |
@@ -64,5 +69,4 @@ Due magnetic West along the North bounds of Lot No. 72 -
 chesnut maple &c] - 
 78  -  To a beech Stake standing in the West bounds of the Township 9 links S.Ely from 
 a beech sapling marked with the figurs 66 on the N.Ely side 72 on the S.Ely side - 
-
 

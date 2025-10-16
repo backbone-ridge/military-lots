@@ -6,15 +6,15 @@ layout: journal
 
 Field Book of the subdivision of ~~the~~ Township Number Twenty two Other wise called the Township of Ulyses of the _ Military Gratuity Lands of the state of New York as performed in the Months of september & October ~~Annodomini~~ 1790.
 under the immediate Inspection of & in part by Moses DeWitt 
- 
+
 ### Field Book of the North bounds of Lot No. 1.
 
 Beginning at the N.W. corner of the Township at a beech tree. 
 Marked on the S.Ely side {N+ W+ Corner Town No. 22} and {N+ E+ Corner Town No. 21} on the S.Wly side.
 
-And run from thence along the North bounds of the Township
+And run from thence along the North bounds of the Township \
 Due magnetic East.
- 
+
 | At |    | Observations |
 | -- | -- | ------------ |
 | Chs | Lks | |

@@ -10,7 +10,7 @@ layout: journal
 
 ### Field Book of the North bounds of Lot No. 2
 
-Beginning at the N.E corner at a White Oak tree Standing in the North bounds of the Township marked with a blaze & two Notches below And one above the blaze on the south side as also With the figurs 2 on the S.Wly side & 3 on the S.Ely side for the N.W corner of No. 3 & N.E corner of No. 2 and runs from thence along the North bounds of the Township
+Beginning at the N.E corner at a White Oak tree Standing in the North bounds of the Township marked with a blaze & two Notches below And one above the blaze on the south side as also With the figurs 2 on the S.Wly side & 3 on the S.Ely side for the N.W corner of No. 3 & N.E corner of No. 2 and runs from thence along the North bounds of the Township \
 Due magnetic West. 
 
 | At |    | Observations |

@@ -3,13 +3,13 @@ town: Ulysses
 page: 2
 layout: journal
 ---
- 
+
 ## Lot No.1
 
 ### East bounds Continued.
 
 Tree blazed on the North side and marked with the figurs 1 and 2 on the NEly Side
-And runs from thence along the West bounds of Lot No.2 a fore said...
+And runs from thence along the West bounds of Lot No.2 a fore said... \
 Due magnetic North.
 
 | At |    | Observation |
@@ -22,9 +22,9 @@ Due magnetic North.
 
 ### South bounds of Lot No. 1
 
-Beginning at the S.E corner above mentioned and run from thence
+Beginning at the S.E corner above mentioned and run from thence \
 Due West magnetically along part of the North Bounds of Lot No. 6 and whole [Lot] No. 5
- 
+
 | At |    | Observations |
 | -- | -- | ------------ |
 | 35 | 75 | The corner of lot No. 5 & 6 |
@@ -32,7 +32,7 @@ Due West magnetically along part of the North Bounds of Lot No. 6 and whole [Lot
 
 ### West bounds of Lot No.1
 
-Beginning at the N.W. corner of the Township above mentioned and runs from
+Beginning at the N.W. corner of the Township above mentioned and runs from \
 Thence along the West bounds there of due Magnetic South.
 
 | At |    | Observations |

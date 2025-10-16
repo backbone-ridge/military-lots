@@ -10,14 +10,13 @@ layout: journal
 
 ### Field Book of the North bounds of Lot No. 12.
 
- See the field Book of the South bounds of Lot No. 6 in pages 8 & 9 -
+See the field Book of the South bounds of Lot No. 6 in pages 8 & 9 -
 
 ---
 
 ### East bounds of Lot No. 12.
 
-Beginning at the N.E corner of this Lot & S.E corner of Lot No. 6 here to fore described - and run from thence along the West bounds of lot No. 13
-
+Beginning at the N.E corner of this Lot & S.E corner of Lot No. 6 here to fore described - and run from thence along the West bounds of lot No. 13 \
 Due magnetic South
 
 | At |    | Observations |
@@ -29,7 +28,7 @@ Due magnetic South
 
 ### South bounds of Lot No. 12.
 
-Beginning at the S.W corner of this Lot & S.E corner of Lot No. 11 and above described [11SE] & run from thence
+Beginning at the S.W corner of this Lot & S.E corner of Lot No. 11 and above described [11SE] & run from thence \
 Due magnetic East along the North bounds of Lot No. 19.
 
 | At |    | Observations |

@@ -25,14 +25,12 @@ See the field book East bounds of Lots No. 6 in page [8]
 
 ### Field Book of the North bounds of Lot No. 8.
 
-Beginning at a chesnut stak standing in the West bounds of Lot No. 4 5 links N.Ely from a beech tree blazed fasing the stak and Marked With the figurs  8 on the S.Wly side before described and run from thence
-
+Beginning at a chesnut stak standing in the West bounds of Lot No. 4 5 links N.Ely from a beech tree blazed fasing the stak and Marked With the figurs  8 on the S.Wly side before described and run from thence \
 Due magnetic West 79 Chs 50 links to the N.W. corner of this lot & N.E corner of Lot No. 7 above Described [7NE]. For the remarks of this line see the south bounds of Lot No. 3 in page 5.
 
 ### East bounds of Lot No. 8
 
-Beginning at a beech stak standing in the S.E corner of this Lot 17 links SW. from a maple tree marked with the figures 8 on the NWly 9 on the N.E 14 on the S.Wly & 15 on the S.Ely side & run from thence
-
+Beginning at a beech stak standing in the S.E corner of this Lot 17 links SW. from a maple tree marked with the figures 8 on the NWly 9 on the N.E 14 on the S.Wly & 15 on the S.Ely side & run from thence \
 Due magnetic North along the West bounds of Lots No. 9 & part of Lot No. 4
 
 | At |    | Observations |
