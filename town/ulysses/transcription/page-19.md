@@ -50,6 +50,8 @@ Due magnetic South along the West bounds of the township.
 | 69 | 67 | A brook D’o _ _ D’o [runing N.Ely]
 | 80 | 50 | To the S.W. corner of this Lot above described and run from thence Near A run of water
 
+---
+
 ## Lot No. 19
 
 ### Field Book of the North bounds of Lot No. 19 -

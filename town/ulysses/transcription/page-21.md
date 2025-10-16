@@ -55,7 +55,7 @@ See the field book of the South bounds of Lot No. 15 in page 17-
 ### East bounds of Lot No. 22.
 
 Beginning at the S.E corner at a maple stak standing 12 links NEly from a Linden tree marked with the figurs 22 on the N.Wly side 23 on the N.Ely side 30 on the S.Wly side & 31 on the S.Ely side & run from thence \
-Due magnetic North along the West bounds of Lot No. 23 - 
+Due magnetic North along the West bounds of Lot No. 23 -
 
 | At |    | Observations |
 | -- | -- | ------------ |

@@ -21,9 +21,6 @@ Thence Due magnetic North along the West bounds of Lot No. 4.
 | 42 | - | To a beech stak 8 links N.Wly from a beech Sapling blazed & Marked with the figure 4 fasing the stak - and 32 links. S.E from a hard maple Tree blaze & Marked with the figurs 3 on the S.Ely side fasing the Stak for an External corner of Lot No.3 and the NW. corner Lot No. 4.N.B.[Northbounds]
 | | | the remainder of the E bounds of Lot No. 3 or rather the N.E bounds is constituted by part of the Western shore of the cayuga Lake from the N.Ely corner of Lot No. 4 at a long point on the said Lak to the NEly corner of that part of the Township situate on the west side of the cayuga Lak a fore said - see the map. |
 
-| At | | Observations |
-| - | - | - |
-
 ### South bounds of Lot No. 3
 
 Beginning at the N.E corner of Lot No. 8 above described [8NE] & run from thence \
@@ -35,8 +32,8 @@ Due West magnetically along the North bounds of Lot No. 8 a fore said & part of 
 | 33 | - | A spring brook runing NEly |
 | 79 | 50 | The corner Lot No. 7 & 8 on a Small white Oak Ridge. |
 | 95 | 50 | To the S.E corner of Lot No. 2 before Mentioned & described [2SE] |
-| | | The remainder of of the south bounds of lot No. 3 Beginning at the N.W. corner of lot No. 4 above described.[4NW] and run from thence along the North bounds of No. 4 a fore said |
 
+The remainder of of the south bounds of lot No. 3 Beginning at the N.W. corner of lot No. 4 above described.[4NW] and run from thence along the North bounds of No. 4 a fore said \
 Due East Magnetically obliquely down a hill toward the Lake.
 
 | [At] | | [Observations] |

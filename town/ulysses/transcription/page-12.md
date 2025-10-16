@@ -23,7 +23,8 @@ Due Magnetic East.
 | 34 | - | A Brook } [Nly]
 | 49 | - | A D’o [Brook] } Nly The land prety good inclining gradually N.Ely Timbred with beech maple red & white oak white ash Linden &c.
 | 58 | - | A D’o [Brook] } [Nly]
-| 61 | - | With 60 links allowance for roughage to a Stak Standing 10 links SW from a white ash tree marked with the figurs 16 on the S.Wly side & 10 on NEly side for the NE corner of lot No. 16 & an External corner of lot No. 10 The remainder of the S. Bounds of Lot No. 10 - Begining in the East bounds of Lot No. 16 - 14 Chs 41 links S. from the NE corner there of A fore said at a beech stak 20 Links NWly from a beech Marked 10 on the N.Ely side & 17 on the S.Ely side and run from thence Along the N bounds of 17 \
+| 61 | - | With 60 links allowance for roughage to a Stak Standing 10 links SW from a white ash tree marked with the figurs 16 on the S.Wly side & 10 on NEly side for the NE corner of lot No. 16 & an External corner of lot No. 10 The remainder of the S. Bounds of Lot No. 10 - Begining in the East bounds of Lot No. 16 - 14 Chs 41 links S. from the NE corner there of A fore said at a beech stak 20 Links NWly from a beech Marked 10 on the N.Ely side & 17 on the S.Ely side and run from thence Along the N bounds of 17
+
 Due magnetic East through prety rough & indiferent a good dale broken with Gulies
 
 | [At] |    | [Observations] |
@@ -36,6 +37,8 @@ Due magnetic East through prety rough & indiferent a good dale broken with Gulie
 
 Beginning at the N.E. corner of Lot No. 16 before described  and run from thence \
 Due magnetic South 14 Ch 41 Links to the N.W. corner of Lot No. 17 above described For the remainder of the West bounds of Lot No. 10 see the East bounds of Lot No. 9
+
+---
 
 ### East bounds of Lot No. 10
 

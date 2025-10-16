@@ -34,7 +34,7 @@ Due magnetic East.
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| 37 | - | A brook} good Land timber’d with maple beech wht pine oak ash &c.
+| 37 | - | A brook } good Land timber’d with maple beech wht pine oak ash &c.
 | 69 | - | A D’o [brook] } good Land timber’d with maple beech wht pine oak ash &c.
 | 78 | - | To the S.E corner above described. [12SE]
 

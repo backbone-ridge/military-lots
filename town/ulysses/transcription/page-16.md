@@ -27,7 +27,7 @@ Due magnetic East.
 
 ### West bounds of Lot No. 14.
 
-See the field book of the East bounds of Lot No. 13 - in page 15 -
+See the field book of the East bounds of Lot No. 13 - in page 15.
 
 ---
 
@@ -41,7 +41,7 @@ Due magnetic East 81 Chs. to a beech Stake 27 links S.Wly from a beech tree mark
 
 ---
 
-### East bounds of Lot No. 15
+### East bounds of Lot No. 15.
 
 Beginning at the S.E corner at a beech Stake 20 links SWly from a maple tree marked with the figurs 15 on the N.Wly side 16 on the N.Ely side 22 on the SWly side & 23 on the S.Ely side and run from thence along the West bounds of Lot No. 16
 

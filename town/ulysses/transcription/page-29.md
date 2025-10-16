@@ -10,7 +10,7 @@ layout: journal
 
 ### East bounds of Lot No. 32.
 
-Is constituted by the Western Shore of the cayuga Lake from the S.Ely corner of the said Lot Described in page 28 [32SW] Northerly to the NE corner described in page 23 [25SE] 
+Is constituted by the Western Shore of the cayuga Lake from the S.Ely corner of the said Lot Described in page 28 [32SW] Northerly to the NE corner described in page 23 [25SE]
 
 See the Map.
 
@@ -27,12 +27,12 @@ See the field book of the South bounds of Lot No. 32 in page 28.
 ### South bounds of Lot No. 33.
 
 Beginning at a chisnut stake standing on the bank of the Cayuga Lake 75 Links West from the said Lake & 10 links South of A red oak tree marked with the figurs 33 on the NWly side & 40 on the S.Wly side for the S.E corner of Lot No. 33 & N.E corner of Lot No. 40 And run from thence \
-Due magnetic West along the North bounds of Lot No. 40. 
+Due magnetic West along the North bounds of Lot No. 40.
 
 | At |    | Observations |
 | -- | -- | ------------ |
 | | | Through Good Land for wheat timber oak hickory chisnut &c.
-| 33 50 . 67 . 97 Chs | | Spring brooks runing N.Ely
+| 33 50 67 97 Chs | | Spring brooks runing N.Ely
 | 138 | - | A fine brook - N.Ely the Land very god [good] covered with all kinds of timber
 | 158 | - | A brook runing N.Wly_
 | 162 | 10 | To a maple Stake standing in the East bounds of Lot No. 39 Nineteen links N.Wly from a beech Sapling marked with the figurs 33 on the NE side And 40 on the S.Ely side.

@@ -12,6 +12,8 @@ layout: journal
 
 See the field book of the south bounds of Lot No. 17 in page 18.
 
+---
+
 ### South bounds of Lot No. 24.
 
 Beginning at a maple stak Standing in the East bounds of Lot No. 23. 12 links Wly from a beech tree marked with a blaze & three Notches below the blaze on the E & W sides A blaze on the North side & the figurs 24 on the N.E side & 25 on the S.Ely side. _ about 1 link South of East from the stake & run from thence along the North bounds of Lot No. 25. \
@@ -19,7 +21,7 @@ Due magnetic East. through good Land timber Oak hickory maple Linden &c.
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| 25 70 80 & 90 Chaines. | | Spring brooks runing N.Ely the Land desending gradually 
+| 25 70 80 & 90 Chaines. | | Spring brooks runing N.Ely the Land desending gradually
 | 127 | - | To an Oak Stak standing in the bank of the Cayuga Lak 45 Links from the water on a small point that projects in to the Lake 5 [Chains?] North of a buttonwood tree marked with the figurs 24 on the NWly side & 25 on the S.Wly side
 
 ### West bounds of Lot No. 24.

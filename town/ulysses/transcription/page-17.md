@@ -16,7 +16,7 @@ Due magnetic East
 | At |    | Observations |
 | -- | -- | ------------ |
 | 15 | - | A brook runing Nly - Good land timbred beech maple Linden &c
-| 61 | - | A brook} runing Northerly
+| 61 | - | A brook } runing Northerly
 | 79 | - | A D’o [brook] } runing Northerly
 | 81 | - | The S.E corner of this Lot & S.W. corner of lot No. 16 &c. before discribed [15SE]
 
@@ -31,7 +31,7 @@ See the East bounds of Lot No. 14 - in pages 15 & 16 -
 ### Field Book of the North bounds of Lot No. 16.
 
 Beginning at the NW corner of this Lot & N.E corner of Lot No. 15 before mentioned & described in page 16 [15NE] and run from thence \
-Due magnetic East & 80 Chains to the N.E corner of this lot discribed in page 12 for the remarks of this line _ See the West part of the South bounds of Lot No. 10 and the East part of the South bounds of No. 9. [61 chs 10S] 
+Due magnetic East & 80 Chains to the N.E corner of this lot discribed in page 12 for the remarks of this line _ See the West part of the South bounds of Lot No. 10 and the East part of the South bounds of No. 9. [61 chs 10S]
 
 ---
 

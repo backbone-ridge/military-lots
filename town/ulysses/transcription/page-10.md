@@ -21,6 +21,8 @@ layout: journal
 
 See the field book East bounds of Lots No. 6 in page [8]
 
+---
+
 ## Lot No. 8
 
 ### Field Book of the North bounds of Lot No. 8.

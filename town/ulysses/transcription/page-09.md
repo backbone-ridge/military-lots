@@ -12,7 +12,7 @@ layout: journal
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| 32 | - | Cros’d the main branch of the Chicneaugowa Creek running N.Ely from the corner to this Creek & very good land desending gradually Easterly timber with maple Linden Elm ash &c. From thence to the End of this course the land is rough &  poor cov’d chiefly with hemlock & beech _ 
+| 32 | - | Cros’d the main branch of the Chicneaugowa Creek running N.Ely from the corner to this Creek & very good land desending gradually Easterly timber with maple Linden Elm ash &c. From thence to the End of this course the land is rough &  poor cov’d chiefly with hemlock & beech _
 | 58 | - | Just Tuched on the South bank of the a fore mentioned Creek left it again
 | 67 | - | In the southern bank of the chicneaugowa Creek running N.Ely
 | 83 | 50 | With 75 links of an allowance for roughage to the S.E. corner of this Lot & S.W. corner of Lot No. 7 being a stak 6 links East of a beech tree before described [6SE]
@@ -21,11 +21,14 @@ layout: journal
 
 See the East bounds of Lot No. 5 in page 7
 
+---
+
 ## Lot No. 7
 
 ### Field Book of the North bounds of Lot No. 7
 
-Beginning at a Stak standing in the South bounds of lot No. 3 sixteen links N.Wly from a hard maple tree marked with the figures 8 on the S.Ely & 7 on the S.Wly side for the N.W corner of Lot No. 8 & N.E corner of lot No. 7 and run from Thence magnetic West along part of the south bounds of lot No. 3 & 2
+Beginning at a Stak standing in the South bounds of lot No. 3 sixteen links N.Wly from a hard maple tree marked with the figures 8 on the S.Ely & 7 on the S.Wly side for the N.W corner of Lot No. 8 & N.E corner of lot No. 7 and run from \
+Thence magnetic West along part of the south bounds of lot No. 3 & 2
 
 | [At] |    | [Observations] |
 | -- | -- | ------------ |

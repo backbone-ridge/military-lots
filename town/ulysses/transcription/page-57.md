@@ -19,9 +19,9 @@ South a Long the West bounds of the Township -
 
 | At |    | Observations |
 | -- | -- | ------------ |
-29  28  The 10 Mile tree standing against the West side of a hill the Land rough & poor 
+| 29 | 28 | The 10 Mile tree standing against the West side of a hill the Land rough & poor
 timber’d chiefly with hemlock wht pine Chesnut oak maple &c -
-79  28  To the S.W. corner of this Lot as also of this Township described in Page 56
+| 79 | 28 | To the S.W. corner of this Lot as also of this Township described in Page 56
 - [72SW]
 
 ## Lot No. 73.
@@ -37,12 +37,12 @@ Due magnetic South along the West bounds of Lot No. 74 -
 
 | At |    | Observations |
 | -- | -- | ------------ |
-12  -  A spring brook} runing S.Ely poor rough Land timbered as above mentioned
+| 12 | - | A spring brook } runing S.Ely poor rough Land timbered as above mentioned
 [hemlock wht pine Chesnut oak maple &c -]
-42  -  A D’o [spring brook]}runing S.Ely poor rough Land timbered as above mentioned
+| 42 | - | A D’o [spring brook]}runing S.Ely poor rough Land timbered as above mentioned
 [hemlock wht pine Chesnut oak maple &c -]
-45  -  The road Leading from the head of the cayuga to Catherine Town -
-79  40  To a chesnut Stake Standing in the South bounds of the milatery lands 8 Chs.
+| 45 | - | The road Leading from the head of the cayuga to Catherine Town -
+| 79 | 40 | To a chesnut Stake Standing in the South bounds of the milatery lands 8 Chs.
 East of the 11 Mile tree or stake & 3 links E. of a wht pine tree marked With the
 figurs 73 on the N.Wly side & 74 on the N.Ely side_
 
@@ -53,11 +53,11 @@ Beginning at the S.W. corner described in page 50 [72SE] & run from thence - Due
 At    Observations
 [Chs]  [Lks]
 Through a exceeding rough Chesnut ridge the timber formerly kild with fire
-36  -  Partly out of the chesnut ridge and began to desend a hill still very rough
-46  -  Soon throug of a brook in the hill or mountain & the desent not so great the
+| 36 | - | Partly out of the chesnut ridge and began to desend a hill still very rough
+| 46 | - | Soon throug of a brook in the hill or mountain & the desent not so great the
 Land Still poor covered with wht pine hemlock Chesnut & Irenwood -
-76  -  The 11 Mile tree or Stake the Land Still desending Ely _
-84  -  To the S.E corner of this Lot above described [73SE]
+| 76 | - | The 11 Mile tree or Stake the Land Still desending Ely _
+| 84 | - | To the S.E corner of this Lot above described [73SE]
 
 ### West bounds of Lot No. 73
 

@@ -15,10 +15,10 @@ Due Magnetic West along the North bounds of Lot No. 30.
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| 6  | - | A brook} runing Nly Prety Good land. Covered with beech maple Linden
-| 9  | - | A brook} [runing Nly Prety Good land. Covered with beech maple Linden]
-| 50 | - | A brook} runing N.Ely
-| 79 | - | A brook} [runing N.Ely]
+| 6  | - | A brook } runing Nly Prety Good land. Covered with beech maple Linden
+| 9  | - | A brook } [runing Nly Prety Good land. Covered with beech maple Linden]
+| 50 | - | A brook } runing N.Ely
+| 79 | - | A brook } [runing N.Ely]
 | 80 | - | To the S.W. corner of this Lot & S.E corner of Lot No. 21 & described in pg. 21[21SE]
 
 ### West bounds of Lot No. 22.
@@ -34,10 +34,10 @@ Due magnetic North along the west bound of part of Lots No. 25 & 24.
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| 33 | -  | To the corner of Lots No. 24 and 25. 
-| 42 | 20 | A brook} [runing N.E good land timbred with oak hickory maple Linden]
-| 59 | 20 | A brook} runing N.E good land timbred with oak hickory maple Linden
-| 70 | 20 | A brook} [runing N.E good land timbred with oak hickory maple Linden]
+| 33 | -  | To the corner of Lots No. 24 and 25.
+| 42 | 20 | A brook } [runing N.E good land timbred with oak hickory maple Linden]
+| 59 | 20 | A brook } runing N.E good land timbred with oak hickory maple Linden
+| 70 | 20 | A brook } [runing N.E good land timbred with oak hickory maple Linden]
 | 82 | 20 | To the N.E. corner of this Lot & S.E corner of Lot No. 16 described in p 18 [16SE]
 
 ### South bounds of Lot No. 23

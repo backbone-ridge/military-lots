@@ -12,6 +12,8 @@ layout: journal
 
 See the field book of the south bounds of Lot No. 3 in page 5
 
+---
+
 ### South bounds of Lot No. 4
 
 Beginning at a Stake standing in the S.W. corner in the East bounds of lot No. 8 Nineteen links West of a Dogwood sapling marked with three Notches & a Blaze above the Notches on the E & W sides and the figurs 4 on the N side & 9 on the southside and run from thence along the North bounds of Lots No. 9 & 10. \

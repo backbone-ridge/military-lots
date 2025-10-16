@@ -23,8 +23,8 @@ Beginning at the N.E. corner described in page 38  [45SE] & run from thence - Du
 | At |    | Observations |
 | -- | -- | ------------ |
 
-41  70  A brook runing N.Wly Good Land covered with all kinds of timber
-81  25  To a beech Stake Standing 23 links NWly from a beech tree marked with the 
+| 41 | 70 | A brook runing N.Wly Good Land covered with all kinds of timber
+| 81 | 25 | To a beech Stake Standing 23 links NWly from a beech tree marked with the
 figurs 53 on the NWly side 54 on the N.Ely side 61 on the S.Wly side and 62 on the S.Ely side.
 
 ### South bounds of Lot No. 53.
@@ -33,12 +33,12 @@ Beginning at the S.E corner above described [53SE] and run from thence - Due mag
 
 | At |    | Observations |
 | -- | -- | ------------ |
-15  -  A brook runing N.Ely
-76  -  A D’o [brook] } runing N.Ely good Land timbred as above mentioned. [covered 
+| 15 | - | A brook runing N.Ely
+| 76 | - | A D’o [brook] } runing N.Ely good Land timbred as above mentioned. [covered
 with all kinds of timber]
-78  50  A D’o [brook] } runing N.Ely good Land timbred as above mentioned. [covered 
+| 78 | 50 | A D’o [brook] } runing N.Ely good Land timbred as above mentioned. [covered
 with all kinds of timber]
-80  -  To the S.W. corner described in page 40 [43]. [52SE]
+| 80 | - | To the S.W. corner described in page 40 [43]. [52SE]
 
 ### West bounds of Lot No. 53
 
@@ -56,7 +56,7 @@ Beginning at the S.E corner at a Linden Stake 4 Links S.Wly from A Linden tree m
 
 | At |    | Observations |
 | -- | -- | ------------ |
-Through good land timbred with wht ash beech chesnut Elm Linden wht 
+Through good land timbred with wht ash beech chesnut Elm Linden wht
 oak Irenwood &c.
-81  50    The NE corner of this Lot & S.E corner of Lot No. 46 [46SE] &c - described 
+| 81 | 50 | The NE corner of this Lot & S.E corner of Lot No. 46 [46SE] &c - described
 in page 39.

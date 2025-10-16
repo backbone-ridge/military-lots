@@ -30,6 +30,8 @@ Due magnetic East along the North bounds of Lot No. 14.
 Beginning at a Stake standing in the East bounds of Lot No. 8 Nineteen links West of a dogwood Sapling marked with a blaze & three Notches blaze on the E. & W. sides & the figure 4 on the N. side 9 on the S. side for the S.W corner of Lot No. 4 & N.W corner of Lot No. 9 here to fore discribed and run from along the S. Bounds of Lot No. 4 a fore said. \
 Due magnetic East - 100 Chaines to a Stak standing on the West side of a brook in a gully 22 links S.Wly from a white ash sapling marked figurs 9 on the S.Wly side & 10 on the S.Ely side for the remarks of this line see the West part of the South bounds of Lot No. 4
 
+---
+
 ### East bounds of Lot No. 9
 
 Beginning at the N.E corner above described [9NE] and run from thence \
@@ -43,7 +45,7 @@ Due magnetic South. partly up a run of watter through very good land timber mapl
 ### South bounds of Lot No. 9
 
 Beginning at the SW corner before described [8SE] - and run from thence \
-Due magnetic East along the North bounds of lot No. 15 & page [lot] 16 
+Due magnetic East along the North bounds of lot No. 15 & page [lot] 16
 
 | At |    | Observations |
 | -- | -- | ------------ |

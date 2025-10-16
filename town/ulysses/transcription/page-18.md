@@ -12,6 +12,8 @@ layout: journal
 | 60 | - | A brook running Nly the Land good timbred with beech maple Linden white Ash Wht wood Chesnut &c-
 | 80 | - | To the S.E corner of this Lot N.E corner of Lot No. 23 discribed on the other side
 
+---
+
 ## Lot No. 17.
 
 ### Field Book of the North bounds of Lot No. 17
@@ -38,7 +40,7 @@ Due Magnetic North.
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| 31 | - | A brook runing N.Ely 
+| 31 | - | A brook runing N.Ely
 | 40 | - | A large Brook with high rocky banks & falls → N.Ely
 | 58 | 50 | To the N.W corner of this Lot discribed in page 12[a beech stak 20 Links NWly from a beech Marked 10 on the N.Ely side & 17 on the S.Ely side]
 
@@ -47,4 +49,3 @@ Due Magnetic North.
 Is constituted by the western Shore of the cayuga Lak from the S.E corner of the said Lot to the N.E corner above mentioned & described [17NE]
 
 (See the Map)
-

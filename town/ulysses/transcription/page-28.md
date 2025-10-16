@@ -26,8 +26,8 @@ Due magnetic East along the North bounds of Lot No. 39.
 | At |    | Observations |
 | -- | -- | ------------ |
 | | | Through very Good Land timbered with maple beech Linden &c.
-| 51 | - | A brook} runing N.Ely
-| 77 | - | A brook} runing N.Ely
+| 51 | - | A brook } runing N.Ely
+| 77 | - | A brook } runing N.Ely
 | 80 | - | With 50 links of an allowance for roughage to the S.E corner described in p. 27 [31SE]
 
 ### West bounds of Lot No. 31.

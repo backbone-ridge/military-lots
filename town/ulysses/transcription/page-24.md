@@ -27,7 +27,7 @@ Due magnetic North. along the East bounds of Lot No. 31 & 23 in part
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| 11 | 30 | The corner of Lot No. 23 & 31 before described [23SE] } Good Land covered with all kinds of timber - 
+| 11 | 30 | The corner of Lot No. 23 & 31 before described [23SE] } Good Land covered with all kinds of timber -
 | 36 | - | The head of a Spring drain running N.El } [Good Land covered with all kinds of timber - ]
 | 45 | - | To the N.W. corner of this Lot & S.W. corner of Lot No. 24 described in page 23 [24SW]
 
@@ -47,9 +47,10 @@ See the field Book of the South bounds of Lot No. 18 in page 19 -
 
 ---
 
-### East bounds of Lot No. 26. 
+### East bounds of Lot No. 26.
 
-Beginning at the S.E. corner at an Ironwood stake 8 links N.Ely from a White pine tree marked with the figurs 26 on the N.W. side 27 on the N.Ely side 34 on the S.Wly side & 35 on the S.Ely side And run from thence Due magnetic North along the West bounds of Lot No. 27. -
+Beginning at the S.E. corner at an Ironwood stake 8 links N.Ely from a White pine tree marked with the figurs 26 on the N.W. side 27 on the N.Ely side 34 on the S.Wly side & 35 on the S.Ely side And run from thence \
+Due magnetic North along the West bounds of Lot No. 27. -
 
 | At |    | Observations |
 | -- | -- | ------------ |

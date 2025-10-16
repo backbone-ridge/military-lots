@@ -35,12 +35,13 @@ See the field book of the south bounds of Lot No. 22 in page 22.
 ### East bounds of Lot No. 30
 
 Begining at the S.E corner at a White ash tree marked with the figurs 30 on the NWly side 31 on the N.Ely side 38 on the S.Wly side 39 on the SEly side \
-And run from thence Due magnetic North along the west bounds of lot No.31
+And run from thence \
+Due magnetic North along the west bounds of lot No.31
 
 | At |    | Observations |
 | -- | -- | ------------ |
 | | | Through Good land timber’d with maple beech Linden Elm hickory ash Chisnut  &c.
-| 77 | 20 | To the N.E. corner of this Lot & S.E. corner of Lot No. 22 & described in p. 21 [22SE] 
+| 77 | 20 | To the N.E. corner of this Lot & S.E. corner of Lot No. 22 & described in p. 21 [22SE]
 
 ### South bounds of Lot No. 30
 

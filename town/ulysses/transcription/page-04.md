@@ -10,7 +10,7 @@ layout: journal
 
 ### South bounds of Lot No. 2
 
-Beginning at the S.E corner last above described [2SE] and run from thence 
+Beginning at the S.E corner last above described [2SE] and run from thence
 along the north bounds of part of Lots No. 6 & 7 \
 Due Magnetic West
 
@@ -25,6 +25,8 @@ Due Magnetic West
 
 See the East bound of Lot No. 1 in page 1 & 2
 
+---
+
 ## Lot No. 3
 
 ### Fiel Book of the North bounds of Lot No.3
@@ -32,9 +34,8 @@ See the East bound of Lot No. 1 in page 1 & 2
 Beginning at the N.E. corner of that part of the Township Which is situated on the West side of
 the Cayuga Lake at a hemlock tree Blazed on fore sides and marked with the figure 3 on the
 S.Wly side standing in the West bank of the Cayuga Lake a fore said & N 29 E 1 Ch 84 Lks. from
-A beech tree Marked
-On the N.Wly side { S.E. corner Townsp. No.16 1789 } And { N.E. corner Townsp No. 22 1789 } on the S.Ely side
-And run from the a fore said Hemlock tree along the North bounds of the Township
+A beech tree Marked On the N.Wly side { S.E. corner Townsp. No.16 1789 } And { N.E. corner Townsp No. 22 1789 } on the S.Ely side
+And run from the a fore said Hemlock tree along the North bounds of the Township \
 Due West Magnetically
 
 | At |    | Observations |
