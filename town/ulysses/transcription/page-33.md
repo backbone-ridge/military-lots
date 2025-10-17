@@ -26,7 +26,7 @@ Due magnetic West along the North bounds of Lot No. 46._
 | 8 | - | A black Ash Swamp
 | 15 | - | Out of the black ash swamp again
 | 27 | - | A brook } runing NE good Land timbred as above
-| 35 | - | A D’o [brook] } [runing NE good Land timbred as above]
+| 35 | - | A D'o [brook] } [runing NE good Land timbred as above]
 | 80 | - | To the S.W. corner of this Lot & S.E corner of Lot No. 37 & discribed in p 32.
 
 ### West bounds of Lot No. 38.

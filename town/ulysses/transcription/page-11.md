@@ -19,8 +19,8 @@ Due magnetic East along the North bounds of Lot No. 14.
 | 16 | 50 | Crossed a second bend of the brook and left it again running a little to the S. of East
 | 30 | 50 | Cross it again and left it running N.Ely the land good covered with all kinds of timber
 | 47 | 50 | A spring brook → Nly
-| 70 | 50 | A D’o _ _ D’o [spring brook → Nly]
-| 78 | 50 | A D’o _ _ D’o [spring brook → Nly]
+| 70 | 50 | A D'o _ _ D'o [spring brook → Nly]
+| 78 | 50 | A D'o _ _ D'o [spring brook → Nly]
 | 80 | .. | With 75 links allowance for roughage the S.E corner of this lot here to fore described [8SE]
 
 ## Lot No. 9

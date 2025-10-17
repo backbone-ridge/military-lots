@@ -30,11 +30,11 @@ Due magnetic East along the North bounds of Lot No. 41. -
 | At |    | Observations |
 | -- | -- | ------------ |
 | 9 | - | A spring brook } runing N.E. Good Land inclining to Swamp
-| 20 | - | A spring D’o [brook] }  runing N.E. Good Land inclining to Swamp
+| 20 | - | A spring D'o [brook] }  runing N.E. Good Land inclining to Swamp
 | 37 | - | A black ash swamp
 | 40 | - | Out of the said swamp and entered Good Land for wheat desending gradually Eastwards timbred with oak hickory Chesnut &c.
 | 116 | - | A fine brook } runing N.Ely
-| 169 | - | A spring D’o [brook] } runing N.Ely
+| 169 | - | A spring D'o [brook] } runing N.Ely
 | 171 | - | To a stake standing on the bank of the Cayuga Lake 75 Links from the water And 5 Links South from a rock Oak tree marked with the figurs 40 on the N.Wly side & 41 on the S.Wly side.
 
 ### West bounds of Lot No. 40.

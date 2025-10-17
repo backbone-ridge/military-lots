@@ -21,8 +21,8 @@ Due magnetic North along the West bounds of Lot No. 47.
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| | | Through Good Land timber’d with maple beech Linden hickory chesnut &c -
-| 66 | 75 | A swampy piece of Ground cov’d in many plases with willows.
+| | | Through Good Land timber'd with maple beech Linden hickory chesnut &c -
+| 66 | 75 | A swampy piece of Ground cov'd in many plases with willows.
 | 77 | 20 | To the N.E corner of this Lot and S.E corner of Lot No. 38 &c. described in p 32
 
 ### South bounds of Lot No. 46.

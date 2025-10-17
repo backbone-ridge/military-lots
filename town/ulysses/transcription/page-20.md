@@ -54,7 +54,7 @@ Due magnetic West Along the North bounds of Lot No. 28.
 | -- | -- | ------------ |
 | 21 | - | A brook running NEly
 | 63 | - | A brook } running N.Wly very good Land covered with all Kinds of timber
-| 70 | - | A d’o [brook]} running N.Wly very good Land covered with all Kinds of timber
+| 70 | - | A d'o [brook]} running N.Wly very good Land covered with all Kinds of timber
 | 78 | - | To the S.W. corner of this Lot & S.E corner of Lot No. 19 described in page 20 above [19SE]
 
 ### West bounds of Lot No. 20.

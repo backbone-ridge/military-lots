@@ -21,7 +21,7 @@ Due Magnetic East
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| | | Through rough Poor hard Land Cov’d Chiefly with white pine timber |
+| | | Through rough Poor hard Land Cov'd Chiefly with white pine timber |
 | 19 | - | On the bank of the chicneaugow Creek run along the said bank Down the Creek which here runs N.Ely has Exceeding high falls |
 | 27 | - | On the S.Ely bank of the Creek here the land somthing beter tho Still White pine timber on a few chaines of the pine timber & Entred very fine Land desending gradually N.Ely covered chiefly with oak hickory ash &c. |
 | 77 | - | Out of the very good land and Entred that which is Not quite so good Covred Chiefly with Hemlock very rough & much broken |

@@ -26,7 +26,7 @@ Due magnetic East. through good Land timber Oak hickory maple Linden &c.
 
 ### West bounds of Lot No. 24.
 
-Beginning at the S.W. corner of Lot No. 24 N.W. corner of Lot No. 25. Above discrib’d [24SW] and run from thence along the East bounds of Lot No. 22 [23] \
+Beginning at the S.W. corner of Lot No. 24 N.W. corner of Lot No. 25. Above discrib'd [24SW] and run from thence along the East bounds of Lot No. 22 [23] \
 Due magnetic North 50 Chaines to the N.W. corner of this Lot & SW. corner of lot No. 17 discribed in page 18.[17SW] For the remarks of this Line See 48 Chans [Chains] 30 links of the North part of the East bounds of Lot No. 23 in page 22 and 1 Chain 70 Links of the South part of the East bounds of Lot No. 16 in p. 17
 
 ---

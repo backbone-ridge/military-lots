@@ -47,7 +47,7 @@ Due magnetic South along the West bounds of the township.
 | -- | -- | ------------ |
 | 24 | 67 | The 3 Mile tree the Land very good covered with all Kinds of timber_
 | 26 | 67 | A brook runing N.Ely
-| 69 | 67 | A brook D’o _ _ D’o [runing N.Ely]
+| 69 | 67 | A brook D'o _ _ D'o [runing N.Ely]
 | 80 | 50 | To the S.W. corner of this Lot above described and run from thence Near A run of water
 
 ---

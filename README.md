@@ -86,20 +86,6 @@ QUESTIONS:
 
 What does "With an allowance of 50 links..." mean?
 
-
-
-# Processing transcripts
-
-* copy table contents from .docx
-* paste with ALT-SHIFT-V (using "Excel to Markdown table" plugin for VSCode)
-* s/\s+/ /g
-* manually add extra line between each row, make sure each group is four cells
-* s/\|\n\|/|/g
-* edit md to generate tables (use Markdown Preview)
-  * add |-|-|-|-| after the header row
-* search for 5 cells in a row
-
-
 # TODO
 
 * normalize _ and - in HTML
@@ -107,20 +93,3 @@ What does "With an allowance of 50 links..." mean?
 * search for multiple passes of the same bounds in Hector
 * look for duplicate observations
 * search transcripts for extraneous - _ punctuation (convert to . or delete in some cases)
-
-
-
-
-
-# NEXT STEPS
-
-- ask about ulysses observation spreadsheet
-- ask about lot data (soldier_granted, regiment, patent_to)
-
-- merge all lots (hector, ovid, enfield, ulysses)
-- merge all observations (hector, ovid, enfield)
-- update website with those layers
-
-- convert enfield .docx to .md
-- convert ulysses .docx to .md
-- generate ulysses observation points

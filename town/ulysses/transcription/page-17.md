@@ -17,7 +17,7 @@ Due magnetic East
 | -- | -- | ------------ |
 | 15 | - | A brook runing Nly - Good land timbred beech maple Linden &c
 | 61 | - | A brook } runing Northerly
-| 79 | - | A D’o [brook] } runing Northerly
+| 79 | - | A D'o [brook] } runing Northerly
 | 81 | - | The S.E corner of this Lot & S.W. corner of lot No. 16 &c. before discribed [15SE]
 
 ### West bounds of Lot No. 15
@@ -56,4 +56,4 @@ Due magnetic East
 | At |    | Observations |
 | -- | -- | ------------ |
 | 27 | - | A brook } [runing Nly]
-| 41 | - | A D’o [brook] }  runing Nly
+| 41 | - | A D'o [brook] }  runing Nly

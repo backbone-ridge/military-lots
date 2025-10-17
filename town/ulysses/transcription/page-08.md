@@ -37,7 +37,7 @@ Due South Magnetically along the West bounds of Lot No.7
 | At |    | Observations |
 | -- | -- | ------------ |
 | 44 | - | Began to desend a bank
-| 46 | - | The foot of the desent and entered very good Land timber’d with beech maple Linden White & red oak
+| 46 | - | The foot of the desent and entered very good Land timber'd with beech maple Linden White & red oak
 | 50 | - | The Chieuneaugowa Creek runing Easterly
 | 79 | 60 | To an Ironwood Stake 6 links East from a beech tree marked with the figurs 6 on the NWly side 7 on the N.Ely side 12 on the S.Wly side & 13 on the S.Ely side
 

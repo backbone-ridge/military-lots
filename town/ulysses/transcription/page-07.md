@@ -23,7 +23,7 @@ Due magnetic North along West bounds of lot No. 6
 | At |    | Observations |
 | -- | -- | ------------ |
 | 5  | - | A brook running Easterly |
-| 15 | - | A D’o.    _     _     D’o [brook running Easterly] The land good timbred with beech maple Linden Elm  _ Oak chesnut. &c. |
+| 15 | - | A D'o.    _     _     D'o [brook running Easterly] The land good timbred with beech maple Linden Elm  _ Oak chesnut. &c. |
 | 43 | - | A brook running Easterly |
 | 79 | 60 | To the N.E corner of this Lot & N.W. corner of Lot No. 6 Above described [5NE] |
 

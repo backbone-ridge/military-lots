@@ -41,8 +41,8 @@ Due West Magnetically
 | At |    | Observations |
 | -- | -- | ------------ |
 | 11 | - | A brook in a gully } [runing Ely] |
-| 16 | - | A D’o .. D’o } [brook in a gully] runing Ely |
-| 53 | - | A D’o .. D’o } [brook in a gully] [runing Ely] |
+| 16 | - | A D'o .. D'o } [brook in a gully] runing Ely |
+| 53 | - | A D'o .. D'o } [brook in a gully] [runing Ely] |
 | 67 | - | A Spring brook } [runing Ely] The land is not very good timbred with hemlock & beech rising gradually |
 | 80 | - | With 20 links of an allowance for rough measurement a beech sapling standing on the Northside of the Line Marked M/1 for one mile here set a stake in the line |
 | 118 | - | A fine large brook with high falls |

@@ -48,7 +48,7 @@ Due magnetic North. along the West bounds of Lot No. 37.
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| 7 | 85 | A brook runing Ely Good land timber’d as above mentioned [maple beech white ash Elm Red & wht Oaks White wood Chesnut &c.]
+| 7 | 85 | A brook runing Ely Good land timber'd as above mentioned [maple beech white ash Elm Red & wht Oaks White wood Chesnut &c.]
 | 34 | 85 | Entred a black ash swamp
 | 40 | 85 | A brook runing S.Wly
 | 48 | 85 | Out of the Swamp and Entred Good Land timbred with maple red oak Chesnut & Sassaryfras together with some wild Cherry

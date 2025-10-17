@@ -36,8 +36,8 @@ Due magnetic East.
 | At |    | Observations |
 | -- | -- | ------------ |
 | 53 | - | A brook } [runing N.Ely. Good Land timber maple hickery oak Linden &c.]
-| 66 | - | A D’o [brook] } runing N.Ely. Good Land timber maple hickery oak Linden &c.
-| 73 | - | A D’o [brook] } [runing N.Ely. Good Land timber maple hickery oak Linden &c.]
+| 66 | - | A D'o [brook] } runing N.Ely. Good Land timber maple hickery oak Linden &c.
+| 73 | - | A D'o [brook] } [runing N.Ely. Good Land timber maple hickery oak Linden &c.]
 | 78 | - | With 50 links allowance to the S.E. corner of this Lot Above described. [42SE]
 
 ### West bounds of Lot No. 42.

@@ -15,7 +15,7 @@ Due magnetic East along the North bounds of Lot No. 37.
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| | | Through very good Land timber’d with maple beech Linden white ash &c.
+| | | Through very good Land timber'd with maple beech Linden white ash &c.
 | 80 | - | To the S.E corner of this Lot & S.W. corner of Lot No. 30 discribed [29SE] in p 36 [p 26]
 
 ### West bounds of Lot No. 29.
@@ -40,7 +40,7 @@ Due magnetic North along the west bounds of lot No.31
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| | | Through Good land timber’d with maple beech Linden Elm hickory ash Chisnut  &c.
+| | | Through Good land timber'd with maple beech Linden Elm hickory ash Chisnut  &c.
 | 77 | 20 | To the N.E. corner of this Lot & S.E. corner of Lot No. 22 & described in p. 21 [22SE]
 
 ### South bounds of Lot No. 30

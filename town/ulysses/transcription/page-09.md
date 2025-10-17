@@ -12,7 +12,7 @@ layout: journal
 
 | At |    | Observations |
 | -- | -- | ------------ |
-| 32 | - | Cros’d the main branch of the Chicneaugowa Creek running N.Ely from the corner to this Creek & very good land desending gradually Easterly timber with maple Linden Elm ash &c. From thence to the End of this course the land is rough &  poor cov’d chiefly with hemlock & beech _
+| 32 | - | Cros'd the main branch of the Chicneaugowa Creek running N.Ely from the corner to this Creek & very good land desending gradually Easterly timber with maple Linden Elm ash &c. From thence to the End of this course the land is rough &  poor cov'd chiefly with hemlock & beech _
 | 58 | - | Just Tuched on the South bank of the a fore mentioned Creek left it again
 | 67 | - | In the southern bank of the chicneaugowa Creek running N.Ely
 | 83 | 50 | With 75 links of an allowance for roughage to the S.E. corner of this Lot & S.W. corner of Lot No. 7 being a stak 6 links East of a beech tree before described [6SE]
