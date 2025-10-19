@@ -373,6 +373,10 @@ footer {
   grid-row: 3;
 }
 
+footer a, footer a:visited {
+  color: #88f;
+}
+
 nav {
   width: 1.3em; /* because font-size is 300% */
   top: 40%;
